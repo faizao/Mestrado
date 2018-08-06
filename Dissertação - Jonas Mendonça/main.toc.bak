@@ -1,0 +1,183 @@
+\changetocdepth {2}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{34}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~a}o}{39}{section.1.1}
+\contentsline {section}{\numberline {1.2}Objetivos}{39}{section.1.2}
+\contentsline {section}{\numberline {1.3}Estrutura do documento}{40}{section.1.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}Biometria}{42}{chapter.2}
+\contentsline {section}{\numberline {2.1}Caracter\IeC {\'\i }sticas biom\IeC {\'e}tricas}{42}{section.2.1}
+\contentsline {section}{\numberline {2.2}Sistemas biom\IeC {\'e}tricos}{43}{section.2.2}
+\contentsline {section}{\numberline {2.3}Modalidades biom\IeC {\'e}tricas}{46}{section.2.3}
+\contentsline {section}{\numberline {2.4}Ambientes controlados versus n\IeC {\~a}o controlados}{47}{section.2.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}Reconhecimento facial}{49}{chapter.3}
+\contentsline {section}{\numberline {3.1}Reconhecimento facial em ambientes n\IeC {\~a}o controlados}{51}{section.3.1}
+\contentsline {section}{\numberline {3.2}Detec\IeC {\c c}\IeC {\~a}o da face}{53}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Viola-Jones}{54}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Skin Tone}{57}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Detec\IeC {\c c}\IeC {\~a}o de oclus\IeC {\~a}o}{59}{section.3.3}
+\contentsline {section}{\numberline {3.4}Reconstru\IeC {\c c}\IeC {\~a}o da face oclu\IeC {\'\i }da}{60}{section.3.4}
+\contentsline {section}{\numberline {3.5}T\IeC {\'e}cnicas para valida\IeC {\c c}\IeC {\~a}o das imagens reconstru\IeC {\'\i }das}{61}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Pico de Rela\IeC {\c c}\IeC {\~a}o Sinal Ru\IeC {\'\i }do}{61}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Similaridade Estrutural}{62}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Erro quadr\IeC {\'a}tico m\IeC {\'e}dio}{63}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}An\IeC {\'a}lise de desempenho}{64}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Taxa de falsa aceita\IeC {\c c}\IeC {\~a}o e falsa rejei\IeC {\c c}\IeC {\~a}o}{64}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Matriz de confus\IeC {\~a}o}{66}{subsection.3.6.2}
+\contentsline {section}{\numberline {3.7}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{69}{section.3.7}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}T\IeC {\'e}cnicas para detec\IeC {\c c}\IeC {\~a}o e reconstru\IeC {\c c}\IeC {\~a}o de oclus\IeC {\~o}es parciais}{70}{chapter.4}
+\contentsline {section}{\numberline {4.1}Contextualiza\IeC {\c c}\IeC {\~a}o da literatura}{70}{section.4.1}
+\contentsline {section}{\numberline {4.2}T\IeC {\'e}cnicas para detec\IeC {\c c}\IeC {\~a}o de oclus\IeC {\~o}es parciais}{74}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Skin Tone}{74}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Limiariza\IeC {\c c}\IeC {\~a}o}{75}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Algoritmo de correspond\IeC {\^e}ncia dos blocos}{76}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}T\IeC {\'e}cnicas de reconstru\IeC {\c c}\IeC {\~a}o baseadas em subespa\IeC {\c c}o}{78}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Eigenfaces}{79}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Gappy PCA}{83}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Asymmetrical PCA}{84}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Recursive PCA}{86}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Fast Recursive PCA}{87}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Fast Robust PCA}{88}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}Fisherfaces}{91}{subsection.4.3.7}
+\contentsline {section}{\numberline {4.4}T\IeC {\'e}cnicas de reconstru\IeC {\c c}\IeC {\~a}o baseadas em modelo}{93}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Representa\IeC {\c c}\IeC {\~a}o Esparsa com Grafo de Poisson}{93}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{99}{section.4.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}Extra\IeC {\c c}\IeC {\~a}o de caracter\IeC {\'\i }sticas e classifica\IeC {\c c}\IeC {\~a}o}{100}{chapter.5}
+\contentsline {section}{\numberline {5.1}Transformada Wavelet}{100}{section.5.1}
+\contentsline {section}{\numberline {5.2}K-Vizinhos mais pr\IeC {\'o}ximos}{102}{section.5.2}
+\contentsline {section}{\numberline {5.3}M\IeC {\'a}quina de aprendizado extremo}{103}{section.5.3}
+\contentsline {section}{\numberline {5.4}M\IeC {\'a}quina de vetores suporte}{105}{section.5.4}
+\contentsline {section}{\numberline {5.5}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{106}{section.5.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}Abordagem Proposta}{107}{chapter.6}
+\contentsline {section}{\numberline {6.1}Defini\IeC {\c c}\IeC {\~a}o do problema}{107}{section.6.1}
+\contentsline {section}{\numberline {6.2}Hip\IeC {\'o}tese}{108}{section.6.2}
+\contentsline {section}{\numberline {6.3}Proposta}{108}{section.6.3}
+\contentsline {section}{\numberline {6.4}M\IeC {\'e}todo}{110}{section.6.4}
+\contentsline {section}{\numberline {6.5}Proposi\IeC {\c c}\IeC {\~a}o de tr\IeC {\^e}s algoritmos}{111}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Representa\IeC {\c c}\IeC {\~a}o Esparsa com Fast Recursive PCA}{112}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Representa\IeC {\c c}\IeC {\~a}o Esparsa com Grafo Laplaciano}{113}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Similaridade Estrutural com grafo Laplaciano}{116}{subsection.6.5.3}
+\contentsline {section}{\numberline {6.6}Aplica\IeC {\c c}\IeC {\~a}o no meio cient\IeC {\'\i }fico deste trabalho}{118}{section.6.6}
+\contentsline {section}{\numberline {6.7}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{119}{section.6.7}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}Experimentos e an\IeC {\'a}lises de resultados}{120}{chapter.7}
+\contentsline {section}{\numberline {7.1}Bases de dados}{120}{section.7.1}
+\contentsline {section}{\numberline {7.2}Pr\IeC {\'e}-processamento}{121}{section.7.2}
+\contentsline {section}{\numberline {7.3}Divis\IeC {\~o}es dos experimentos}{124}{section.7.3}
+\contentsline {section}{\numberline {7.4}Resultados das bases de dados antes da reconstru\IeC {\c c}\IeC {\~a}o}{125}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Resumindo os resultados pr\IeC {\'e}-reconstru\IeC {\c c}\IeC {\~a}o das imagens}{125}{subsection.7.4.1}
+\contentsline {section}{\numberline {7.5}Detec\IeC {\c c}\IeC {\~a}o da oclus\IeC {\~a}o parcial na imagem de face}{126}{section.7.5}
+\contentsline {section}{\numberline {7.6}Resultados das t\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o}{128}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Resultados nos grupos da base AR}{129}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}Resultados das t\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o nos grupos da base Yale}{153}{subsection.7.6.2}
+\contentsline {section}{\numberline {7.7}Resultados das t\IeC {\'e}cnicas baseadas em modelo}{158}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}Resultados nos quatro grupos da base AR}{158}{subsection.7.7.1}
+\contentsline {subsection}{\numberline {7.7.2}Resultados nos grupos da base Yale}{174}{subsection.7.7.2}
+\contentsline {subsection}{\numberline {7.7.3}Compara\IeC {\c c}\IeC {\~a}o das melhores t\IeC {\'e}cnicas}{176}{subsection.7.7.3}
+\contentsline {section}{\numberline {7.8}Teste estat\IeC {\'\i }stico de Wilcoxon}{178}{section.7.8}
+\contentsline {section}{\numberline {7.9}Resumo dos experimentos}{179}{section.7.9}
+\contentsline {section}{\numberline {7.10}Par\IeC {\^a}metros utilizados}{180}{section.7.10}
+\contentsline {subsection}{\numberline {7.10.1}Par\IeC {\^a}metros das t\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o}{180}{subsection.7.10.1}
+\contentsline {subsection}{\numberline {7.10.2}Par\IeC {\^a}metros das t\IeC {\'e}cnicas baseadas em modelo}{181}{subsection.7.10.2}
+\contentsline {subsection}{\numberline {7.10.3}Par\IeC {\^a}metros dos classificadores}{182}{subsection.7.10.3}
+\contentsline {section}{\numberline {7.11}Pr\IeC {\'o}s e contras das t\IeC {\'e}cnicas}{183}{section.7.11}
+\contentsline {subsection}{\numberline {7.11.1}T\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o}{183}{subsection.7.11.1}
+\contentsline {subsection}{\numberline {7.11.2}T\IeC {\'e}cnicas baseadas em modelo}{183}{subsection.7.11.2}
+\contentsline {section}{\numberline {7.12}Limita\IeC {\c c}\IeC {\~o}es de algumas t\IeC {\'e}cnicas}{184}{section.7.12}
+\contentsline {subsection}{\numberline {7.12.1}Asymmetrical PCA}{187}{subsection.7.12.1}
+\contentsline {subsection}{\numberline {7.12.2}Fast Robust PCA}{188}{subsection.7.12.2}
+\contentsline {subsection}{\numberline {7.12.3}Fisherfaces}{188}{subsection.7.12.3}
+\contentsline {subsection}{\numberline {7.12.4}Gappy PCA}{189}{subsection.7.12.4}
+\contentsline {subsection}{\numberline {7.12.5}Representa\IeC {\c c}\IeC {\~a}o Esparsa}{189}{subsection.7.12.5}
+\contentsline {section}{\numberline {7.13}Considera\IeC {\c c}\IeC {\~o}es finais do cap\IeC {\'\i }tulo}{189}{section.7.13}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {8}Conclus\IeC {\~a}o e perspectivas futuras}{192}{chapter.8}
+\contentsline {section}{\numberline {8.1}Contribui\IeC {\c c}\IeC {\~o}es e resultados obtidos}{192}{section.8.1}
+\contentsline {section}{\numberline {8.2}Limita\IeC {\c c}\IeC {\~o}es}{194}{section.8.2}
+\contentsline {section}{\numberline {8.3}Perspectivas futuras}{194}{section.8.3}
+\contentsline {section}{\numberline {8.4}Publica\IeC {\c c}\IeC {\~o}es vinculadas a disserta\IeC {\c c}\IeC {\~a}o}{195}{section.8.4}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{196}{chapter*.14}
+\renewcommand *{\cftappendixname }{Ap\^endice \space }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}Protocolo de revis\IeC {\~a}o sistem\IeC {\'a}tica sobre t\IeC {\'e}cnicas para detec\IeC {\c c}\IeC {\~a}o e reconstru\IeC {\c c}\IeC {\~a}o de olus\IeC {\~o}es parciais em imagens de face}{205}{appendix.A}
+\contentsline {section}{\numberline {A.1}Objetivo}{205}{section.A.1}
+\contentsline {section}{\numberline {A.2}Quest\IeC {\~o}es de pesquisa}{205}{section.A.2}
+\contentsline {section}{\numberline {A.3}Sele\IeC {\c c}\IeC {\~a}o de fontes}{205}{section.A.3}
+\contentsline {section}{\numberline {A.4}Palavras-Chave}{206}{section.A.4}
+\contentsline {section}{\numberline {A.5}Crit\IeC {\'e}rios de inclus\IeC {\~a}o}{206}{section.A.5}
+\contentsline {section}{\numberline {A.6}Crit\IeC {\'e}rios de exclus\IeC {\~a}o}{206}{section.A.6}
+\contentsline {section}{\numberline {A.7}Estrat\IeC {\'e}gia de sele\IeC {\c c}\IeC {\~a}o dos dados}{207}{section.A.7}
+\contentsline {section}{\numberline {A.8}S\IeC {\'\i }ntese dos dados extra\IeC {\'\i }dos}{207}{section.A.8}
+\contentsline {section}{\numberline {A.9}Amea\IeC {\c c}as a validade}{208}{section.A.9}
+\contentsline {section}{\numberline {A.10}Crit\IeC {\'e}rios de qualidade}{208}{section.A.10}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}Condu\IeC {\c c}\IeC {\~a}o da revis\IeC {\~a}o}{209}{appendix.B}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {C}Contextualiza\IeC {\c c}\IeC {\~a}o da literatura}{210}{appendix.C}
+\contentsline {section}{\numberline {C.1}Escopo dos estudos}{210}{section.C.1}
+\contentsline {section}{\numberline {C.2}Bases de dados}{210}{section.C.2}
+\contentsline {section}{\numberline {C.3}T\IeC {\'e}cnicas encontradas na literatura}{212}{section.C.3}
+\contentsline {subsection}{\numberline {C.3.1}T\IeC {\'e}cnicas para detec\IeC {\c c}\IeC {\~a}o de oclus\IeC {\~o}es parciais}{213}{subsection.C.3.1}
+\contentsline {subsection}{\numberline {C.3.2}T\IeC {\'e}cnicas para reconstru\IeC {\c c}\IeC {\~a}o de imagens de Faces}{213}{subsection.C.3.2}
+\contentsline {section}{\numberline {C.4}Considera\IeC {\c c}\IeC {\~o}es finais do ap\IeC {\^e}ndice}{214}{section.C.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {D}Matrizes de confus\IeC {\~a}o}{215}{appendix.D}
+\contentsline {section}{\numberline {D.1}T\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o}{215}{section.D.1}
+\contentsline {section}{\numberline {D.2}T\IeC {\'e}cnicas baseadas em modelo}{219}{section.D.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {E}Tabelas de resultados}{221}{appendix.E}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {section}{\numberline {E.1}Resultados com a base oclu\IeC {\'\i }da}{226}{section.E.1}
+\contentsline {subsection}{\numberline {E.1.1}ELM n\IeC {\'\i }vel 3}{227}{subsection.E.1.1}
+\contentsline {subsection}{\numberline {E.1.2}ELM n\IeC {\'\i }vel 2}{229}{subsection.E.1.2}
+\contentsline {subsection}{\numberline {E.1.3}ELM n\IeC {\'\i }vel 1}{230}{subsection.E.1.3}
+\contentsline {subsection}{\numberline {E.1.4}KNN n\IeC {\'\i }vel 3}{230}{subsection.E.1.4}
+\contentsline {subsection}{\numberline {E.1.5}KNN n\IeC {\'\i }vel 2}{232}{subsection.E.1.5}
+\contentsline {subsection}{\numberline {E.1.6}KNN n\IeC {\'\i }vel 1}{232}{subsection.E.1.6}
+\contentsline {subsection}{\numberline {E.1.7}SVM n\IeC {\'\i }vel 3}{233}{subsection.E.1.7}
+\contentsline {subsection}{\numberline {E.1.8}SVM n\IeC {\'\i }vel 2}{234}{subsection.E.1.8}
+\contentsline {subsection}{\numberline {E.1.9}SVM n\IeC {\'\i }vel 1}{235}{subsection.E.1.9}
+\contentsline {section}{\numberline {E.2}Resultados de reconstru\IeC {\c c}\IeC {\~a}o com t\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o}{236}{section.E.2}
+\contentsline {subsection}{\numberline {E.2.1}ELM n\IeC {\'\i }vel 3}{236}{subsection.E.2.1}
+\contentsline {subsection}{\numberline {E.2.2}ELM n\IeC {\'\i }vel 2}{244}{subsection.E.2.2}
+\contentsline {subsection}{\numberline {E.2.3}ELM n\IeC {\'\i }vel 1}{252}{subsection.E.2.3}
+\contentsline {subsection}{\numberline {E.2.4}KNN n\IeC {\'\i }vel 3}{260}{subsection.E.2.4}
+\contentsline {subsection}{\numberline {E.2.5}KNN n\IeC {\'\i }vel 2}{264}{subsection.E.2.5}
+\contentsline {subsection}{\numberline {E.2.6}KNN n\IeC {\'\i }vel 1}{268}{subsection.E.2.6}
+\contentsline {subsection}{\numberline {E.2.7}SVM n\IeC {\'\i }vel 3}{272}{subsection.E.2.7}
+\contentsline {subsection}{\numberline {E.2.8}SVM n\IeC {\'\i }vel 2}{276}{subsection.E.2.8}
+\contentsline {subsection}{\numberline {E.2.9}SVM n\IeC {\'\i }vel 1}{280}{subsection.E.2.9}
+\contentsline {section}{\numberline {E.3}Resultados de reconstru\IeC {\c c}\IeC {\~a}o com t\IeC {\'e}cnicas baseadas em modelo}{284}{section.E.3}
+\contentsline {subsection}{\numberline {E.3.1}ELM n\IeC {\'\i }vel 3}{284}{subsection.E.3.1}
+\contentsline {subsection}{\numberline {E.3.2}ELM n\IeC {\'\i }vel 2}{288}{subsection.E.3.2}
+\contentsline {subsection}{\numberline {E.3.3}ELM n\IeC {\'\i }vel 1}{291}{subsection.E.3.3}
+\contentsline {subsection}{\numberline {E.3.4}KNN n\IeC {\'\i }vel 3}{295}{subsection.E.3.4}
+\contentsline {subsection}{\numberline {E.3.5}KNN n\IeC {\'\i }vel 2}{296}{subsection.E.3.5}
+\contentsline {subsection}{\numberline {E.3.6}KNN n\IeC {\'\i }vel 1}{297}{subsection.E.3.6}
+\contentsline {subsection}{\numberline {E.3.7}SVM n\IeC {\'\i }vel 3}{299}{subsection.E.3.7}
+\contentsline {subsection}{\numberline {E.3.8}SVM n\IeC {\'\i }vel 2}{300}{subsection.E.3.8}
+\contentsline {subsection}{\numberline {E.3.9}SVM n\IeC {\'\i }vel 1}{302}{subsection.E.3.9}

@@ -1,0 +1,32 @@
+\nomenclatureentry{aPIN@[{PIN}]\begingroup Personal Identification Number\nomeqref {0}|nompageref}{35}
+\nomenclatureentry{aSRF@[{SRF}]\begingroup System Recognition Faces\nomeqref {0}|nompageref}{54}
+\nomenclatureentry{aPSNR@[{PSNR}]\begingroup Peak signal-to-noise ratio\nomeqref {5}|nompageref}{62}
+\nomenclatureentry{aKNN@[{KNN}]\begingroup k-Nearest Neighbors\nomeqref {19}|nompageref}{72}
+\nomenclatureentry{aUOM@[{UOM}]\begingroup Universal Occlusion Model\nomeqref {19}|nompageref}{72}
+\nomenclatureentry{aICP@[{ICP}]\begingroup Iterative Closest Point\nomeqref {19}|nompageref}{73}
+\nomenclatureentry{aAPCA@[{APCA}]\begingroup Asymmetrical principal component analysis\nomeqref {35}|nompageref}{85}
+\nomenclatureentry{aSVM@[{SVM}]\begingroup Support Vector Machines\nomeqref {71}|nompageref}{106}
+\nomenclatureentry{aIKFDA@[{IKFDA}]\begingroup Incremental Kernel Fisher Discriminant Analysis\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aDCT@[{DCT}]\begingroup Discrete Wavelet Transform\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aCNN@[{CNN}]\begingroup Convolucional Neural NetWork\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aDICW@[{DICW}]\begingroup Dynamic image to class Warping\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aSRC@[{SRC}]\begingroup Sparse Representation  Classification\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aGCC@[{GCC}]\begingroup Gaussian Mixture Models\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aTLRC@[{TLRC}]\begingroup trimmed linear regression classification\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aSSEC@[{SSEC}]\begingroup Structured Sparse Error Coding\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aRPCA@[{RPCA}]\begingroup Robust Principal Component Analisys\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aBMA@[{BMA}]\begingroup Block Matching Algorithm\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aIFR@[{IFR}]\begingroup Iterative Face Recovery\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aEOH@[{EOH}]\begingroup Exceptional Occlusion Handling\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aCST@[{CST}]\begingroup Color Space Technique\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aFARO@[{FARO}]\begingroup Face Recognition Against Occlusion\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aKAM@[{KAM}]\begingroup Kernel Associative Memory\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aHMM@[{HMM}]\begingroup Hidden Markov Models\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aSOM@[{SOM}]\begingroup Self Organizaton Maps\nomeqref {77}|nompageref}{216}
+\nomenclatureentry{aMLWNN@[{MLWNN}]\begingroup Multi Library Wavelet Neural Network\nomeqref {77}|nompageref}{217}
+\nomenclatureentry{aIBD@[{IBD}]\begingroup Inpainting for Big Data\nomeqref {77}|nompageref}{217}
+\nomenclatureentry{aRGEF@[{RGEF}]\begingroup Reformed Gabor Eigen Faces\nomeqref {77}|nompageref}{217}
+\nomenclatureentry{aGPCA@[{GPCA}]\begingroup Gappy Principal Component Analysis\nomeqref {77}|nompageref}{217}
+\nomenclatureentry{aPCA@[{PCA}]\begingroup Principal Component Analysis\nomeqref {77}|nompageref}{217}
+\nomenclatureentry{aASM@[{ASM}]\begingroup Active Shape Model\nomeqref {77}|nompageref}{217}
+\nomenclatureentry{aFWPCA@[{FWPCA}]\begingroup Fast-Weighted Principal Component Analysis\nomeqref {77}|nompageref}{217}

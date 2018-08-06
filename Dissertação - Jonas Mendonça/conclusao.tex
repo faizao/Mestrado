@@ -1,0 +1,76 @@
+\chapter{Conclusão e perspectivas futuras}
+\label{cp:9_Considerações Finais}
+
+Inicialmente, cabe aqui relembrar brevemente os objetivos deste trabalho, os quais são apresentados logo abaixo:
+
+\begin{itemize}
+\item realizar um estudo comparativo envolvendo técnicas para reconstrução de faces parcialmente ocluídas visando o reconhecimento biométrico;
+\item disponibilizar um artefato de consulta para a comunidade científica objetivando apresentar para a área os prós e contras de cada técnica;
+\item apresentar uma notação unificada para as técnicas de detecção e reconstrução;
+\item disponibilizar um repositório contendo todos os códigos de todas as técnicas;
+
+\end{itemize}
+
+\section{Contribuições e resultados obtidos}
+Essa dissertação realizou um estudo comparativo de técnicas de detecção e reconstrução de oclusões parciais em imagens de face visando o reconhecimento biométrico. Paralelamente a este estudo comparativo foram desenvolvidas três novas técnicas de reconstrução, duas baseadas em modelo e uma baseada em subespaço, Deste modo ao avaliarmos todas as técnicas de reconstrução perante a base de dados AR a qual contém oclusões naturais pode-se perceber melhores resultados de acurácia com duas das técnicas desenvolvidas nesse trabalho.
+
+De modo que a técnica SSIMGL apresentou melhores resultados nos quatro grupos da base AR, atuando como uma técnica que apresenta baixo grau de sensibilidade aos mais diversos tipos de variações presentes no ambiente. Conseguindo obter taxa de erro igual a 6.08\%, 4\%, 3\% e 8.5\% respectivamente nos grupos AR\#1, AR\#2, AR\#3 e AR\#4, ao ser avaliada com classificador ELM e nível 3 de decomposição da TW. Enquanto a técnica SRC Fast Rec PCA também demonstrou bons resultados, obtendo taxa de erro  11.67\%, 5.25\%, 3.67\% e 17\% nessa ordem nos grupos AR\#1, AR\#2, AR\#3 e AR\#4 também avaliada com ELM utilizando nível 3 de decomposição da TW, podendo perceber maiores taxas de erro nos grupos com maiores variações presentes no ambiente.
+
+Mediante os resultados podemos perceber elevados percentuais de contribuição das técnicas, tomando como base a técnica SSIMGL podemos visualizar ganhos em termos de acurácia ao se reconstruir, obtendo 47.07\%, 40.08\%, 45.49\% e 47.29\% de ganhos de reconstrução respectivamente nos grupos AR\#1, AR\#2, AR\#3 e AR\#4 com classificador ELM e nível 3 de decomposição da transformada Wavelet. 
+
+Uma análise interessante é que o SVM obteve melhores resultados quando apresentados ao grupo AR\#4, ou seja, apresentando maior insensibilidade do que outros classificadores quando apresentado a imagens com maiores percentuais de oclusão. Obtendo com a técnica SSIMGL ganhos de 2\% e 14.17\% respectivamente quando comparados aos classificadores ELM e KNN no grupo AR\#4.
+
+As técnicas baseadas em subespaço que realizam minimização dos coeficientes de combinação linear e realizam a troca dos pixels ocluídos pelos pixels da imagem reconstruída apresentam melhores resultados quando comparados a outras técnicas baseadas em subespaço, como podemos perceber nas técnicas Recursive PCA e Fast Recursive PCA. 
+
+Em nível de extração de características pode se dizer que a transformada Wavelet em todos os níveis representou muito bem todos os conjuntos de imagens. E os três classificadores aqui apresentados também demonstraram consideráveis performances. Entretanto, ao lidarmos com imagens reconstruídas é preferível utilizar os classificadores ELM ou SVM, visto que eles representam muito bem o conjunto de imagens. Enquanto classificadores que utilizam distância para lidar com oclusões apresentam baixa performance.
+
+Conforme visto neste trabalho as técnicas baseadas em modelo apresentam maior robustez perante a tarefa de reconstrução de faces parcialmente ocluídas independente do tipo de ambiente de coleta. Entretanto, as técnicas baseadas em subespaço não podem ser ignoradas, visto que nesse trabalho foi desenvolvida a técnica SRC Fast Rec PCA que apresentou consideráveis resultados de reconstrução, em que podemos afirmar que as técnicas baseadas em subespaço possuem limitação do número de indivíduos para geração do espaço de faces, entretanto, quando essas técnicas associadas com uma estratégia de redução das amostras (SRC ou SSIM) do conjunto de treinamento mais representativas podemos usufruir de ganhos de reconstrução. Sem contar que a estratégia de substituição dos pixels favorece melhorias de performance junto as técnicas.		
+
+
+
+\section{Limitações}
+O presente projeto, limita-se a comparação de técnicas para detecção e reconstrução de oclusões parciais em imagens de face visando o reconhecimento biométrico. A partir dessa justificativa podem surgir outras técnicas para detecção reconstrução de oclusões com mesma temática, embora não apresentem finalidade biométrica.
+
+A segunda limitação se refere a resolução da imagem obtida, afirmando-se necessitar de uma boa resolução das imagens para que possamos usufruir de uma imagem facial reconstruída de qualidade. Essa segunda limitação é muito frequente em coleta de imagens da face em câmeras de vigilância.
+
+Outra limitação desse trabalho se refere aos dois grupos de oclusões gerados da base Yale, visto que esses dois grupos  possuem uma pequena quantidade de imagens do conjunto de treinamento, assim como também uma pequena quantidade de imagens parcialmente ocluídas. Dessa forma, ao inserirmos oclusões artificiais nesses grupos visualizamos que os níveis de oclusões ainda foram baixos visto que o classificador SVM obteve 100\% de taxa de reconhecimento nos dois grupos sem a necessidade de realizar a reconstrução, e isso se deve as oclusões artificiais criadas não conterem variações de iluminação como também ter um pequeno número de indivíduos na base. 
+
+Dessa forma uma das melhores iniciativas é utilizar bases já com oclusões pré-estabelecidas como na base AR. Visto que  ao simularmos oclusões tendemos a utilizar um detector de oclusão específico para o nosso problema, dessa forma, impedindo o processo de generalização para os mais variados tipos de oclusões, como também limitando o estudo comparativo das técnicas.
+
+
+\section{Perspectivas futuras}
+As perspectivas futuras possuem como objetivo principal incluir tópicos que não foram devidamente discutidos ao longo desta pesquisa, pelos mais diversos motivos, como também questões que ganham importância a partir dos resultados obtidos com essa estudo. Sendo elas:
+
+\begin{itemize}
+\item investigar o comportamento de outras técnicas baseadas em modelo e comparará-las com as técnicas apresentadas neste trabalho;
+\item estender as técnicas apresentadas nesse trabalho e realizar combinações dessas técnicas com vistas a produzir novas técnicas e consequentemente melhorias na acurácia de reconhecimento;
+\item investigar o comportamento de outras técnicas para detecção de oclusões parciais em imagens de face;	
+\item analisar o comportamento das técnicas que utilizam como base redes neurais convolutivas;
+\item empregar outras técnicas de extração de características, como por exemplo Transformada Contourlet, Padrões Binários Locais, filtros de Gabor e Transformada de Fourier; 
+\item analisar o comportamento das técnicas aqui apresentadas em outras bases de dados com oclusões naturais.
+\end{itemize}
+
+\section{Publicações vinculadas a dissertação}
+
+Os artigos científicos listados a seguir estão diretamente vinculados à esta dissertação e foram produzidos ao longo do desenvolvimento do plano de trabalho vinculado ao projeto de pesquisa. Em que os mesmos serão apresentados conforme a ordem cronológica de apresentação.
+
+\begin{enumerate}
+
+\item \textit{Detecção e reconstrução de oclusões parciais em imagens de face visando Reconhecimento Biométrico}, WTDSI 2017 - X Workshop de Teses e Dissertações em Sistemas de Informação \cite{Targino2017_wtdsi}.
+
+\item \textit{Methods of detecting and reconstructing partial occlusions in face images: Systematic Literature Review}, WVC 2017 - XIII Workshop de Visão Computacional \cite{Targino2018_wvc}.
+
+\item \textit{Biometric recognition based on fingerprint: A comparative study}, WVC 2017 - XIII Workshop de Visão Computacional \cite{Targino2018_wvc_duru}.
+
+\item \textit{Técnicas baseadas em subespaço para reconstrução de faces parcialmente ocluídas: Um estudo comparativo}, COTB 2018 - IX Computer on the Beach \cite{Targino2018_cob}.
+
+\item \textit{Técnicas de detecção e reconstrução de oclusões parciais
+em imagens de face visando o reconhecimento biométrico
+}, WTDSI 2018 - XI Workshop de Teses e Dissertações em Sistemas de Informação \cite{Targino2018_wtdsi}.
+
+\item \textit{Estudo comparativo de técnicas baseadas em subespaço
+na tarefa de reconstrução de faces parcialmente ocluídas}, SBSI 2018 - Simpósio Brasileiro de Sistemas de Informação  \cite{Targino2018_sbsi}.
+
+\item \textit{A comparative study between deep learning and traditional machine learning techniques for facial biometric recognition}, Iberamia 2018 \cite{Targino2018_iberamia}.
+
+\end{enumerate}

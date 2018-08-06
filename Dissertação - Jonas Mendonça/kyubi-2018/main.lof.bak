@@ -1,0 +1,64 @@
+\babel@toc {brazil}{}
+\contentsline {figure}{\numberline {1}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o de diferentes tipos de oclus\IeC {\~o}es parciais: (a) oclus\IeC {\~o}es faciais comuns em nossa rotina diariamente; (b) oclus\IeC {\~o}es faciais relacionadas a quest\IeC {\~o}es de seguran\IeC {\c c}a}}{27}{figure.1.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces M\IeC {\'o}dulos de um sistema biom\IeC {\'e}trico}}{33}{figure.2.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Identifica\IeC {\c c}\IeC {\~a}o ou reconhecimento facial}}{34}{figure.2.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Verifica\IeC {\c c}\IeC {\~a}o da face}}{34}{figure.2.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Exemplo do processo de verifica\IeC {\c c}\IeC {\~a}o e identifica\IeC {\c c}\IeC {\~a}o }}{35}{figure.2.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Exemplos de algumas modalidades biom\IeC {\'e}tricas }}{36}{figure.2.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo do processo de identifica\IeC {\c c}\IeC {\~a}o: (\textit {a}) faces n\IeC {\~a}o oclu\IeC {\'\i }das; (\textit {b}) faces com oclus\IeC {\~o}es parciais }}{39}{figure.3.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Tipos de varia\IeC {\c c}\IeC {\~o}es advindas dos ambientes n\IeC {\~a}o controlados}}{41}{figure.3.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Exemplos de varia\IeC {\c c}\IeC {\~o}es intraclasse representada por (b), (c) e (d), as quais distanciam as varia\IeC {\c c}\IeC {\~o}es de apar\IeC {\^e}ncia das imagens do mesmo indiv\IeC {\'\i }duo. Entretanto, em (a) e (b) pode-se perceber uma menor varia\IeC {\c c}\IeC {\~a}o de apar\IeC {\^e}ncia}}{42}{figure.3.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de constru\IeC {\c c}\IeC {\~a}o de uma imagem integral. verde = 2, amarelo = 2+3, laranja = 2 + 4, e azul = 2+3+4+5}}{43}{figure.3.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces C\IeC {\'a}lculo da soma de um ret\IeC {\^a}ngulo}}{44}{figure.3.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Exemplos de caracter\IeC {\'\i }sticas de Haar }}{44}{figure.3.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Funcionamento do Viola-Jones perante o classificador em cascata }}{45}{figure.3.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Exemplos de faces ap\IeC {\'o}s a aplica\IeC {\c c}\IeC {\~a}o da t\IeC {\'e}cnica Skin Color}}{48}{figure.3.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Exemplos de imagens faciais oclu\IeC {\'\i }das provenientes da base AR}}{50}{figure.3.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Esquema do BMA}}{56}{figure.4.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Detec\IeC {\c c}\IeC {\~a}o da parte oclu\IeC {\'\i }da com a t\IeC {\'e}cnica de detec\IeC {\c c}\IeC {\~a}o por blocos}}{57}{figure.4.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Proje\IeC {\c c}\IeC {\~a}o de uma imagem no subespa\IeC {\c c}o}}{59}{figure.5.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Proje\IeC {\c c}\IeC {\~a}o de uma imagem parcialmente oclu\IeC {\'\i }da no subespa\IeC {\c c}o}}{60}{figure.5.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Exemplo de forma\IeC {\c c}\IeC {\~a}o da imagem m\IeC {\'e}dia dado um conjunto de imagens}}{61}{figure.5.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Exemplos de 10 eigenfaces da base de dados \textit {AR}}}{63}{figure.5.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces M\IeC {\'a}scara de remo\IeC {\c c}\IeC {\~a}o de oclus\IeC {\~a}o}}{64}{figure.5.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Treinamento da t\IeC {\'e}cnica Fast Robust PCA}}{69}{figure.5.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces FRPCA e seu comportamento frente a detec\IeC {\c c}\IeC {\~a}o da oclus\IeC {\~a}o a cada itera\IeC {\c c}\IeC {\~a}o}}{70}{figure.5.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Exemplos de 10 fisherfaces da base de dados \textit {AR}}}{73}{figure.5.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Estrutura de uma Transformada Wavelet}}{77}{figure.6.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Imagens obtidas ap\IeC {\'o}s a decomposi\IeC {\c c}\IeC {\~a}o Wavelet 2D }}{78}{figure.6.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Estrutura de uma Rede Neural ELM}}{79}{figure.6.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Exemplo de classifica\IeC {\c c}\IeC {\~a}o do K-NN com duas classes e K = 6}}{83}{figure.6.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Exemplos de imagens das bases de dados }}{93}{figure.8.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Exemplos de varia\IeC {\c c}\IeC {\~o}es das imagens presentes na base de dados AR }}{94}{figure.8.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Detec\IeC {\c c}\IeC {\~a}o da face utilizando o algoritmo Viola-Jones}}{95}{figure.8.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces Imagens da base de dados Yale e suas respectivas m\IeC {\'a}scaras de oclus\IeC {\~a}o adicionadas}}{95}{figure.8.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces Acur\IeC {\'a}cia da ELM na base de dados AR}}{98}{figure.8.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Acur\IeC {\'a}cia da ELM na base de dados Yale}}{99}{figure.8.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Quantidade de autovetores para proje\IeC {\c c}\IeC {\~a}o da face}}{100}{figure.8.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o dos 50 melhores autovetores e seu respectivos graus de contribui\IeC {\c c}\IeC {\~a}o frente a reconstru\IeC {\c c}\IeC {\~a}o da imagem}}{101}{figure.8.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces M\IeC {\'a}scara de oclus\IeC {\~a}o em algumas imagens da base de dados\textit {AR}}}{102}{figure.8.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o da m\IeC {\'a}scara de oclus\IeC {\~a}o em operadores morfol\IeC {\'o}gicos}}{103}{figure.8.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces Tarefa de reconstru\IeC {\c c}\IeC {\~a}o com APCA}}{104}{figure.8.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces Reconstru\IeC {\c c}\IeC {\~a}o com GPCA, APCA,Eigenfaces e Fisherfaces}}{104}{figure.8.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces Imagens reconstru\IeC {\'\i }das com as t\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o}}{105}{figure.8.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces Import\IeC {\^a}ncia do percentual de representatividade do conjunto }}{105}{figure.8.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces Exemplo do processo de reconstru\IeC {\c c}\IeC {\~a}o com o Fast Recursive PCA}}{106}{figure.8.44}
+\contentsline {figure}{\numberline {45}{\ignorespaces Acur\IeC {\'a}cia da ELM na base AR com oclus\IeC {\~o}es de \IeC {\'o}culos e cachecol com todas as varia\IeC {\c c}\IeC {\~o}es}}{110}{figure.8.45}
+\contentsline {figure}{\numberline {46}{\ignorespaces Acur\IeC {\'a}cia da ELM na base de dados AR com oclus\IeC {\~o}es de \IeC {\'o}culos e cachecol sem varia\IeC {\c c}\IeC {\~o}es de ilumina\IeC {\c c}\IeC {\~a}o}}{111}{figure.8.46}
+\contentsline {figure}{\numberline {47}{\ignorespaces Acur\IeC {\'a}cia da ELM na base Yale com oclus\IeC {\~a}o de cachecol}}{112}{figure.8.47}
+\contentsline {figure}{\numberline {48}{\ignorespaces Acur\IeC {\'a}cia da ELM na base Yale com oclus\IeC {\~a}o de \IeC {\'o}culos}}{112}{figure.8.48}
+\contentsline {figure}{\numberline {49}{\ignorespaces PSNR das tr\IeC {\^e}s melhores estrat\IeC {\'e}gias baseadas em subespa\IeC {\c c}o na Base AR com oclus\IeC {\~a}o de \IeC {\'o}culos e varia\IeC {\c c}\IeC {\~o}es de ilumina\IeC {\c c}\IeC {\~a}o}}{114}{figure.8.49}
+\contentsline {figure}{\numberline {50}{\ignorespaces PSNR das tr\IeC {\^e}s melhores estrat\IeC {\'e}gias baseadas em subespa\IeC {\c c}o na Base AR com oclus\IeC {\~a}o de \IeC {\'o}culos sem varia\IeC {\c c}\IeC {\~a}o de ilumina\IeC {\c c}\IeC {\~a}o}}{115}{figure.8.50}
+\contentsline {figure}{\numberline {51}{\ignorespaces Varia\IeC {\c c}\IeC {\~a}o do PSNR ao se aumentar o n\IeC {\'u}mero de indiv\IeC {\'\i }duos para gera\IeC {\c c}\IeC {\~a}o do Espa\IeC {\c c}o de faces}}{116}{figure.8.51}
+\contentsline {figure}{\numberline {52}{\ignorespaces Acur\IeC {\'a}cia com ELM na base de dados AR sobre dois contextos}}{118}{figure.8.52}
+\contentsline {figure}{\numberline {53}{\ignorespaces Acur\IeC {\'a}cia com ELM na base de dados AR com oclus\IeC {\~o}es de \IeC {\'o}culos e cachecol}}{119}{figure.8.53}
+\contentsline {figure}{\numberline {54}{\ignorespaces Acur\IeC {\'a}cia com KNN na base de dados AR sobre dois contextos}}{119}{figure.8.54}
+\contentsline {figure}{\numberline {55}{\ignorespaces Acur\IeC {\'a}cia com KNN na base de dados AR com oclus\IeC {\~o}es de \IeC {\'o}culos e cachecol}}{120}{figure.8.55}
+\contentsline {figure}{\numberline {56}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o das taxas de erro geradas pela t\IeC {\'e}cnica Recursive PCA, sendo a estrat\IeC {\'e}gia baseada em subespa\IeC {\c c}o que apresentou melhores resultados com o classificador ELM}}{120}{figure.8.56}
+\contentsline {figure}{\numberline {57}{\ignorespaces An\IeC {\'a}lise de ganho ap\IeC {\'o}s a reconstru\IeC {\c c}\IeC {\~a}o da base AR com Similaridade Estrutural e Grafo Laplaciano com ELM }}{122}{figure.8.57}
+\contentsline {figure}{\numberline {58}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o das taxas de erro geradas pela t\IeC {\'e}cnica SSIM com Grafo Laplaciano na base de dados AR}}{122}{figure.8.58}
+\contentsline {figure}{\numberline {59}{\ignorespaces An\IeC {\'a}lise de ganho ap\IeC {\'o}s a reconstru\IeC {\c c}\IeC {\~a}o da base Yale com Similaridade Estrutural e Grafo Laplaciano com ELM }}{123}{figure.8.59}
+\contentsline {figure}{\numberline {60}{\ignorespaces An\IeC {\'a}lise de ganho ap\IeC {\'o}s a reconstru\IeC {\c c}\IeC {\~a}o da base AR com Similaridade Estrutural e Grafo Laplaciano com KNN }}{123}{figure.8.60}
+\contentsline {figure}{\numberline {61}{\ignorespaces An\IeC {\'a}lise de ganho ap\IeC {\'o}s a reconstru\IeC {\c c}\IeC {\~a}o da base Yale com Similaridade Estrutural e Grafo Laplaciano com KNN }}{124}{figure.8.61}
+\contentsline {figure}{\numberline {62}{\ignorespaces Processo de sele\IeC {\c c}\IeC {\~a}o dos artigos}}{143}{figure.C.62}
+\contentsline {figure}{\numberline {63}{\ignorespaces Bases de dados utilizadas pelos estudos selecionados}}{145}{figure.D.63}

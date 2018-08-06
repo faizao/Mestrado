@@ -1,0 +1,25 @@
+\babel@toc {brazil}{}
+\contentsline {table}{\numberline {1}{\ignorespaces N\IeC {\'u}mero de caracter\IeC {\'\i }sticas da TW}}{95}{table.8.1}
+\contentsline {table}{\numberline {2}{\ignorespaces Valores de DFFS de acordo com a base de dados \textit {AR}}}{102}{table.8.2}
+\contentsline {table}{\numberline {3}{\ignorespaces Valores de DFFS de acordo com a base de dados \textit {Yale}}}{102}{table.8.3}
+\contentsline {table}{\numberline {4}{\ignorespaces SSIM das t\IeC {\'e}cnicas todas oclus\IeC {\~o}es na base AR}}{108}{table.8.4}
+\contentsline {table}{\numberline {5}{\ignorespaces SSIM das t\IeC {\'e}cnicas todas oclus\IeC {\~o}es na base AR}}{109}{table.8.5}
+\contentsline {table}{\numberline {6}{\ignorespaces SSIM das t\IeC {\'e}cnicas na base de dados Yale}}{109}{table.8.6}
+\contentsline {table}{\numberline {7}{\ignorespaces PSNR das t\IeC {\'e}cnicas na base AR}}{117}{table.8.7}
+\contentsline {table}{\numberline {8}{\ignorespaces PSNR das t\IeC {\'e}cnicas na base de dados Yale}}{117}{table.8.8}
+\contentsline {table}{\numberline {9}{\ignorespaces Valores de PSNR das t\IeC {\'e}cnicas baseadas em modelo para a tarefa de reconstru\IeC {\c c}\IeC {\~a}o}}{121}{table.8.9}
+\contentsline {table}{\numberline {10}{\ignorespaces Bases de dados de dom\IeC {\'\i }nio p\IeC {\'u}blico e algumas especifica\IeC {\c c}\IeC {\~o}es}}{146}{table.D.10}
+\contentsline {table}{\numberline {13}{\ignorespaces Taxa de reconhecimento com KNN na base de dados AR com oclus\IeC {\~o}es}}{149}{table.E.13}
+\contentsline {table}{\numberline {11}{\ignorespaces Taxa de reconhecimento com ELM na base de dados AR com oclus\IeC {\~o}es}}{150}{table.E.11}
+\contentsline {table}{\numberline {12}{\ignorespaces Taxa de reconhecimento com ELM na base de dados Yale com oclus\IeC {\~o}es}}{151}{table.E.12}
+\contentsline {table}{\numberline {14}{\ignorespaces Taxa de reconhecimento com KNN na base de dados Yale com oclus\IeC {\~o}es}}{151}{table.E.14}
+\contentsline {table}{\numberline {15}{\ignorespaces Taxa de reconhecimento com KNN na base AR com a t\IeC {\'e}cnica Fast Recursive PCA}}{152}{table.E.15}
+\contentsline {table}{\numberline {16}{\ignorespaces Taxa de reconhecimento com KNN na base AR com a t\IeC {\'e}cnica Fisherfaces}}{153}{table.E.16}
+\contentsline {table}{\numberline {18}{\ignorespaces Taxa de reconhecimento com KNN na base AR com a t\IeC {\'e}cnica Gappy PCA}}{153}{table.E.18}
+\contentsline {table}{\numberline {19}{\ignorespaces Taxa de reconhecimento com KNN na base AR com a t\IeC {\'e}cnica PCA}}{154}{table.E.19}
+\contentsline {table}{\numberline {20}{\ignorespaces Taxa de reconhecimento com KNN na base AR com a t\IeC {\'e}cnica Recursive PCA}}{154}{table.E.20}
+\contentsline {table}{\numberline {21}{\ignorespaces Taxa de reconhecimento com KNN na base AR com a t\IeC {\'e}cnica Asymmetrical PCA}}{155}{table.E.21}
+\contentsline {table}{\numberline {22}{\ignorespaces Taxa de reconhecimento da similaridade estrutural com Grafo Laplaciano na base de dados AR com ELM}}{156}{table.E.22}
+\contentsline {table}{\numberline {23}{\ignorespaces Taxa de reconhecimento da similaridade estrutural com Grafo Laplaciano na base de dados Yale com ELM}}{157}{table.E.23}
+\contentsline {table}{\numberline {24}{\ignorespaces Taxa de reconhecimento com KNN na base AR ap\IeC {\'o}s reconstru\IeC {\c c}\IeC {\~a}o com SSIM e GL}}{157}{table.E.24}
+\contentsline {table}{\numberline {25}{\ignorespaces Taxa de reconhecimento com KNN na base de dados Yale ap\IeC {\'o}s reconstru\IeC {\c c}\IeC {\~a}o com SSIM e GL}}{158}{table.E.25}

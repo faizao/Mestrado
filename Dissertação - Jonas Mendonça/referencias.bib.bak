@@ -1,0 +1,1361 @@
+@article{zhang2018fast,
+  title={Fast and robust occluded face detection in ATM surveillance},
+  author={Zhang, Tao and Li, Jingjing and Jia, Wenjing and Sun, Jun and Yang, Huihua},
+  journal={Pattern Recognition Letters},
+  volume={107},
+  pages={33--40},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@incollection{zuo2009subspace,
+  title={Subspace methods for face recognition: Singularity, regularization, and robustness},
+  author={Zuo, Wangmeng and Wang, Kuanquan and Zhang, Hongzhi},
+  booktitle={State of the Art in Face Recognition},
+  year={2009},
+  publisher={InTech}
+}
+
+@inproceedings{tajima2013performance,
+  title={Performance improvement of face recognition algorithms using occluded-region detection},
+  author={Tajima, Yuichiro and Ito, Koichi and Aoki, Takafumi and Hosoi, Tomoki and Nagashima, Sei and Kobayashi, Koji},
+  booktitle={Biometrics (ICB), 2013 International Conference on},
+  pages={1--8},
+  year={2013},
+  organization={IEEE}
+}
+
+@inproceedings{oloyede2017evaluating,
+  title={Evaluating the effect of occlusion in face recognition systems},
+  author={Oloyede, Muhtahir O and Hancke, Gerhard P and Kapileswar, Nellore},
+  booktitle={AFRICON, 2017 IEEE},
+  pages={1547--1551},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{chang2011libsvm,
+  title={LIBSVM: a library for support vector machines},
+  author={Chang, Chih-Chung and Lin, Chih-Jen},
+  journal={ACM transactions on intelligent systems and technology (TIST)},
+  volume={2},
+  number={3},
+  pages={27},
+  year={2011},
+  publisher={Acm}
+}
+
+@article{chai2014root,
+  title={Root mean square error (RMSE) or mean absolute error (MAE)?--Arguments against avoiding RMSE in the literature},
+  author={Chai, Tianfeng and Draxler, Roland R},
+  journal={Geoscientific model development},
+  volume={7},
+  number={3},
+  pages={1247--1250},
+  year={2014},
+  publisher={Copernicus GmbH}
+}
+
+@inproceedings{nasution2014person,
+  title={Person identification by face recognition on portable device for teaching-aid system: Preliminary report},
+  author={Nasution, Albadr Lutan and Bayu, D Bima Sena and Miura, Jun},
+  booktitle={Advanced Informatics: Concept, Theory and Application (ICAICTA), 2014 International Conference of},
+  pages={171--176},
+  year={2014},
+  organization={IEEE}
+}
+@inproceedings{yi2000enhanced,
+  title={Enhanced fisherfaces for robust face recognition},
+  author={Yi, Juneho and Yang, Heesung and Kim, Yuho},
+  booktitle={International Workshop on Biologically Motivated Computer Vision},
+  pages={502--511},
+  year={2000},
+  organization={Springer}
+}
+
+@inproceedings{min2011improving,
+  title={Improving the recognition of faces occluded by facial accessories},
+  author={Min, Rui and Hadid, Abdenour and Dugelay, Jean-Luc},
+  booktitle={Automatic Face \& Gesture Recognition and Workshops (FG 2011), 2011 IEEE International Conference on},
+  pages={442--447},
+  year={2011},
+  organization={IEEE}
+}
+
+@inproceedings{hwang2000face,
+  title={Face reconstruction from a small number of feature points},
+  author={Hwang, Bon-Woo and Blanz, Volker and Vetter, Thomas and Lee, Seong-Whan},
+  booktitle={Pattern Recognition, 2000. Proceedings. 15th International Conference on},
+  volume={2},
+  pages={838--841},
+  year={2000},
+  organization={IEEE}
+}
+
+
+@article{litchfield1949simplified,
+  title={A simplified method of evaluating dose-effect experiments},
+  author={Litchfield, J.T am and Wilcoxon, Frank},
+  journal={Journal of pharmacology and experimental therapeutics},
+  volume={96},
+  number={2},
+  pages={99--113},
+  year={1949},
+  publisher={ASPET}
+}
+
+@inproceedings{chollet2007some,
+  title={Some experiments in audio-visual speech processing},
+  author={Chollet, G{\'e}rard and Landais, R and Hueber, Thomas and Bredin, Herv{\'e} and Mokbel, Chafic and Perrot, Patrick and Zouari, Leila},
+  booktitle={International Conference on Nonlinear Speech Processing},
+  pages={28--56},
+  year={2007},
+  organization={Springer}
+}
+
+@article{prabhakar2003biometric,
+  title={Biometric recognition: Security and privacy concerns},
+  author={Prabhakar, Salil and Pankanti, Sharath and Jain, Anil K},
+  journal={IEEE security \& privacy},
+  volume={99},
+  number={2},
+  pages={33--42},
+  year={2003},
+  publisher={IEEE}
+}
+
+@article{george2017efficient,
+  title={An Efficient Gait Recognition System for Human Identification using Neural Networks},
+  author={George, Anju Susan and Roy, Elsa and Antony, Anitta and Job, Mathews},
+  year={2017}
+}
+
+@article{kumar2017gait,
+  title={Gait Biometric Recognition Using Direct Classification, TSVM, SVM and Neural Network},
+  author={Kumar, S Senthil and Kathiresan, V},
+  journal={Asian Journal of Science and Applied Technology},
+  volume={6},
+  number={1},
+  pages={28--31},
+  year={2017}
+}
+
+
+@article{benaliouche2014comparative,
+  title={Comparative study of multimodal biometric recognition by fusion of iris and fingerprint},
+  author={Benaliouche, Houda and Touahria, Mohamed},
+  journal={The Scientific World Journal},
+  volume={2014},
+  year={2014},
+  publisher={Hindawi}
+}
+
+
+@article{galdi2016multimodal,
+  title={Multimodal authentication on smartphones: Combining iris and sensor recognition for a double check of user identity},
+  author={Galdi, Chiara and Nappi, Michele and Dugelay, Jean-Luc},
+  journal={Pattern Recognition Letters},
+  volume={82},
+  pages={144--153},
+  year={2016},
+  publisher={Elsevier}
+}
+
+@inproceedings{huang2010fast,
+  title={Fast sparse representation with prototypes},
+  author={Huang, Jia-Bin and Yang, Ming-Hsuan},
+  booktitle={Computer Vision and Pattern Recognition (CVPR), 2010 IEEE Conference on},
+  pages={3618--3625},
+  year={2010},
+  organization={IEEE}
+}
+
+@article{chen2001atomic,
+  title={Atomic decomposition by basis pursuit},
+  author={Chen, Scott Shaobing and Donoho, David L and Saunders, Michael A},
+  journal={SIAM review},
+  volume={43},
+  number={1},
+  pages={129--159},
+  year={2001},
+  publisher={SIAM}
+}
+
+@inproceedings{thung2009survey,
+  title={A survey of image quality measures},
+  author={Thung, Kim-Han and Raveendran, Paramesran},
+  booktitle={Technical Postgraduates (TECHPOS), 2009 International Conference for},
+  pages={1--4},
+  year={2009},
+  organization={IEEE}
+}
+
+@inproceedings{Targino2017_wtdsi,
+  title={Detecção e reconstrução de oclusões parciais em imagens de face visando o reconhecimento biométrico},
+  author={Targino, Jonas Mendonça and Peres, Sarajane Marques and Lima, Clodoaldo Aparecido Moraes},
+  booktitle={X Workshop de Teses e Dissertações de Sistemas de Informação},
+  pages={64--67},
+  year={2017}
+}
+
+@inproceedings{Targino2018_wvc,
+  title={Methods of detecting and reconstructing partial occlusions in face images: Systematic Literature Review},
+  author={Targino, Jonas Mendonça and Peres, Sarajane Marques and Lima, Clodoaldo Aparecido Moraes},
+  booktitle={Workshop de Visão Computacional},
+  pages={76--81},
+  year={2018}
+}
+
+@inproceedings{Targino2018_wvc_duru,
+  title={Methods of detecting and reconstructing partial occlusions in face images: Systematic Literature Review},
+  author={Duru, Bruno Matarazzo and Targino, Jonas Mendonça and Lima, Clodoaldo Aparecido Moraes},
+  booktitle={Workshop de Visão Computacional},
+  pages={76--81},
+  year={2018}
+}
+
+
+@inproceedings{Targino2018_cob,
+  title={Técnicas Baseadas em Subespaço para Reconstrução de Faces Parcialmente Ocluídas: Um Estudo Comparativo},
+  author={Targino, Jonas Mendonça and Peres, Sarajane Marques and Lima, Clodoaldo Aparecido Moraes},
+  booktitle={Computer on the Beach},
+  pages={228--237},
+  year={2018}
+}
+
+
+@inproceedings{Targino2018_wtdsi,
+  title={Técnicas de detecção e reconstrução de oclusões parciais em imagens de face visando o reconhecimento biométrico},
+  author={Targino, Jonas Mendonça and Peres, Sarajane Marques and Lima, Clodoaldo Aparecido Moraes},
+  booktitle={XI Workshop de Teses e Dissertações de Sistemas de Informação},
+  pages={1--10},
+  year={2018}
+}
+
+@inproceedings{Targino2018_sbsi,
+  title={Estudo comparativo de técnicas baseadas em subespaço na tarefa de reconstrução de faces parcialmente ocluídas},
+  author={Targino, Jonas Mendonça and Peres, Sarajane Marques and Lima, Clodoaldo Aparecido Moraes},
+  booktitle={Simpósio Brasileiro de Sistemas de Informação},
+  pages={1--4},
+  year={2018}
+}
+
+
+@inproceedings{Targino2018_iberamia,
+  title={A comparative study between deep learning and traditional machine learning techniques for facial biometric recognition},
+  author={Finizola, Jonnathann Silva and Targino, Jonas Mendonça and Teodoro, Felipe Gustavo Silva and Peres, Sarajane Marques and Lima, Clodoaldo Aparecido Moraes},
+  booktitle={Iberamia},
+  pages = {1-12},
+  year={2018}
+}
+
+
+
+@article{ssim2004,
+  title={Image quality assessment: from error visibility to structural similarity},
+  author={Wang, Zhou and Bovik, Alan C and Sheikh, Hamid R and Simoncelli, Eero P},
+  journal={IEEE transactions on image processing},
+  volume={13},
+  number={4},
+  pages={600--612},
+  year={2004},
+  publisher={IEEE}
+}
+
+
+
+@Book{Vapnik,
+  Title                    = {The nature of statistical learning theory},
+  Author                   = {Vapnik, Vladimir N.},
+  Publisher                = {Springer-Verlag New York, Inc.},
+  Year                     = {1995},
+  Address                  = {New York, NY, USA},
+  Added-at                 = {2013-09-13T01:44:06.000+0200},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/2df9b1e85d80b3e3a448fc6c93e7051a0/yfpeng},
+  Interhash                = {98898576dfede7a15fcbf60cad98f9c0},
+  Intrahash                = {df9b1e85d80b3e3a448fc6c93e7051a0},
+  ISBN                     = {0-387-94559-8},
+  Keywords                 = {svm},
+  Timestamp                = {2013-09-13T01:44:06.000+0200}
+}
+
+@Book{Scholkopf,
+  Title                    = {Learning with Kernels: Support Vector Machines, Regularization, Optimization, and Beyond},
+  Author                   = {Scholkopf, Bernhard and Smola, Alexander J.},
+  Publisher                = {MIT Press},
+  Year                     = {2001},
+
+  Address                  = {Cambridge, MA, USA},
+
+  ISBN                     = {0262194759}
+}
+
+@inproceedings{du2011hard,
+  title={Hard hat detection in video sequences based on face features, motion and color information},
+  author={Du, Shan and Shehata, Mohamed and Badawy, Wael},
+  booktitle={Computer Research and Development (ICCRD), 2011 3rd International Conference on},
+  volume={4},
+  pages={25--29},
+  year={2011},
+  organization={IEEE}
+}
+
+@article{freund1999short,
+  title={A short introduction to boosting},
+  author={Freund, Yoav and Schapire, Robert and Abe, Naoki},
+  journal={Journal-Japanese Society For Artificial Intelligence},
+  volume={14},
+  number={771-780},
+  pages={1612},
+  year={1999},
+  publisher={JAPANESE SOC ARTIFICIAL INTELL}
+}
+
+@InProceedings{Freitas_2009,
+  Title                    = {Optimum-Path Forest-Based Rainfall Estimation},
+  Author                   = {G. M. Freitas and A. M. H. Avila and J. P. Papa and A. X. Falcao},
+  Booktitle                = {2009 16th International Conference on Systems, Signals and Image Processing},
+  Year                     = {2009},
+  Month                    = {June},
+  Pages                    = {1-4},
+
+  Doi                      = {10.1109/IWSSIP.2009.5367753},
+  ISSN                     = {2157-8672},
+  Keywords                 = {agriculture;geophysical signal processing;meteorological instruments;multilayer perceptrons;pattern classification;rain;support vector machines;agricultural production;artificial intelligence model;artificial neural networks;hydric balance;meteorological satellites;multilayer perceptron;optimum-path forest classifier;optimum-path forest-based rainfall estimation;satellite images;statistical model;supervised pattern recognition;support vector machines;Artificial intelligence;Artificial neural networks;Artificial satellites;Earth;Meteorology;Multilayer perceptrons;Pattern recognition;Production;Support vector machine classification;Support vector machines}
+}
+
+@Article{Papa_2009a,
+  Title                    = {Supervised pattern classification based on optimum-path forest},
+  Author                   = {Papa, J. P. and Falcão, A. X. and Suzuki, C. T. N.},
+  Journal                  = {International Journal of Imaging Systems and Technology},
+  Year                     = {2009},
+  Number                   = {2},
+  Pages                    = {120--131},
+  Volume                   = {19},
+
+  Doi                      = {10.1002/ima.20188},
+  ISSN                     = {1098-1098},
+  Keywords                 = {supervised learning, image foresting transform, pattern recognition, image analysis, graph-search algorithms},
+  Publisher                = {Wiley Subscription Services, Inc., A Wiley Company},
+  Url                      = {http://dx.doi.org/10.1002/ima.20188}
+}
+
+@InProceedings{Papa_2011,
+  Title                    = {Image categorization through optimum path forest and visual words},
+  Author                   = {J. P. Papa and A. Rocha},
+  Booktitle                = {2011 18th IEEE International Conference on Image Processing},
+  Year                     = {2011},
+  Month                    = {Sept},
+  Pages                    = {3525-3528},
+
+  Doi                      = {10.1109/ICIP.2011.6116475},
+  ISSN                     = {1522-4880},
+  Keywords                 = {dictionaries;image processing;N-Way image categorization problem;locally invariant interest points;optimum path forest;supervised pattern classification;visual dictionaries;Accuracy;Dictionaries;Probes;Prototypes;Robustness;Training;Visualization;Image Categorization;Local Interest Points;Optimum Path Forest;Visual Dictionaries}
+}
+
+@Article{Askarunisa_2009,
+  Title                    = {Finger Print Authentication Using Neural Networks },
+  Author                   = {A. Askarunisa and Sankaranarayanan. K and Liu, Sundaram. R and Sathick .M. Batcha},
+  Journal                  = {MASAUM Journal od Computing},
+  Year                     = {2009},
+  Number                   = {2},
+  Pages                    = { },
+  Volume                   = {1}
+}
+
+@InProceedings{Cheng_2008,
+  Title                    = {Applications of Particle Swarm Optimization and K-Nearest Neighbors to Emotion Recognition from Physiological Signals},
+  Author                   = {D. Cheng and G. Liu and Y. Qiu},
+  Booktitle                = {2008 International Conference on Computational Intelligence and Security},
+  Year                     = {2008},
+  Month                    = {Dec},
+  Pages                    = {52-56},
+  Volume                   = {2},
+
+  Doi                      = {10.1109/CIS.2008.22},
+  Keywords                 = {emotion recognition;particle swarm optimisation;pattern classification;physiology;table lookup;K-nearest neighbors;dual-structure particle swarm optimization;emotion recognition;look-up table method;physiological signals;Application software;Computational intelligence;Computer interfaces;Computer security;Emotion recognition;Information science;Information security;Optimization methods;Particle swarm optimization;Table lookup;Dual-Structure Particle Swarm Optimization;Emotion Recognition;K-Nearest Neighbor;Physiological Signals}
+}
+
+@InProceedings{Kacur_2011,
+  Title                    = {Speaker identification by K-nearest neighbors: Application of PCA and LDA prior to KNN},
+  Author                   = {J. Kacur and R. Vargic and P. Mulinka},
+  Booktitle                = {2011 18th International Conference on Systems, Signals and Image Processing},
+  Year                     = {2011},
+  Month                    = {June},
+  Pages                    = {1-4},
+  ISSN                     = {2157-8672},
+  Keywords                 = {learning (artificial intelligence);pattern classification;principal component analysis;speaker recognition;K-nearest neighbors;KNN classification method;LDA;PCA;feature vector dimension;speaker identification;Accuracy;Covariance matrix;Dispersion;Principal component analysis;Speaker recognition;Speech;Transforms;KNN;LDA;MFCC;PCA;speaker identification}
+}
+
+@InBook{Han_2001,
+  Title                    = {Text Categorization Using Weight Adjusted k-Nearest Neighbor Classification},
+  Author                   = {Han, Eui-Hong (Sam)
+and Karypis, George
+and Kumar, Vipin},
+  Editor                   = {Cheung, David
+and Williams, Graham J.
+and Li, Qing},
+  Pages                    = {53--65},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2001},
+  Address                  = {Berlin, Heidelberg},
+  Booktitle                = {Advances in Knowledge Discovery and Data Mining: 5th Pacific-Asia Conference, PAKDD 2001 Hong Kong, China, April 16--18, 2001 Proceedings},
+  Doi                      = {10.1007/3-540-45357-1_9},
+  ISBN                     = {978-3-540-45357-4},
+  Url                      = {http://dx.doi.org/10.1007/3-540-45357-1_9}
+}
+
+@InProceedings{Yu_2007,
+  Title                    = {Novel Text Classification Based on K-Nearest Neighbor},
+  Author                   = {X. P. Yu and X. G. Yu},
+  Booktitle                = {2007 International Conference on Machine Learning and Cybernetics},
+  Year                     = {2007},
+  Month                    = {Aug},
+  Pages                    = {3425-3430},
+  Volume                   = {6},
+
+  Doi                      = {10.1109/ICMLC.2007.4370740},
+  ISSN                     = {2160-133X},
+  Keywords                 = {pattern classification;peer-to-peer computing;text analysis;distributed metric structure;generalized hyperplane partitioning;imbalanced corpora;input document classification;k-nearest neighbors search;peer-to-peer K-nearest neighbors classification;text classification;Algorithm design and analysis;Costs;Cybernetics;Economic forecasting;Kernel;Machine learning;Nearest neighbor searches;Testing;Text categorization;Training data;K-nearest neighbor;Kernel density estimation;P2P;Text classification}
+}
+
+@InProceedings{Sarkar_2000,
+  Title                    = {Application of k-nearest neighbors algorithm on breast cancer diagnosis problem},
+  Author                   = {M. Sarkar and T. Leong, T.},
+  Booktitle                = {Proceedings of the AMIA Annual Symposium, Los Angeles, USA},
+  Year                     = {2000}
+}
+
+
+@Book{haykin_2009,
+  Title                    = {Neural Networks and Learning Machines},
+  Author                   = {Haykin, S.S.},
+  Publisher                = {Prentice Hall},
+  Year                     = {2009},
+  Number                   = {v. 10},
+  Series                   = {Neural networks and learning machines},
+
+  ISBN                     = {9780131471399},
+  Lccn                     = {2008034079},
+  Url                      = {https://books.google.com.br/books?id=K7P36lKzI\_QC}
+}
+
+@InProceedings{Papa_2008,
+  Title                    = {Optimum path forest classifier applied to laryngeal pathology detection},
+  Author                   = {J. P. Papa and A. A. Spadotto and A. X. Falcao and J. C. Pereira},
+  Booktitle                = {2008 15th International Conference on Systems, Signals and Image Processing},
+  Year                     = {2008},
+  Month                    = {June},
+  Pages                    = {249-252},
+
+  Doi                      = {10.1109/IWSSIP.2008.4604414},
+  ISSN                     = {2157-8672},
+  Keywords                 = {medical signal detection;medical signal processing;pattern recognition;speech;biomedical signal processing;decision boundary;discrete optimal partition;image foresting transform;laryngeal pathology detection;optimum path forest classifier;probability density functions;supervised pattern recognition;voice disorder identification;Accuracy;Classification algorithms;Harmonic analysis;Pathology;Prototypes;Support vector machines;Training;biomedical signal processing;image foresting transform;laryngeal pathology detection;optimum path forest}
+}
+
+@InProceedings{Papa_2009b,
+  Title                    = {Fast and accurate holistic face recognition using Optimum-Path Forest},
+  Author                   = {J. P. Papa and A. X. Falcao and A. L. M. Levada and D. C. Correa and D. H. P. Salvadeo and N. D. A. Mascarenhas},
+  Booktitle                = {2009 16th International Conference on Digital Signal Processing},
+  Year                     = {2009},
+  Month                    = {July},
+  Pages                    = {1-6},
+
+  Doi                      = {10.1109/ICDSP.2009.5201217},
+  ISSN                     = {1546-1874},
+  Keywords                 = {face recognition;feature extraction;multilayer perceptrons;principal component analysis;support vector machines;artificial neural networks;feature extraction;holistic face recognition;multilayer perceptron;optimum-path forest classifier;principal component analysis;supervised classifiers;support vector machines;Artificial neural networks;Computer science;Face recognition;Feature extraction;Independent component analysis;Multilayer perceptrons;Physics;Principal component analysis;Support vector machine classification;Support vector machines;Face Recognition;Multi-Layer Perceptrons;Optimum-path Forest;Principal Component Analysis;Support-Vector Machines}
+}
+
+
+@inproceedings{wang2007reconstruction,
+  title={Reconstruction of partially occluded face by fast recursive PCA},
+  author={Wang, Zhi-Ming and Tao, Jian-Hua},
+  booktitle={Computational Intelligence and Security Workshops, 2007. CISW 2007. International Conference on},
+  pages={304--307},
+  year={2007},
+  organization={IEEE}
+}
+
+@article{[1]bellil2016gappy,
+  title={Gappy wavelet neural network for 3D occluded faces: detection and recognition},
+  author={Bellil, Wajdi and Brahim, Hajer and Amar, Chokri Ben},
+  journal={Multimedia Tools and Applications},
+  volume={75},
+  number={1},
+  pages={365--380},
+  year={2016},
+  publisher={Springer}
+}
+@inproceedings{[2]zhang2016face,
+  title={Face Occlusion Detection Using Cascaded Convolutional Neural Network},
+  author={Zhang, Yongliang and Lu, Yang and Wu, Hongtao and Wen, Conglin and Ge, Congcong},
+  booktitle={Chinese Conference on Biometric Recognition},
+  pages={720--727},
+  year={2016},
+  organization={Springer}
+}
+@inproceedings{[3]dou2015pose,
+  title={Pose-robust face signature for multi-view face recognition},
+  author={Dou, Pengfei and Zhang, Lingfeng and Wu, Yuhang and Shah, Shishir K and Kakadiaris, Ioannis A},
+  booktitle={Biometrics Theory, Applications and Systems (BTAS), 2015 IEEE 7th International Conference on},
+  pages={1--8},
+  year={2015},
+  organization={IEEE}
+}
+@article{[4]wei2014dynamic,
+  title={Dynamic image-to-class warping for occluded face recognition},
+  author={Wei, Xingjie and Li, Chang-Tsun and Lei, Zhen and Yi, Dong and Li, Stan Z},
+  journal={IEEE Transactions on Information Forensics and Security},
+  volume={9},
+  number={12},
+  pages={2035--2050},
+  year={2014},
+  publisher={IEEE}
+}
+@article{[5]aisha2014face,
+  title={Face recognition invariant to partial occlusions},
+  author={Aisha, Azeem and Muhammad, Sharif and Hussain, Shah Jamal and Mudassar, Raza},
+  journal={KSII Transactions on Internet and Information Systems (TIIS)},
+  volume={8},
+  number={7},
+  pages={2496--2511},
+  year={2014}
+}
+@article{[6]yang2014fast,
+  title={Fast and robust face recognition via coding residual map learning based adaptive masking},
+  author={Yang, Meng and Feng, Zhizhao and Shiu, Simon CK and Zhang, Lei},
+  journal={Pattern Recognition},
+  volume={47},
+  number={2},
+  pages={535--543},
+  year={2014},
+  publisher={Elsevier}
+}
+@article{[7]venkatakrishnan20143d,
+  title={3D Face Recognition with Occlusions using Fisher faces Projection.},
+  author={Venkatakrishnan, D and Hariram, C and Anantharaj, N and Muthulakshmi, A},
+  journal={Applied Mechanics \& Materials},
+  number={573},
+  year={2014}
+}
+@inproceedings{[8]alyuz2014detection,
+  title={Detection of Realistic Facial Occlusions for Robust 3D Face Recognition},
+  author={Alyuz, Nese and Gokberk, Berk and Akarun, Lale},
+  booktitle={Pattern Recognition (ICPR), 2014 22nd International Conference on},
+  pages={375--380},
+  year={2014},
+  organization={IEEE}
+}
+@inproceedings{[9]bindu2014inpainting,
+  title={Inpainting for Big Data},
+  author={Bindu, A and Kumar, CN Ravi},
+  booktitle={Signal and Image Processing (ICSIP), 2014 Fifth International Conference on},
+  pages={62--67},
+  year={2014},
+  organization={IEEE}
+}
+
+@article{min2014efficient,
+  title={Efficient detection of occlusion prior to robust face recognition},
+  author={Min, Rui and Hadid, Abdenour and Dugelay, Jean-Luc},
+  journal={The Scientific World Journal},
+  volume={2014},
+  year={2014},
+  publisher={Hindawi}
+}
+
+
+@inproceedings{[10]bindu2013novel,
+  title={Novel Inpainting Algorithm for heavily occluded face reconstruction},
+  author={Bindu, A and Kumar, CN Ravi},
+  booktitle={Advances in Computing, Communications and Informatics (ICACCI), 2013 International Conference on},
+  pages={1822--1826},
+  year={2013},
+  organization={IEEE}
+}
+@inproceedings{[11]lai2013robust,
+  title={Robust face recognition using trimmed linear regression.},
+  author={Lai, Jian and Jiang, Xudong},
+  booktitle={ICASSP},
+  pages={2979--2983},
+  year={2013}
+}
+@article{[12]sharma2013efficient,
+  title={An efficient partial occluded face recognition system},
+  author={Sharma, Mohit and Prakash, Surya and Gupta, Phalguni},
+  journal={Neurocomputing},
+  volume={116},
+  pages={231--241},
+  year={2013},
+  publisher={Elsevier}
+}
+@inproceedings{[13]wei2013robust,
+  title={Robust face recognition with occlusions in both reference and query images},
+  author={Wei, Xingjie and Li, Chang-Tsun and Hu, Yongjian},
+  booktitle={Biometrics and Forensics (IWBF), 2013 International Workshop on},
+  pages={1--4},
+  year={2013},
+  organization={IEEE}
+}
+@article{[14]alyuz20133,
+  title={3-D face recognition under occlusion using masked projection},
+  author={Alyuz, Nese and Gokberk, Berk and Akarun, Lale},
+  journal={IEEE Transactions on Information Forensics and Security},
+  volume={8},
+  number={5},
+  pages={789--802},
+  year={2013},
+  publisher={IEEE}
+}
+@article{[15]li2013structured,
+  title={Structured sparse error coding for face recognition with occlusion},
+  author={Li, Xiao-Xin and Dai, Dao-Qing and Zhang, Xiao-Fei and Ren, Chuan-Xian},
+  journal={IEEE transactions on image processing},
+  volume={22},
+  number={5},
+  pages={1889--1900},
+  year={2013},
+  publisher={IEEE}
+}
+@inproceedings{[16]min2012inpainting,
+  title={Inpainting of sparse occlusion in face recognition},
+  author={Min, Rui and Dugelay, Jean-Luc},
+  booktitle={Image Processing (ICIP), 2012 19th IEEE International Conference on},
+  pages={1425--1428},
+  year={2012},
+  organization={IEEE}
+}
+@inproceedings{[17]alyuz2012robust,
+  title={Robust 3D face recognition in the presence of realistic occlusions},
+  author={Aly{\"u}z, Ne{\c{s}}e and G{\"o}kberk, Berk and Spreeuwers, Luuk and Veldhuis, Raymond and Akarun, Lale},
+  booktitle={Biometrics (ICB), 2012 5th IAPR International Conference on},
+  pages={111--118},
+  year={2012},
+  organization={IEEE}
+}
+@inproceedings{[18]zhu2012discriminant,
+  title={Discriminant analysis with Gabor phase for robust face recognition},
+  author={Zhu, Jianfei and Cao, Dong and Liu, Sifei and Lei, Zhen and Li, Stan Z},
+  booktitle={Biometrics (ICB), 2012 5th IAPR International Conference on},
+  pages={13--18},
+  year={2012},
+  organization={IEEE}
+}
+@article{[19]song2012three,
+  title={Three-dimensional face reconstruction from a single image by a coupled RBF network},
+  author={Song, Mingli and Tao, Dacheng and Huang, Xiaoqin and Chen, Chun and Bu, Jiajun},
+  journal={IEEE Transactions on Image Processing},
+  volume={21},
+  number={5},
+  pages={2887--2897},
+  year={2012},
+  publisher={IEEE}
+}
+@article{[20]shermina2012recognition,
+  title={Recognition of the face images with occlusion and expression},
+  author={Shermina, J and Vasudevan, V},
+  journal={International Journal of Pattern Recognition and Artificial Intelligence},
+  volume={26},
+  number={03},
+  pages={1256006},
+  year={2012},
+  publisher={World Scientific}
+}
+
+@inproceedings{[21]min2011cap,
+  title={Cap detection for moving people in entrance surveillance},
+  author={Min, Rui and Dugelay, Jean-Luc},
+  booktitle={Proceedings of the 19th ACM international conference on Multimedia},
+  pages={1253--1256},
+  year={2011},
+  organization={ACM}
+}
+
+@article{[22]chiang2011recognizing,
+  title={Recognizing partially-occluded faces by recovering normalized facial appearance},
+  author={Chiang, Cheng-Chin and Chen, Zhih-Wei},
+  journal={International Journal of Innovative Computing, Information and Control},
+  volume={7},
+  number={11},
+  pages={6219--6234},
+  year={2011}
+}
+
+@inproceedings{[23]eum2011face,
+  title={Face recognizability evaluation for ATM applications with exceptional occlusion handling},
+  author={Eum, Sungmin and Suhr, Jae Kyu and Kim, Jaihie},
+  booktitle={Computer Vision and Pattern Recognition Workshops (CVPRW), 2011 IEEE Computer Society Conference on},
+  pages={82--89},
+  year={2011},
+  organization={IEEE}
+}
+@article{[24]passalis2011using,
+  title={Using facial symmetry to handle pose variations in real-world 3D face recognition},
+  author={Passalis, Georgios and Perakis, Panagiotis and Theoharis, Theoharis and Kakadiaris, Ioannis A},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={33},
+  number={10},
+  pages={1938--1951},
+  year={2011},
+  publisher={IEEE}
+}
+
+@article{[25]deng2011graph,
+  title={Graph Laplace for occluded face completion and recognition},
+  author={Deng, Yue and Dai, Qionghai and Zhang, Zengke},
+  journal={IEEE Transactions on Image Processing},
+  volume={20},
+  number={8},
+  pages={2329--2338},
+  year={2011},
+  publisher={IEEE}
+}
+
+@inproceedings{[26]storer2010occlusion,
+  title={Occlusion detection for ICAO compliant facial photographs},
+  author={Storer, Markus and Urschler, Martin and Bischof, Horst},
+  booktitle={Computer Vision and Pattern Recognition Workshops (CVPRW), 2010 IEEE Computer Society Conference on},
+  pages={122--129},
+  year={2010},
+  organization={IEEE}
+}
+
+@article{[27]yan2010misalignment,
+  title={Misalignment-robust face recognition},
+  author={Yan, Shuicheng and Wang, Huan and Liu, Jianzhuang and Tang, Xiaoou and Huang, Thomas S},
+  journal={IEEE trans. on image processing},
+  volume={19},
+  number={4},
+  pages={1087--1096},
+  year={2010},
+  publisher={IEEE}
+}
+
+@inproceedings{delac2004survey,
+  title={A survey of biometric recognition methods},
+  author={Delac, Kresimir and Grgic, Mislav},
+  booktitle={Electronics in Marine, 2004. Proceedings Elmar 2004. 46th International Symposium},
+  pages={184--193},
+  year={2004},
+  organization={IEEE}
+}
+
+@article{[28]de2010faro,
+  title={FARO: Face recognition against occlusions and expression variations},
+  author={De Marsico, Maria and Nappi, Michele and Riccio, Daniel},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics-Part A: Systems and Humans},
+  volume={40},
+  number={1},
+  pages={121--132},
+  year={2010},
+  publisher={IEEE}
+}
+
+@article{[29]marcon20093d,
+  title={3D face reconstruction from a single camera using a multi mirror set-up},
+  author={Marcon, M and Rurainsky, J},
+  year={2009},
+  publisher={IET}
+}
+
+@inproceedings{[30]du2009analysis,
+  title={Analysis of detection and track on partially occluded face},
+  author={Du, Xingjing and Liu, Chunmei and Yu, Yongxia},
+  booktitle={Information Technology and Applications, 2009. IFITA'09. International Forum on},
+  volume={3},
+  pages={158--161},
+  year={2009},
+  organization={IEEE}
+}
+@inproceedings{yang2010metaface,
+  title={Metaface learning for sparse representation based face recognition},
+  author={Yang, Meng and Zhang, Lei and Yang, Jian and Zhang, David},
+  booktitle={Image Processing (ICIP), 2010 17th IEEE International Conference on},
+  pages={1601--1604},
+  year={2010},
+  organization={IEEE}
+}
+
+@inproceedings{zhang2010dimensionality,
+  title={On the dimensionality reduction for sparse representation based face recognition},
+  author={Zhang, Lei and Yang, Meng and Feng, Zhizhao and Zhang, David},
+  booktitle={Pattern Recognition (ICPR), 2010 20th International Conference on},
+  pages={1237--1240},
+  year={2010},
+  organization={IEEE}
+}
+
+@inproceedings{[31]su2009multi,
+  title={Multi-view face alignment using 3d shape model for view estimation},
+  author={Su, Yanchao and Ai, Haizhou and Lao, Shihong},
+  booktitle={International Conference on Biometrics},
+  pages={179--188},
+  year={2009},
+  organization={Springer}
+}
+
+@article{[32]wright2009robust,
+  title={Robust face recognition via sparse representation},
+  author={Wright, John and Yang, Allen Y and Ganesh, Arvind and Sastry, S Shankar and Ma, Yi},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={31},
+  number={2},
+  pages={210--227},
+  year={2009},
+  publisher={IEEE}
+}
+
+@inproceedings{[33]heo2007face,
+  title={Face Pose Correction With Eyeglasses and Occlusions Removal},
+  author={Heo, Jingu and Savvides, Marios},
+  booktitle={Biometrics Symposium, 2007},
+  pages={1--6},
+  year={2007},
+  organization={IEEE}
+}
+
+@article{[34]zhang2006robust,
+  title={Robust Face Recognition by Hierarchical Kernel Associative Memory Models Based on Spatial Domain Gabor Transforms.},
+  author={Zhang, Bailing and Cerone, Pietro and Gao, Yongsheng},
+  journal={Journal of Multimedia},
+  volume={1},
+  number={4},
+  pages={1--10},
+  year={2006}
+}
+
+@inproceedings{[35]lee2006face,
+  title={Face reconstruction with low resolution facial images by feature vector projection in kernel space},
+  author={Lee, Sang-Woong and Park, Jooyoung and Lee, Seong-Whan},
+  booktitle={Pattern Recognition, 2006. ICPR 2006. 18th International Conference on},
+  volume={3},
+  pages={1179--1182},
+  year={2006},
+  organization={IEEE}
+}
+
+@article{[36]huang2012subface,
+  title={Subface hidden Markov models coupled with a universal occlusion model for partially occluded face recognition},
+  author={Huang, S-M and Yang, J-F},
+  journal={IET biometrics},
+  volume={1},
+  number={3},
+  pages={149--159},
+  year={2012},
+  publisher={IET}
+}
+
+@inproceedings{[37]hosoi2012restoring,
+  title={Restoring occluded regions using fw-pca for face recognition},
+  author={Hosoi, Tomoki and Nagashima, Sei and Kobayashi, Koji and Ito, Koichi and Aoki, Takafumi},
+  booktitle={Computer Vision and Pattern Recognition Workshops (CVPRW), 2012 IEEE Computer Society Conference on},
+  pages={23--30},
+  year={2012},
+  organization={IEEE}
+}
+
+@article{[38]tan2005recognizing,
+  title={Recognizing partially occluded, expression variant faces from single training image per person with SOM and soft k-NN ensemble},
+  author={Tan, Xiaoyang and Chen, Songcan and Zhou, Zhi-Hua and Zhang, Fuyan},
+  journal={IEEE Transactions on Neural Networks},
+  volume={16},
+  number={4},
+  pages={875--886},
+  year={2005},
+  publisher={IEEE}
+}
+
+@article{park2005glasses,
+  title={Glasses removal from facial image using recursive error compensation},
+  author={Park, Jeong-Seon and Oh, You Hwa and Ahn, Sang Chul and Lee, Seong-Whan},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={27},
+  number={5},
+  pages={805--811},
+  year={2005},
+  publisher={IEEE}
+}
+
+
+
+@Article{Huang_2009,
+  Title                    = {Error Minimized Extreme Learning Machine With Growth of Hidden Nodes and Incremental Learning},
+  Author                   = {G. Feng and G. B. Huang and Q. Lin and R. Gay},
+  Journal                  = {IEEE Transactions on Neural Networks},
+  Year                     = {2009},
+
+  Month                    = {Aug},
+  Number                   = {8},
+  Pages                    = {1352-1357},
+  Volume                   = {20},
+
+  Doi                      = {10.1109/TNN.2009.2024147},
+  ISSN                     = {1045-9227},
+  Keywords                 = {learning (artificial intelligence);neural net architecture;error minimized extreme learning machine;hidden nodes;incremental learning;network architectures;neural network research;single-hidden-layer feedforward networks;Echo state network (ESN);extreme learning machine (ELM);feedforward neural networks (FNNs);growing algorithm;incremental learning;minimizing error;sequential learning;Algorithms;Artificial Intelligence;Classification;Computer Simulation;Databases, Factual;Learning;Neural Networks (Computer);Neurons;Pattern Recognition, Automated;Regression Analysis;Synaptic Transmission;Time Factors}
+}
+
+
+
+@Article{Huang_2006,
+  Title                    = {Extreme learning machine: Theory and applications },
+  Author                   = {Guang-Bin Huang and Qin-Yu Zhu and Chee-Kheong Siew},
+  Journal                  = {Neurocomputing },
+  Year                     = {2006},
+  Note                     = {Neural NetworksSelected Papers from the 7th Brazilian Symposium on Neural Networks (SBRN '04)7th Brazilian Symposium on Neural Networks },
+  Number                   = {1–3},
+  Pages                    = {489 - 501},
+  Volume                   = {70},
+
+  Doi                      = {http://dx.doi.org/10.1016/j.neucom.2005.12.126},
+  ISSN                     = {0925-2312},
+  Keywords                 = {Feedforward neural networks},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0925231206000385}
+}
+
+@inproceedings{storer2009fast,
+  title={Fast-robust PCA},
+  author={Storer, Markus and Roth, Peter M and Urschler, Martin and Bischof, Horst},
+  booktitle={Scandinavian Conference on Image Analysis},
+  pages={430--439},
+  year={2009},
+  organization={Springer}
+}
+
+@article{viola2004robust,
+  title={Robust real-time face detection},
+  author={Viola, Paul and Jones, Michael J},
+  journal={International journal of computer vision},
+  volume={57},
+  number={2},
+  pages={137--154},
+  year={2004},
+  publisher={Springer}
+}
+
+@Article{mallat1989theory,
+  Title                    = {A theory for multiresolution signal decomposition: the wavelet representation},
+  Author                   = {Mallat, Stephane G},
+  Journal                  = {IEEE transactions on pattern analysis and machine intelligence},
+  Year                     = {1989},
+  Number                   = {7},
+  Pages                    = {674--693},
+  Volume                   = {11},
+
+  Publisher                = {Ieee}
+}
+
+@article{tan2009face,
+  title={Face recognition under occlusions and variant expressions with partial similarity},
+  author={Tan, Xiaoyang and Chen, Songcan and Zhou, Zhi-Hua and Liu, Jun},
+  journal={IEEE Transactions on Information Forensics and Security},
+  volume={4},
+  number={2},
+  pages={217--230},
+  year={2009},
+  publisher={IEEE}
+}
+
+
+@article{lumini2017overview,
+  title={Overview of the combination of biometric matchers},
+  author={Lumini, Alessandra and Nanni, Loris},
+  journal={Inf. Fusion},
+  volume={33},
+  pages={71--85},
+  year={2017},
+  publisher={Elsevier}
+}
+
+
+@article{hassaballah2015face,
+  title={Face recognition: challenges, achievements and future directions},
+  author={Hassaballah, M and Aly, Saleh},
+  journal={IET Computer Vision},
+  volume={9},
+  number={4},
+  pages={614--626},
+  year={2015},
+  publisher={IET}
+}
+
+@phdthesis{filipe2010segmentaccao,
+  title={Segmenta{\c{c}}{\~a}o de faces em imagens no infravermelho t{\'e}rmico},
+  author={Filipe, S{\'\i}lvio Br{\'a}s},
+  year={2010}
+}
+
+@article{jafri2009survey,
+  title={A survey of face recognition techniques.},
+  author={Jafri, Rabia and Arabnia, Hamid R},
+  journal={Jips},
+  volume={5},
+  number={2},
+  pages={41--68},
+  year={2009}
+}
+
+@article{collier1993comparative,
+  title={The comparative method},
+  author={Collier, David},
+  year={1993}
+}
+
+@article{benezeth2010vision,
+  title={Vision-based system for human detection and tracking in indoor environment},
+  author={Benezeth, Yannick and Emile, Bruno and Laurent, H{\'e}lene and Rosenberger, Christophe},
+  journal={International Journal of Social Robotics},
+  volume={2},
+  number={1},
+  pages={41--52},
+  year={2010},
+  publisher={Springer}
+}
+@article{ekenel2009facial,
+  title={Why is facial occlusion a challenging problem?},
+  author={Ekenel, Haz{\i}m and Stiefelhagen, Rainer},
+  journal={Advances in Biometrics},
+  pages={299--308},
+  year={2009},
+  publisher={Springer}
+}
+
+@article{buciu2014challenges,
+  title={Challenges and specifications for robust face and gait recognition systems for surveillance application},
+  author={Buciu, Ioan},
+  journal={Journal of Electrical and Electronics Engineering},
+  volume={7},
+  number={1},
+  pages={25},
+  year={2014},
+  publisher={University of Oradea}
+}
+
+@phdthesis{costa2011ensemble,
+  title={Ensemble baseado em m{\'e}todos de Kernel para reconhecimento biom{\'e}trico multimodal},
+  author={Costa, Daniel Moura Martins da},
+  year={2011},
+  school={Universidade de S{\~a}o Paulo}
+}
+
+
+@article{jain2004introduction,
+  title={An introduction to biometric recognition},
+  author={Jain, Anil K and Ross, Arun and Prabhakar, Salil},
+  journal={IEEE Transactions on circuits and systems for video technology},
+  volume={14},
+  number={1},
+  pages={4--20},
+  year={2004},
+  publisher={IEEE}
+}
+
+@article{martinez1998ar,
+  title={The AR face database},
+  author={Martinez, Aleix M},
+  journal={CVC technical report},
+  volume={24},
+  year={1998}
+}
+
+@article{georghiades1997yale,
+  title={Yale face database},
+  author={Georghiades, A and Belhumeur, PN and Kriegman, DJ},
+  journal={Center for computational Vision and Control at Yale University, http://cvc. yale. edu/projects/yalefaces/yalefa},
+  volume={2},
+  year={1997}
+}
+
+
+@article{cheddad2009skin,
+  title={A skin tone detection algorithm for an adaptive approach to steganography},
+  author={Cheddad, Abbas and Condell, Joan and Curran, Kevin and Mc Kevitt, Paul},
+  journal={Signal Processing},
+  volume={89},
+  number={12},
+  pages={2465--2478},
+  year={2009},
+  publisher={Elsevier}
+}
+
+@book{jolliffe2002principal,
+  title={Principal component analysis},
+  author={Jolliffe, Ian},
+  year={2002},
+  publisher={Wiley Online Library}
+}
+
+@book{soderstrom2011asymmetrical,
+  title={Asymmetrical principal component analysis theory and its applications to facial video coding},
+  author={S{\"o}derstr{\"o}m, Ulrik and Li, Haibo},
+  year={2011},
+  publisher={INTECH Open Access Publisher}
+}
+
+@inproceedings{turk1991face,
+  title={Face recognition using eigenfaces},
+  author={Turk, Matthew A and Pentland, Alex P},
+  booktitle={Computer Vision and Pattern Recognition, 1991. Proceedings CVPR'91., IEEE Computer Society Conference on},
+  pages={586--591},
+  year={1991},
+  organization={IEEE}
+}
+
+@article{belhumeur1997eigenfaces,
+  title={Eigenfaces vs. fisherfaces: Recognition using class specific linear projection},
+  author={Belhumeur, Peter N. and Hespanha, Jo{\~a}o P and Kriegman, David J.},
+  journal={IEEE Transactions on pattern analysis and machine intelligence},
+  volume={19},
+  number={7},
+  pages={711--720},
+  year={1997},
+  publisher={IEEE}
+}
+
+@article{colombo2009gappy,
+  title={Gappy PCA classification for occlusion tolerant 3D face detection},
+  author={Colombo, Alessandro and Cusano, Claudio and Schettini, Raimondo},
+  journal={Journal of mathematical imaging and vision},
+  volume={35},
+  number={3},
+  pages={193--207},
+  year={2009},
+  publisher={Springer}
+}
+
+@book{jain2007handbook,
+  title={Handbook of biometrics},
+  author={Jain, Anil and Flynn, Patrick and Ross, Arun A},
+  year={2007},
+  publisher={Springer Science \& Business Media}
+}
+
+@inproceedings{srinivasan2014occlusion,
+  title={Occlusion detection and image restoration in 3D face image},
+  author={Srinivasan, A and Balamurugan, V},
+  booktitle={TENCON 2014-2014 IEEE Region 10 Conference},
+  pages={1--6},
+  year={2014},
+  organization={IEEE}
+}
+
+@article{venkatakrishnan20143d,
+  title={3D Face Recognition with Occlusions using Fisher faces Projection.},
+  author={Venkatakrishnan, D and Hariram, C and Anantharaj, N and Muthulakshmi, A},
+  journal={Applied Mechanics \& Materials},
+  number={573},
+  year={2014}
+}
+
+
+@article{sharif2012survey,
+  title={A survey: Face recognition techniques},
+  author={Sharif, Muhammad and Mohsin, Sajjad and Javed, Muhammad Younas},
+  journal={Research Journal of Applied Sciences, Engineering and Technology},
+  volume={4},
+  number={23},
+  pages={4979--4990},
+  year={2012},
+  publisher={Maxwell Science Publishing}
+}
+
+@inproceedings{colombo2008recognizing,
+  title={Recognizing faces in 3d images even in presence of occlusions},
+  author={Colombo, Alessandro and Cusano, Claudio and Schettini, Raimondo},
+  booktitle={Biometrics: Theory, Applications and Systems, 2008. BTAS 2008. 2nd IEEE International Conference on},
+  pages={1--6},
+  year={2008},
+  organization={IEEE}
+}
+
+@inproceedings{ghiasi2014occlusion,
+  title={Occlusion coherence: Localizing occluded faces with a hierarchical deformable part model},
+  author={Ghiasi, Golnaz and Fowlkes, Charless C},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={2385--2392},
+  year={2014}
+}
+
+@article{chandel2015occlusion,
+  title={Occlusion detection and handling: a review},
+  author={Chandel, Himanshu and Vatta, Sonia},
+  journal={International Journal of Computer Applications},
+  volume={120},
+  number={10},
+  year={2015},
+  publisher={Foundation of Computer Science}
+}
+
+
+@inproceedings{lone2011automatic,
+  title={Automatic face recognition system by combining four individual algorithms},
+  author={Lone, Manzoor Ahmad and Zakariya, SM and Ali, Rashid},
+  booktitle={Computational Intelligence and Communication Networks (CICN), 2011 International Conference on},
+  pages={222--226},
+  year={2011},
+  organization={IEEE}
+} 
+
+
+@article{kitchenham2004,
+    author		= {Kitchenham, Barbara},
+    title		= {Procedures for performing systematic reviews},
+    journal		= {Keele, UK, Keele University},
+    volume		= {33},
+    number		= {2004},
+    pages		= {1--26},
+    year		= {2004}
+}
+
+@article{fawcett2006introduction,
+  title={An introduction to ROC analysis},
+  author={Fawcett, Tom},
+  journal={Pattern recognition letters},
+  volume={27},
+  number={8},
+  pages={861--874},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@inproceedings{ragashe2015approach,
+  title={Approach towards real time face recognition in streaming video under partial occlusion},
+  author={Ragashe, Monu U and Goswami, MM and Raghuwanshi, MM},
+  booktitle={Intelligent Systems and Control (ISCO), 2015 IEEE 9th International Conference on},
+  pages={1--7},
+  year={2015},
+  organization={IEEE}
+}
+
+@article{PenioPenev_1996,
+author = {Penio S Penev and Joseph J Atick},
+title = {Local feature analysis: a general statistical theory for object representation},
+journal = {Network: Comp. in Neural Sys.},
+pages = {477-500},
+year = {1996},
+doi = {10.1088/0954-898X\_7\_3\_002},
+}
+
+@ARTICLE{Fidler_2006, 
+author={S. Fidler and D. Skocaj and A. Leonardis}, 
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+title={Combining reconstructive and discriminative subspace methods for robust classification and regression by subsampling}, 
+year={2006}, 
+volume={28}, 
+number={3}, 
+pages={337-350}, 
+doi={10.1109/TPAMI.2006.46}, 
+ISSN={0162-8828}, 
+month={March},}
+
+@ARTICLE{Tan_2005, 
+author={Xiaoyang Tan and Songcan Chen and Zhi-Hua Zhou and Fuyan Zhang}, 
+journal={IEEE Transactions on Neural Networks}, 
+title={Recognizing partially occluded, expression variant faces from single training image per person with SOM and soft k-NN ensemble}, 
+year={2005}, 
+volume={16}, 
+number={4}, 
+pages={875-886}, 
+doi={10.1109/TNN.2005.849817}, 
+ISSN={1045-9227}, 
+month={July},}
+
+@ARTICLE{Martinez_2002, 
+author={A. M. Martinez}, 
+journal={IEEE Trans. on Pat. Analysis and Machine Intelligence}, 
+title={Recognizing imprecisely localized, partially occluded, and expression variant faces from a single sample per class}, 
+year={2002}, 
+volume={24}, 
+number={6}, 
+pages={748-763}, 
+doi={10.1109/TPAMI.2002.1008382}, 
+ISSN={0162-8828}, 
+month={Jun},}
+
+@ARTICLE{Zhang_2007, 
+author={B. Zhang and S. Shan and X. Chen and W. Gao}, 
+journal={IEEE Trans. on Image Processing}, 
+title={Histogram of Gabor Phase Patterns (HGPP): A Novel Object Representation Approach for Face Recognition}, 
+year={2007}, 
+volume={16}, 
+number={1}, 
+pages={57-68}, 
+doi={10.1109/TIP.2006.884956}, 
+ISSN={1057-7149}, 
+month={Jan},}
+
+@INPROCEEDINGS{Rama_2008, 
+author={A. Rama and F. Tarres and L. Goldmann and T. Sikora}, 
+booktitle={8th IEEE Int. Conf. on Automatic Face Gesture Recognition}, 
+title={More robust face recognition by considering occlusion information}, 
+year={2008}, 
+pages={1-6}, 
+doi={10.1109/AFGR.2008.4813319}, 
+month={Sept},}
+
+@INPROCEEDINGS{Yang_2011, 
+author={M. Yang and L. Zhang and J. Yang and D. Zhang}, 
+booktitle={CVPR 2011}, 
+title={Robust sparse coding for face recognition}, 
+year={2011}, 
+pages={625-632}, 
+keywords={Gaussian distribution;face recognition;image coding;maximum likelihood estimation;regression analysis;Gaussian distribution;Laplacian distribution;MLE;expression changes;face corruption;face databases;face occlusion;face recognition;l1-norm;l2-norm;lighting;maximum likelihood estimation;robust sparse coding;sparse representation based classification;sparsity-constrained robust regression problem;Databases;Encoding;Face;Image coding;Maximum likelihood estimation;Robustness;Training}, 
+doi={10.1109/CVPR.2011.5995393}, 
+ISSN={1063-6919}, 
+month={June},}
+
+@ARTICLE{Wright_2009, 
+author={J. Wright and A. Y. Yang and A. Ganesh and S. S. Sastry and Y. Ma}, 
+journal={IEEE Trans. on Pattern Analysis and Machine Intelligence}, 
+title={Robust Face Recognition via Sparse Representation}, 
+year={2009}, 
+volume={31}, 
+number={2}, 
+pages={210-227}, 
+doi={10.1109/TPAMI.2008.79}, 
+ISSN={0162-8828}, 
+month={Feb},}
+
+@INPROCEEDINGS{Jia_2009, 
+author={H. Jia and A. M. Martinez}, 
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition}, 
+title={Support Vector Machines in face recognition with occlusions}, 
+year={2009}, 
+pages={136-141}, 
+keywords={face recognition;image classification;minimisation;probability;support vector machines;SVM;face recognition;hyperplane minimization;image classification problem;margin maximization;occlusion;optimization problem;probability;support vector machine;Algorithm design and analysis;Brightness;Classification algorithms;Computer errors;Face recognition;Feature extraction;Pixel;Support vector machine classification;Support vector machines;Testing}, 
+doi={10.1109/CVPR.2009.5206862}, 
+ISSN={1063-6919}, 
+month={June},}
+
+@ARTICLE{Jongsun_2005, 
+author={Jongsun Kim and Jongmoo Choi and Juneho Yi and M. Turk}, 
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+title={Effective representation using ICA for face recognition robust to local distortion and partial occlusion}, 
+year={2005}, 
+volume={27}, 
+number={12}, 
+pages={1977-1981}, 
+doi={10.1109/TPAMI.2005.242}, 
+ISSN={0162-8828}, 
+month={Dec},}
+
+
+@article{ashin2005image,
+  title={Image compression with multiresolution singular value decomposition and other methods},
+  author={Ashin, R and Morimoto, Akira and Vaillancourt, R{\'e}mi},
+  journal={Mathematical and Computer Modelling},
+  volume={41},
+  number={6-7},
+  pages={773--790},
+  year={2005},
+  publisher={Elsevier}
+}
+@article{fisher1936use,
+  title={The use of multiple measurements in taxonomic problems},
+  author={Fisher, Ronald A},
+  journal={Annals of eugenics},
+  volume={7},
+  number={2},
+  pages={179--188},
+  year={1936},
+  publisher={Wiley Online Library}
+}

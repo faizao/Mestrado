@@ -1,0 +1,26 @@
+
+\include{enrolation} % contem todos os pacotes instalados e parte burocrática
+\begin{document}
+
+\include{inf} %contém todo o cabeçalho da usp ok 
+\include{introducao} % ok 
+\include{biometria} % ok 
+\include{reconhecimento} % ok 
+\include{tec_rec} % ok
+\include{extracao} %ok 
+\include{proposta} % ok
+\include{experimentos} %ok 
+\include{conclusao} %ok 
+\bibliography{referencias} % ok
+
+\begin{apendicesenv}
+\include{apendices}  
+\include{apendices2}  
+\end{apendicesenv}
+
+\end{document}
+
+
+
+	
+	

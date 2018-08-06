@@ -1,0 +1,124 @@
+\babel@toc {brazil}{}
+\contentsline {figure}{\numberline {1}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o de diferentes tipos de oclus\IeC {\~o}es parciais: (a) oclus\IeC {\~o}es faciais comuns em nossa rotina diariamente; (b) oclus\IeC {\~o}es faciais relacionadas a quest\IeC {\~o}es de seguran\IeC {\c c}a}}{38}{figure.1.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces M\IeC {\'o}dulos de um sistema biom\IeC {\'e}trico}}{45}{figure.2.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Identifica\IeC {\c c}\IeC {\~a}o ou reconhecimento facial}}{46}{figure.2.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Verifica\IeC {\c c}\IeC {\~a}o da face}}{46}{figure.2.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Exemplo do processo de verifica\IeC {\c c}\IeC {\~a}o e identifica\IeC {\c c}\IeC {\~a}o }}{47}{figure.2.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Exemplos de algumas modalidades biom\IeC {\'e}tricas }}{48}{figure.2.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Etapas necess\IeC {\'a}rias para o reconhecimento de uma face sem oclus\IeC {\~a}o e uma face com oclus\IeC {\~a}o}}{51}{figure.3.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Tipos de varia\IeC {\c c}\IeC {\~o}es advindas dos ambientes n\IeC {\~a}o controlados}}{53}{figure.3.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Exemplos de varia\IeC {\c c}\IeC {\~o}es intraclasse, as quais distanciam as varia\IeC {\c c}\IeC {\~o}es de apar\IeC {\^e}ncia das imagens do indiv\IeC {\'\i }duo 1.}}{54}{figure.3.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de constru\IeC {\c c}\IeC {\~a}o de uma imagem integral. verde = 2, amarelo = 2+3, laranja = 2 + 4, e azul = 2+3+4+5}}{56}{figure.3.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces C\IeC {\'a}lculo da soma de um ret\IeC {\^a}ngulo}}{56}{figure.3.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Exemplos de caracter\IeC {\'\i }sticas de Haar }}{57}{figure.3.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Funcionamento do Viola-Jones perante o classificador em cascata }}{58}{figure.3.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Exemplos de faces ap\IeC {\'o}s a aplica\IeC {\c c}\IeC {\~a}o da t\IeC {\'e}cnica \textit {Skin Tone}}}{59}{figure.3.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Exemplos de imagens faciais oclu\IeC {\'\i }das provenientes da base AR}}{61}{figure.3.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Curvas de FAR, FRR e ponto de intersec\IeC {\c c}\IeC {\~a}o EER }}{67}{figure.3.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Estrutura de uma matriz de confus\IeC {\~a}o}}{68}{figure.3.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Esquema do BMA}}{78}{figure.4.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Detec\IeC {\c c}\IeC {\~a}o da parte oclu\IeC {\'\i }da com a t\IeC {\'e}cnica de detec\IeC {\c c}\IeC {\~a}o por blocos}}{78}{figure.4.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Proje\IeC {\c c}\IeC {\~a}o de uma imagem no subespa\IeC {\c c}o}}{79}{figure.4.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Proje\IeC {\c c}\IeC {\~a}o de uma imagem parcialmente oclu\IeC {\'\i }da no subespa\IeC {\c c}o}}{80}{figure.4.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Exemplo de forma\IeC {\c c}\IeC {\~a}o da imagem m\IeC {\'e}dia dado um conjunto de imagens}}{81}{figure.4.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Exemplos de 10 \textit {eigenfaces} da base de dados \textit {AR}}}{83}{figure.4.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces M\IeC {\'a}scara de remo\IeC {\c c}\IeC {\~a}o de oclus\IeC {\~a}o}}{84}{figure.4.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Exemplo do processo de reconstru\IeC {\c c}\IeC {\~a}o com o Fast Recursive PCA}}{89}{figure.4.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Diagrama de fluxo do processo de reconstru\IeC {\c c}\IeC {\~a}o utilizando a t\IeC {\'e}cnica FRPCA}}{90}{figure.4.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Treinamento da t\IeC {\'e}cnica Fast Robust PCA}}{90}{figure.4.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces FRPCA e seu comportamento frente a detec\IeC {\c c}\IeC {\~a}o da oclus\IeC {\~a}o a cada itera\IeC {\c c}\IeC {\~a}o}}{92}{figure.4.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Exemplos de 10 fisherfaces da base de dados \textit {AR}}}{94}{figure.4.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Parte oclu\IeC {\'\i }da e aplica\IeC {\c c}\IeC {\~a}o das bordas na regi\IeC {\~a}o oclu\IeC {\'\i }da, e por \IeC {\'u}ltimo a topologia do grafo de Poisson}}{97}{figure.4.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Estrutura da t\IeC {\'e}cnica SRC com Grafo de Poisson}}{99}{figure.4.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Estrutura de uma Transformada Wavelet}}{102}{figure.5.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces Imagens obtidas ap\IeC {\'o}s a decomposi\IeC {\c c}\IeC {\~a}o Wavelet 2D }}{103}{figure.5.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces Exemplo de classifica\IeC {\c c}\IeC {\~a}o do K-NN com duas classes e K = 6}}{104}{figure.5.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Estrutura de uma Rede Neural ELM}}{105}{figure.5.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Problema de classifica\IeC {\c c}\IeC {\~a}o bin\IeC {\'a}rio com SVM}}{107}{figure.5.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Esquema proposto nesta disserta\IeC {\c c}\IeC {\~a}o}}{111}{figure.6.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces Estrutura da t\IeC {\'e}cnica SRC com Fast Recursive PCA}}{114}{figure.6.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Topologia do grafo Laplaciano}}{116}{figure.6.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces Estrutura da t\IeC {\'e}cnica SRC com Grafo Laplaciano}}{118}{figure.6.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces Estrutura da t\IeC {\'e}cnica SSIMGL}}{120}{figure.6.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces Exemplos de imagens antes de aplicar o algoritmo Viola-Jones nas duas bases de dados }}{123}{figure.7.42}
+\contentsline {figure}{\numberline {44}{\ignorespaces Detec\IeC {\c c}\IeC {\~a}o da face utilizando o algoritmo Viola-Jones}}{123}{figure.7.44}
+\contentsline {figure}{\numberline {43}{\ignorespaces Exemplos de varia\IeC {\c c}\IeC {\~o}es das imagens presentes na base de dados AR }}{124}{figure.7.43}
+\contentsline {figure}{\numberline {45}{\ignorespaces Imagens da base de dados Yale e suas respectivas m\IeC {\'a}scaras de oclus\IeC {\~a}o adicionadas}}{125}{figure.7.45}
+\contentsline {figure}{\numberline {46}{\ignorespaces Acur\IeC {\'a}cia dos grupos oclu\IeC {\'\i }dos com os classificadores KNN, ELM e SVM utilizando o n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW}}{127}{figure.7.46}
+\contentsline {figure}{\numberline {47}{\ignorespaces M\IeC {\'a}scaras de oclus\IeC {\~o}es em algumas imagens da base de dados\textit {AR}}}{129}{figure.7.47}
+\contentsline {figure}{\numberline {48}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o da m\IeC {\'a}scara de oclus\IeC {\~a}o em operadores morfol\IeC {\'o}gicos}}{130}{figure.7.48}
+\contentsline {figure}{\numberline {49}{\ignorespaces Exemplos de imagens reconstru\IeC {\'\i }das de dois indiv\IeC {\'\i }duos de acordo com os grupos da base AR}}{131}{figure.7.49}
+\contentsline {figure}{\numberline {50}{\ignorespaces Acur\IeC {\'a}cia com KNN com decomposi\IeC {\c c}\IeC {\~a}o n\IeC {\'\i }vel 3 da TW sobre os quatro grupos de oclus\IeC {\~o}es presentes na base AR}}{134}{figure.7.50}
+\contentsline {figure}{\numberline {51}{\ignorespaces Acur\IeC {\'a}cia com KNN com decomposi\IeC {\c c}\IeC {\~a}o n\IeC {\'\i }vel 2 da TW sobre os quatro grupos de oclus\IeC {\~o}es presentes na base AR}}{135}{figure.7.51}
+\contentsline {figure}{\numberline {52}{\ignorespaces Acur\IeC {\'a}cia com KNN com decomposi\IeC {\c c}\IeC {\~a}o n\IeC {\'\i }vel 1 da TW sobre os quatro grupos de oclus\IeC {\~o}es presentes na base AR}}{135}{figure.7.52}
+\contentsline {figure}{\numberline {53}{\ignorespaces Acur\IeC {\'a}cia das t\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o com classificador ELM no n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW sobre os quatro grupos presentes na base AR}}{136}{figure.7.53}
+\contentsline {figure}{\numberline {54}{\ignorespaces Acur\IeC {\'a}cia das t\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o com classificador ELM no n\IeC {\'\i }vel 2 de decomposi\IeC {\c c}\IeC {\~a}o da TW sobre os quatro grupos presentes na base AR}}{137}{figure.7.54}
+\contentsline {figure}{\numberline {55}{\ignorespaces Acur\IeC {\'a}cia das t\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o com classificador ELM no n\IeC {\'\i }vel 1 de decomposi\IeC {\c c}\IeC {\~a}o da transformada Wavelet sobre os quatro grupos presentes na base AR}}{138}{figure.7.55}
+\contentsline {figure}{\numberline {56}{\ignorespaces Acur\IeC {\'a}cia com SVM com n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW sobre os quatro grupos de oclus\IeC {\~o}es presentes na base AR}}{139}{figure.7.56}
+\contentsline {figure}{\numberline {57}{\ignorespaces Acur\IeC {\'a}cia com SVM com n\IeC {\'\i }vel 2 de decomposi\IeC {\c c}\IeC {\~a}o da TW sobre os quatro grupos de oclus\IeC {\~o}es presentes na base AR}}{140}{figure.7.57}
+\contentsline {figure}{\numberline {58}{\ignorespaces Ganhos das t\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o ao utilizar outros n\IeC {\'\i }veis de decomposi\IeC {\c c}\IeC {\~a}o da TW com classificador KNN}}{141}{figure.7.58}
+\contentsline {figure}{\numberline {59}{\ignorespaces Ganhos das t\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o ao utilizar outros n\IeC {\'\i }veis de decomposi\IeC {\c c}\IeC {\~a}o da TW com classificador ELM}}{141}{figure.7.59}
+\contentsline {figure}{\numberline {60}{\ignorespaces Ganhos das t\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o ao utilizar os outros n\IeC {\'\i }veis de decomposi\IeC {\c c}\IeC {\~a}o da TW com classificador SVM}}{142}{figure.7.60}
+\contentsline {figure}{\numberline {61}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o das taxas de erro geradas pela t\IeC {\'e}cnica Recursive PCA com o classificador ELM com n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW}}{144}{figure.7.61}
+\contentsline {figure}{\numberline {62}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o das taxas de erro geradas pela t\IeC {\'e}cnica Gappy PCA com o classificador ELM com n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW}}{144}{figure.7.62}
+\contentsline {figure}{\numberline {63}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o das taxas de erro geradas pela t\IeC {\'e}cnica SRC com Fast Recursive PCA ap\IeC {\'o}s an\IeC {\'a}lise com classificador ELM com n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW}}{145}{figure.7.63}
+\contentsline {figure}{\numberline {64}{\ignorespaces Classes que apresentaram maior erro para cada grupo da base AR, como tamb\IeC {\'e}m os indiv\IeC {\'\i }duos confundidos ap\IeC {\'o}s classifica\IeC {\c c}\IeC {\~a}o com ELM para a t\IeC {\'e}cnica Recursive PCA}}{146}{figure.7.64}
+\contentsline {figure}{\numberline {65}{\ignorespaces Classes que apresentaram maior erro para cada grupo da base AR, como tamb\IeC {\'e}m os indiv\IeC {\'\i }duos confundidos ap\IeC {\'o}s classifica\IeC {\c c}\IeC {\~a}o com ELM para a t\IeC {\'e}cnica Gappy PCA}}{147}{figure.7.65}
+\contentsline {figure}{\numberline {66}{\ignorespaces Classes que apresentaram maior erro para cada grupo da base AR, como tamb\IeC {\'e}m os indiv\IeC {\'\i }duos confundidos ap\IeC {\'o}s classifica\IeC {\c c}\IeC {\~a}o com ELM para a t\IeC {\'e}cnica SRC Fast Rec PCA}}{147}{figure.7.66}
+\contentsline {figure}{\numberline {67}{\ignorespaces Curva com a taxa de falsa aceita\IeC {\c c}\IeC {\~a}o versus taxa de falsa rejei\IeC {\c c}\IeC {\~a}o alcan\IeC {\c c}ada pela t\IeC {\'e}cnica Asymmetrical PCA}}{150}{figure.7.67}
+\contentsline {figure}{\numberline {68}{\ignorespaces Curva com a taxa de falsa aceita\IeC {\c c}\IeC {\~a}o versus taxa de falsa rejei\IeC {\c c}\IeC {\~a}o alcan\IeC {\c c}ada pela t\IeC {\'e}cnica Fisherfaces}}{150}{figure.7.68}
+\contentsline {figure}{\numberline {69}{\ignorespaces Curva com a taxa de falsa aceita\IeC {\c c}\IeC {\~a}o versus taxa de falsa rejei\IeC {\c c}\IeC {\~a}o alcan\IeC {\c c}ada pela t\IeC {\'e}cnica Fast Robust PCA}}{151}{figure.7.69}
+\contentsline {figure}{\numberline {70}{\ignorespaces Curva com a taxa de falsa aceita\IeC {\c c}\IeC {\~a}o versus taxa de falsa rejei\IeC {\c c}\IeC {\~a}o alcan\IeC {\c c}ada pela t\IeC {\'e}cnica PCA}}{152}{figure.7.70}
+\contentsline {figure}{\numberline {71}{\ignorespaces Curva com a taxa de falsa aceita\IeC {\c c}\IeC {\~a}o versus taxa de falsa rejei\IeC {\c c}\IeC {\~a}o alcan\IeC {\c c}ada pela t\IeC {\'e}cnica Gappy PCA}}{152}{figure.7.71}
+\contentsline {figure}{\numberline {72}{\ignorespaces Curva com a taxa de falsa aceita\IeC {\c c}\IeC {\~a}o versus taxa de falsa rejei\IeC {\c c}\IeC {\~a}o alcan\IeC {\c c}ada pela t\IeC {\'e}cnica Recursive PCA}}{153}{figure.7.72}
+\contentsline {figure}{\numberline {73}{\ignorespaces Curva com a taxa de falsa aceita\IeC {\c c}\IeC {\~a}o versus taxa de falsa rejei\IeC {\c c}\IeC {\~a}o alcan\IeC {\c c}ada pela t\IeC {\'e}cnica Fast Recursive PCA}}{154}{figure.7.73}
+\contentsline {figure}{\numberline {74}{\ignorespaces Curva com a taxa de falsa aceita\IeC {\c c}\IeC {\~a}o versus taxa de falsa rejei\IeC {\c c}\IeC {\~a}o alcan\IeC {\c c}ada pela t\IeC {\'e}cnica SRC com Fast Recursive PCA}}{155}{figure.7.74}
+\contentsline {figure}{\numberline {75}{\ignorespaces Imagens reconstru\IeC {\'\i }das com as t\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o nos grupos da base Yale}}{156}{figure.7.75}
+\contentsline {figure}{\numberline {76}{\ignorespaces Acur\IeC {\'a}cia com KNN com n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW nos dois grupos da base Yale}}{158}{figure.7.76}
+\contentsline {figure}{\numberline {77}{\ignorespaces Acur\IeC {\'a}cia com ELM com n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW nos dois grupos da base Yale}}{159}{figure.7.77}
+\contentsline {figure}{\numberline {78}{\ignorespaces Acur\IeC {\'a}cia com SVM com n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW nos dois grupos da base Yale}}{159}{figure.7.78}
+\contentsline {figure}{\numberline {79}{\ignorespaces Exemplos de imagens de dois individuos reconstru\IeC {\'\i }das com as t\IeC {\'e}cnicas baseadas em modelo}}{161}{figure.7.79}
+\contentsline {figure}{\numberline {80}{\ignorespaces Acur\IeC {\'a}cia das t\IeC {\'e}cnicas baseadas em modelo com classificador KNN com n\IeC {\'\i }vel de decomposi\IeC {\c c}\IeC {\~a}o 3 da TW nos quatro grupos presentes na base AR}}{163}{figure.7.80}
+\contentsline {figure}{\numberline {81}{\ignorespaces Acur\IeC {\'a}cia das t\IeC {\'e}cnicas baseadas em modelo com classificador KNN com n\IeC {\'\i }vel de decomposi\IeC {\c c}\IeC {\~a}o 2 da TW nos quatro grupos presentes na base AR}}{163}{figure.7.81}
+\contentsline {figure}{\numberline {82}{\ignorespaces Acur\IeC {\'a}cia das t\IeC {\'e}cnicas baseadas em modelo com classificador KNN com n\IeC {\'\i }vel 1 de decomposi\IeC {\c c}\IeC {\~a}o da TW nos quatro grupos presentes na base AR}}{164}{figure.7.82}
+\contentsline {figure}{\numberline {83}{\ignorespaces Acur\IeC {\'a}cia das t\IeC {\'e}cnicas baseadas em modelo com classificador ELM com n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW nos quatro grupos presentes na base AR}}{164}{figure.7.83}
+\contentsline {figure}{\numberline {84}{\ignorespaces Acur\IeC {\'a}cia das t\IeC {\'e}cnicas baseadas em modelo com classificador ELM com n\IeC {\'\i }vel 2 de decomposi\IeC {\c c}\IeC {\~a}o da TW nos quatro grupos presentes na base AR}}{165}{figure.7.84}
+\contentsline {figure}{\numberline {85}{\ignorespaces Acur\IeC {\'a}cia das t\IeC {\'e}cnicas baseadas em modelo com classificador ELM com n\IeC {\'\i }vel 1 de decomposi\IeC {\c c}\IeC {\~a}o da TW nos quatro grupos presentes na base AR}}{165}{figure.7.85}
+\contentsline {figure}{\numberline {86}{\ignorespaces Acur\IeC {\'a}cia das t\IeC {\'e}cnicas baseadas em modelo com classificador SVM com n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW nos quatro grupos presentes na base AR}}{166}{figure.7.86}
+\contentsline {figure}{\numberline {87}{\ignorespaces Acur\IeC {\'a}cia das t\IeC {\'e}cnicas baseadas em modelo com classificador SVM com n\IeC {\'\i }vel 2 de decomposi\IeC {\c c}\IeC {\~a}o da TW nos quatro grupos presentes na base AR}}{166}{figure.7.87}
+\contentsline {figure}{\numberline {88}{\ignorespaces Ganho das t\IeC {\'e}cnicas baseadas em modelo ao utilizar os n\IeC {\'\i }veis 1 e 2 de decomposi\IeC {\c c}\IeC {\~a}o da TW com classificador KNN }}{167}{figure.7.88}
+\contentsline {figure}{\numberline {89}{\ignorespaces Ganho das t\IeC {\'e}cnicas baseadas em modelo ao utilizar os n\IeC {\'\i }veis 1 e 2 de decomposi\IeC {\c c}\IeC {\~a}o da TW com classificador ELM }}{167}{figure.7.89}
+\contentsline {figure}{\numberline {90}{\ignorespaces Ganho das t\IeC {\'e}cnicas baseadas em modelo ao utilizar o n\IeC {\'\i }vel 2 de decomposi\IeC {\c c}\IeC {\~a}o da TW com classificador SVM }}{168}{figure.7.90}
+\contentsline {figure}{\numberline {91}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o das taxas de erro geradas pela t\IeC {\'e}cnica SRC com Grafo de Poisson na base de dados AR}}{168}{figure.7.91}
+\contentsline {figure}{\numberline {92}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o das taxas de erro geradas pela t\IeC {\'e}cnica SRC com Grafo Laplaciano na base de dados AR}}{169}{figure.7.92}
+\contentsline {figure}{\numberline {93}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o das taxas de erro geradas pela t\IeC {\'e}cnica SSIMGL na base de dados AR}}{169}{figure.7.93}
+\contentsline {figure}{\numberline {94}{\ignorespaces Erros por classe das tr\IeC {\^e}s t\IeC {\'e}cnicas baseadas em modelo nos quatro grupos presentes na base AR com classificador ELM e n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW}}{170}{figure.7.94}
+\contentsline {figure}{\numberline {95}{\ignorespaces Classes que apresentaram maior erro para cada grupo da base AR, como tamb\IeC {\'e}m os indiv\IeC {\'\i }duos confundidos ap\IeC {\'o}s classifica\IeC {\c c}\IeC {\~a}o com ELM para a t\IeC {\'e}cnica SRC GP}}{171}{figure.7.95}
+\contentsline {figure}{\numberline {96}{\ignorespaces Classes que apresentaram maior erro para cada grupo da base AR, como tamb\IeC {\'e}m os indiv\IeC {\'\i }duos confundidos ap\IeC {\'o}s classifica\IeC {\c c}\IeC {\~a}o com ELM para a t\IeC {\'e}cnica SRC GL}}{171}{figure.7.96}
+\contentsline {figure}{\numberline {97}{\ignorespaces Classes que apresentaram maior erro para cada grupo da base AR, como tamb\IeC {\'e}m os indiv\IeC {\'\i }duos confundidos ap\IeC {\'o}s classifica\IeC {\c c}\IeC {\~a}o com ELM para a t\IeC {\'e}cnica SSIMGL}}{172}{figure.7.97}
+\contentsline {figure}{\numberline {98}{\ignorespaces Curva com a taxa de falsa aceita\IeC {\c c}\IeC {\~a}o versus taxa de falsa rejei\IeC {\c c}\IeC {\~a}o alcan\IeC {\c c}ada pela t\IeC {\'e}cnica SRC juntamente com grafo de Poisson}}{174}{figure.7.98}
+\contentsline {figure}{\numberline {99}{\ignorespaces Curva com a taxa de falsa aceita\IeC {\c c}\IeC {\~a}o versus taxa de falsa rejei\IeC {\c c}\IeC {\~a}o alcan\IeC {\c c}ada pela t\IeC {\'e}cnica SRC com grafo Laplaciano}}{174}{figure.7.99}
+\contentsline {figure}{\numberline {100}{\ignorespaces Curva com a taxa de falsa aceita\IeC {\c c}\IeC {\~a}o versus taxa de falsa rejei\IeC {\c c}\IeC {\~a}o alcan\IeC {\c c}ada pela t\IeC {\'e}cnica SSIMGL}}{175}{figure.7.100}
+\contentsline {figure}{\numberline {101}{\ignorespaces Imagens reconstru\IeC {\'\i }das com as t\IeC {\'e}cnicas baseadas em modelo nos dois grupos da base Yale}}{176}{figure.7.101}
+\contentsline {figure}{\numberline {102}{\ignorespaces Acur\IeC {\'a}cia das t\IeC {\'e}cnicas baseadas em modelo com n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW nos grupos da base Yale com os classificadores ELM, KNN e SVM}}{178}{figure.7.102}
+\contentsline {figure}{\numberline {103}{\ignorespaces An\IeC {\'a}lise comparativa de todas as t\IeC {\'e}cnicas de reconstru\IeC {\c c}\IeC {\~a}o com os classificadores KNN, ELM e SVM utilizando n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW }}{179}{figure.7.103}
+\contentsline {figure}{\numberline {104}{\ignorespaces Curvas Roc das melhores t\IeC {\'e}cnicas de reconstru\IeC {\c c}\IeC {\~a}o em cada grupo da base AR com classificador KNN}}{179}{figure.7.104}
+\contentsline {figure}{\numberline {105}{\ignorespaces Comportamento do SVM ao se variar os valores de $\sigma $}}{184}{figure.7.105}
+\contentsline {figure}{\numberline {106}{\ignorespaces Comportamento da SSIM do conjunto ao se aumentar o n\IeC {\'u}mero indiv\IeC {\'\i }duos para gera\IeC {\c c}\IeC {\~a}o do espa\IeC {\c c}o de faces}}{187}{figure.7.106}
+\contentsline {figure}{\numberline {107}{\ignorespaces Imagens reconstru\IeC {\'\i }das com as t\IeC {\'e}cnicas baseadas em subespa\IeC {\c c}o com espa\IeC {\c c}o de faces gerado a partir das faces de 10 indiv\IeC {\'\i }duos}}{187}{figure.7.107}
+\contentsline {figure}{\numberline {108}{\ignorespaces Import\IeC {\^a}ncia do percentual de representatividade do conjunto }}{188}{figure.7.108}
+\contentsline {figure}{\numberline {109}{\ignorespaces Import\IeC {\^a}ncia do percentual de representatividade na tarefa de reconstru\IeC {\c c}\IeC {\~a}o de faces ap\IeC {\'o}s avalia\IeC {\c c}\IeC {\~a}o com classificador ELM e n\IeC {\'\i }vel 3 de decomposi\IeC {\c c}\IeC {\~a}o da TW}}{189}{figure.7.109}
+\contentsline {figure}{\numberline {110}{\ignorespaces Reconstru\IeC {\c c}\IeC {\~a}o com APCA, com o espa\IeC {\c c}o de faces gerado por apenas um indiv\IeC {\'\i }duo (o mesmo da reconstru\IeC {\c c}\IeC {\~a}o) com imagens sem varia\IeC {\c c}\IeC {\~a}o de ilumina\IeC {\c c}\IeC {\~a}o e pose.}}{190}{figure.7.110}
+\contentsline {figure}{\numberline {111}{\ignorespaces Processo de sele\IeC {\c c}\IeC {\~a}o dos artigos}}{212}{figure.B.111}
+\contentsline {figure}{\numberline {112}{\ignorespaces Bases de dados utilizadas pelos estudos selecionados}}{214}{figure.C.112}
+\contentsline {figure}{\numberline {113}{\ignorespaces Matriz de confus\IeC {\~a}o da t\IeC {\'e}cnica Asymmetrical PCA na base de dados AR}}{218}{figure.D.113}
+\contentsline {figure}{\numberline {114}{\ignorespaces Matriz de confus\IeC {\~a}o da t\IeC {\'e}cnica Fast Recursive PCA na base de dados AR}}{219}{figure.D.114}
+\contentsline {figure}{\numberline {115}{\ignorespaces Matriz de confus\IeC {\~a}o da t\IeC {\'e}cnica Fisherfaces na base de dados AR}}{219}{figure.D.115}
+\contentsline {figure}{\numberline {116}{\ignorespaces Matriz de confus\IeC {\~a}o da t\IeC {\'e}cnica Fast Robust PCA na base de dados AR}}{220}{figure.D.116}
+\contentsline {figure}{\numberline {117}{\ignorespaces Matriz de confus\IeC {\~a}o da t\IeC {\'e}cnica Gappy PCA na base de dados AR}}{220}{figure.D.117}
+\contentsline {figure}{\numberline {118}{\ignorespaces Matriz de confus\IeC {\~a}o da t\IeC {\'e}cnica PCA na base de dados AR}}{221}{figure.D.118}
+\contentsline {figure}{\numberline {119}{\ignorespaces Matriz de confus\IeC {\~a}o da t\IeC {\'e}cnica Recursive PCA na base de dados AR}}{221}{figure.D.119}
+\contentsline {figure}{\numberline {120}{\ignorespaces Matriz de confus\IeC {\~a}o da t\IeC {\'e}cnica SRC com Fast Recursive PCA na base de dados AR}}{222}{figure.D.120}
+\contentsline {figure}{\numberline {121}{\ignorespaces Matriz de confus\IeC {\~a}o da t\IeC {\'e}cnica SRC com grafo de Poisson na base de dados AR}}{222}{figure.D.121}
+\contentsline {figure}{\numberline {122}{\ignorespaces Matriz de confus\IeC {\~a}o da t\IeC {\'e}cnica SRC com grafo Laplaciano na base de dados AR}}{223}{figure.D.122}
+\contentsline {figure}{\numberline {123}{\ignorespaces Matriz de confus\IeC {\~a}o da t\IeC {\'e}cnica SSIMGL na base de dados AR}}{223}{figure.D.123}

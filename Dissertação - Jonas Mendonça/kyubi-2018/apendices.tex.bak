@@ -1,0 +1,2577 @@
+\begin{apendicesenv}
+
+\chapter{Protocolo de revisão sistemática sobre técnicas para detecção e reconstrução de olusões parciais em imagens de face}
+\label{apen2:RS}
+
+\section{Objetivo}
+
+
+
+O objetivo principal dessa revisão sistemática foi realizar um levantamento sistemático do estado de arte, referente a técnicas de detecção e reconstrução de oclusões parciais em imagens de faces humanas visando o reconhecimento biométrico. Mediante esse estudo, foi possível extrair dados para o tema desta dissertação, a fim de conseguir informações pertinentes, como por exemplo: quais algoritmos estão sendo aplicados para detectar oclusões parciais, e reconstruir faces parcialmente ocluídas, quais as métricas de avaliação que são normalmente utilizadas, quais estratégias estão apresentando melhor resultado, quais as condições do ambiente, e quais bases de dados utilizadas.
+
+
+% ----------------------------------------------
+\section{Questões de pesquisa}
+Em adição aos objetivos da revisão sistemática elaborada, as questões de pesquisa auxiliam na busca por informações relevantes por meio da leitura integral dos estudos. Tais informações são obtidas após a extração e síntese dos dados extraídos da leitura. As questões de pesquisa levantadas foram:
+
+\begin{enumerate}
+\item quais técnicas estão sendo utilizadas para reconstrução de faces humanas e como são aplicadas?	
+\item quais as técnicas utilizadas para detecção de oclusões parciais e como são aplicadas?
+ \item como os resultados são analisados e comparados?
+ \item qual tipo de reconhecimento biométrico foi utilizado?\item Quais bases de dados estão sendo utilizadas?
+\end{enumerate}
+%---------------------------------------------------
+
+\section{Seleção de fontes}
+Para selecionar os estudos primários para essa revisão sistemática, foram utilizadas as três bases indexadoras a seguir:
+
+Os trabalhos devem estar preferencialmente disponíveis na internet, em bases de dados científicas. As seguintes bases foram selecionadas para realização das buscas:
+
+\begin{enumerate}
+\item Biblioteca Digital do Scopus (https://www.scopus.com/)
+\item Biblioteca Digital do IEEE (http://ieeexplore.ieee.org/Xplore/home.jsp)
+\item Biblioteca Digital do Web of Science (https://apps.webofknowledge.com)
+\end{enumerate}
+
+A justificativa para a escolha dessas três bases se refere à abrangência, quase total, dos artigos presentes nas bibliotecas digitais com idioma na língua inglesa. Para encontrar tais artigos nas bases indexadoras, foi elaborado uma string de busca para cada uma das bases com os termos descritos mais detalhadamente na seção \ref{ap:palavraschave}. O apêndice \ref{Apen:conducao_Revisao}, apresenta com maiores o processo de seleção de artigos.
+
+
+%----------------------------------------------------
+
+\section{Palavras-Chave}
+\label{ap:palavraschave}
+A \textit{String de busca} envolveu as palavras-chave descritas abaixo:
+
+\begin{enumerate}
+\item 'occlusion' OR 'occluded';
+\item 'detect*' OR 'recogni*' OR 'analys*' OR 'reconstruct*';
+\item 'face' OR 'faces' OR 'facial' ;
+\item 'biometry*'.
+\end{enumerate}
+
+Os artigos retornados pela aplicação da \textit{String} de busca nos motores de busca, foram lidos seus respectivos títulos e resumos.
+% -------------------------------------------
+
+\section{Critérios de inclusão}
+Para essa revisão sistemática, três critérios de inclusão foram definidos, sendo eles:
+
+I1 - Artigos que abordem métodos e técnicas utilizadas para detecção de oclusão parciais em faces humanas.
+
+I2 - Artigos que abordem técnicas utilizadas para reconstrução de faces humanas.
+
+I3 - Artigos que abordem modelagens híbridas para detecção de oclusões parciais e/ou reconstrução facial. 
+
+%--------------------------------------------
+
+\section{Critérios de exclusão}
+
+
+E1 - Artigos de revisão serão excluídos.
+
+E2 - Trabalhos que estejam na forma de livros, capítulos de livros, prefácio de eventos, pôster e artigos resumidos.
+
+E3 - Trabalhos que não estejam na língua Inglesa.
+
+E4 - Trabalhos que não sejam revisados por pares.
+
+% -----------------------------------------------
+
+\section{Estratégia de seleção dos dados}
+
+Foi construída uma \textit{String} com palavras-chave e seus sinônimos, onde essa \textit{String} foi submetida nas máquinas de busca. Após a leitura dos resumos e títulos e sua posterior aplicação dos critérios de inclusão e exclusão, com isso os artigos foram selecionados conforme sua adequação juntos aos critérios de inclusão, apresentando relevância daquele artigo perante a pesquisa. 
+
+%------------------------------------------------
+
+\section{Síntese dos dados extraídos}
+
+Após a leitura na íntegra de cada artigo incluído, foi elaborado um formulário de extração dos dados, a fim de serem sintetizados e gerar informações pertinentes, os dados coletados foram:
+
+\begin{enumerate}
+\item autores;
+\item objetivo do trabalho;
+\item estratégia para detecção de oclusão parcial;
+\item estratégia para reconstrução de face;
+\item base de dados utilizada;
+\item forma de avaliação;
+\item métricas utilizadas;
+\item identificação das vantagens e desvantagens de cada método;
+\item resultados obtidos;
+\item limitações do trabalho;
+\item trabalhos futuros.
+
+\end{enumerate}
+
+
+\section{Ameaças a validade}
+
+
+Os resultados da pesquisa podem revelar que as técnicas ou fusões de técnicas apresentadas para detecção de oclusão ou reconstrução de faces não produzem um bom resultado ou não são aplicáveis a tal ambiente de coleta, assim refutando a hipótese de pesquisa. 
+Outra possível ameaça que este projeto pode apresentar é a existência de outras técnicas com fins a identificar a parte ocluída em uma imagem facial e/ou reconstruir a face sem finalidades biométricas.
+
+
+\section{Critérios de qualidade}
+Após a seleção dos estudos e a leitura integral de cada um deles, existe a necessidade de realizar uma avaliação subjetiva direcionada ao objetivo da revisão sistemática. Desse modo, alguns critérios de qualidade foram desenvolvidos para tal fim, sendo eles:
+
+
+Q1 -	Os objetivos da pesquisa são claramente definidos?
+
+Q2 -	O contexto é adequadamente descrito?
+
+Q3 - 	Foram apresentadas técnicas de detecção de oclusões claramente?
+
+Q4 -	Foram apresentadas técnicas de reconstrução facial?
+
+Q5 -	O código de detecção de oclusões foi disponibilizado?
+
+Q6 - 	O código de detecção de reconstrução facial foi disponibilizado?
+
+Q7 -	O ambiente do estudo primário foi apresentado claramente?
+
+Q8 -	A proposta do estudo foi validada?
+
+Q9 -	A proposta é comparada com outro método?
+
+Q10 -	 Foi apresentado o Dataset utilizado?
+
+Q11 - 	 O experimento é aplicado em conjuntos de dados suficientes?
+
+Q12 -	 Os resultados foram apresentados claramente?
+
+Para cada critério de qualidade necessariamente era atribuído uma nota, sendo Sim (S) = 1 ponto, Não (N) = 0 ponto, e Parcialmente (P) = 0,5.
+
+
+
+\chapter{Condução da revisão}
+\label{apen3:conducao_Revisao}
+
+
+Após o planejamento da revisão sistemática e definição do protocolo, a condução dos passos consistiram das seguintes etapas: submissão das \textit{strings} nas máquinas de busca do Scopus, IEEE e Web of Science; aplicação dos artigos retornados nas máquinas de busca e aplicação dos critérios de inclusão e exclusão; e extração dos dados dos artigos incluídos e lidos integralmente.
+
+O processo de busca dos artigos foi realizado no período compreendido entre 25 de janeiro e 06 de fevereiro de 2017. A partir dessas buscas 440 artigos foram retornados, de modo que após a aplicação dos critérios de inclusão e exclusão 38 artigos foram selecionados para leitura e análise completa, sendo que após a leitura completa do trabalho foram selecionados 31 artigos com relevante grau de contribuição para a pesquisa. A figura \ref{fig:esquemaconducao} apresenta um esquema do processo de seleção dos artigos.
+
+\begin{figure}[H]
+\caption{Processo de seleção dos artigos}
+\centering
+\includegraphics[scale = 0.65]{imgs/conducao.png}
+\source{Jonas Mendonça Targino, 2018}
+\label{fig:esquemaconducao}
+\end{figure}
+
+
+
+
+
+\chapter{Contextualização da literatura}
+\label{apen4:contextualizacao_literatura}
+
+
+Este  capítulo possui como objetivo principal apresentar um apanhado geral das técnicas para detecção e reconstrução de oclusões parciais em imagens de face visando o reconhecimento biométrico. Essas técnicas foram obtidas graças ao trabalho de \citeonline{Targino2018_wvc} o qual apresentou uma revisão sistemática das técnicas presentes na literatura. 
+
+
+\section{Escopo dos estudos}
+
+Dentro do conjunto de estudos selecionados e analisados, existem autores que abordam a técnica de detecção de oclusão e paralelamente realizam a reconstrução da face, entretanto em outros trabalhos são implementados apenas uma das duas técnicas. Diante dos trabalhos lidos foi possível perceber que a maioria deles não apresentaram o algoritmo de construção da técnica de forma detalhada. Sendo possível a implementação da técnica mediante a leitura de outros trabalhos com abordagens semelhantes e mais específicas, abrangendo com isso uma maior quantidade de detalhes. É notável perceber que a maioria dos trabalhos abordaram adaptações de técnicas já existentes para detecção e reconstrução de oclusões parciais. 
+
+
+
+\section{Bases de dados}
+\label{sec:base de dados}
+
+Três bases de dados foram amplamente utilizadas nos trabalhos analisados e esta seção as descreve resumidamente. Em alguns artigos mais de uma base foram utilizadas de modo a possibilitar o uso de uma ou mais bases para o conjunto de treinamento e outra de modo a prover instâncias para o conjunto de teste. Todas as bases de dados utilizadas nos trabalhos abordados na revisão sistemática estão representadas na figura \ref{fig:basesDeDados}, dentre essas apresentadas, aqui será dado maior ênfase nas três bases de dados mais utilizadas, sendo elas:
+
+\begin{itemize}
+\item \textbf{AR} esta base de dados foi utilizada em nove dos trabalhos analisados (29\%). Ela possui um pouco mais de 2.600 imagens de face frontal de 100 indivíduos (50 homens e 50 mulheres). De modo que para cada indivíduo são coletadas 26 fotos, estas coletadas sobre duas sessões (dois dias diferentes) separadas e sujeitas a 13 variações de condições, dentre estas estão, diferentes expressões faciais, condições de iluminação e variações de oclusão (com óculos de sol e cachecol). A base de dados encontra-se disponível em \url{http://www2.ece.ohio-state.edu/~aleix/ARdatabase.html};
+
+\item \textbf{YALE B} esta base de dados contém 165 imagens frontais de 10 pessoas, contendo variações de iluminação, expressão e oclusão (baixos níveis de oclusão). A base de dados foi utilizada em quatro dos trabalhos selecionados (14\%), e ela encontra-se disponível em \url{http://www.face-rec.org/databases/};
+
+\item \textbf{FRGC} foi a terceira base de dados mais utilizada, três dos trabalhos analisados (11\%) a utilizaram. Esta base de dados contém 12776 imagens frontais de 222 indivíduos, com 6388 imagens coletadas em ambientes controlados e outras 6388 imagens coletadas na presença de ambientes não controlados. Esta base de dados está disponível em \url{https://www.nist.gov/programs-projects/face-recognition-grand-challenge-frgc}.
+
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\caption{Bases de dados utilizadas pelos estudos selecionados}
+\includegraphics[scale = 0.62]{imgs/bases.png}
+\source{Jonas Mendonça Targino, 2018}
+\label{fig:basesDeDados}
+\end{figure}
+
+
+Pode-se perceber uma quantidade significativa de bases de dados de face dispostas na literatura, entretanto nem todas as bases disponíveis apresentam uma grande quantidade de imagens bem como também uma grande quantidade de variações existentes. Na tabela \ref{tab:variacoes_bases} são apresentadas algumas das bases mais utilizadas como também número de indivíduos da base, quantidade de imagens, e variações presentes na base. As variações estão apresentadas da forma: (\textbf{i}) representa iluminação; \textit{e} significa expressão; (\textbf{o}) representa oclusão; e \textbf{t} significa variação temporal (ou seja, imagens obtidas da mesma pessoa em diferentes dias).
+
+\begin{table}[H]
+	
+\centering
+\footnotesize
+\caption{Bases de dados de domínio público e algumas especificações}
+\label{tab:variacoes_bases}
+
+\begin{tabular}{|l|c|c|c|} \hline
+
+\textbf{Bases}& \textbf{Número de Indivíduos} & \textbf{Número de Imagens} & \textbf{Variações Existentes}\\ \hline
+      					
+AR			&	 100 	& 2600 		& i, e,o, t \\ \hline
+Yale B	 	&	15 		& 165 		& i,e\\ \hline
+FRGC  		&	222 	& 12776 	& i,e \\ \hline
+ORL 		&	40 		& 400 		& p,e\\ \hline
+MIT 		&	16 		& 432		& i,p\\ \hline
+CMU PIE 	&	68		&41.368 	& p,i,e\\ \hline
+FERET		& > 1000 	& > 10000 	& p,i,e,t\\ \hline 
+UMIST		& 20		& 564		& p \\ \hline 
+
+		
+	\end{tabular}
+    
+ \source{Jonas Mendonça Targino, 2018}
+\end{table}
+
+
+\section{Técnicas encontradas na literatura}
+
+Após a extração dos dados foi possível analisar as técnicas presentes na literatura para detecção e reconstrução de oclusões parciais com fins biométricos, estas técnicas estão sendo apresentadas com mais detalhes nas subseções \ref{sub:detecção de oclusões} e \ref{sub:reconstrução de faces} logo abaixo.
+
+De modo a gerar uma melhor visualização dos trabalhos selecionados e uma identificação para cada um deles foi elaborada o quadro \ref{tab:autores}, este apresentando a identificação do trabalho, como também o evento em que o mesmo foi publicado.
+
+
+\begin{quadro}[H]
+	\centering
+	\caption{Estudos selecionados}
+    \resizebox{\columnwidth}{!}{%
+		\begin{tabular}{cll} \hline
+        %\begin{tabular}{ p{0.2in} p{1.8in}  p{4.7in}   } \hline
+		ID	& Autores  & Evento\\ \hline
+
+A1& \cite{[1]bellil2016gappy}  & Multimed Tools Applications\\
+A2 & \cite{[2]zhang2016face}  & Chinese Conference on Biometric Recognition\\
+A3& \cite{[3]dou2015pose} & Biometrics Theory, Applications and Systems (BTAS)\\
+A4 & \cite{[4]wei2014dynamic}  & IEEE Transactions on Information Forensics and Security\\
+A5 & \cite{[5]aisha2014face} & KSII Transactions on Internet and Information Systems (TIIS)\\
+A6 & \cite{[6]yang2014fast}   & Pattern Recognition\\
+%A7 & \cite{[7]venkatakrishnan20143d} & 2014 & periódico & Applied Mechanics \& Materials\\
+A7 & \cite{[8]alyuz2014detection}  & International Conference Pattern Recognition (ICPR) \\
+A8& \cite{[9]bindu2014inpainting}   & Signal and Image Processing (ICSIP)\\
+%A10 & \cite{[10]bindu2013novel} & 2013 & conferência & Advances in Computing, Communications and Informatics (ICACCI)\\
+A9 & \cite{[11]lai2013robust}  & International Conference Acoustics, Speech, and Signal Processing (ICASSP)\\
+A10  & \cite{[12]sharma2013efficient}& Neurocomputing\\
+A11 & \cite{[13]wei2013robust} & International Workshop Biometrics and Forensics (IWBF)\\
+A12 & \cite{[14]alyuz20133}  & IEEE Transactions on Information Forensics and Security\\
+A13 & \cite{[15]li2013structured}  & IEEE transactions on image processing\\ 
+A14 & \cite{[16]min2012inpainting}   & International Conference Image Processing (ICIP)\\
+A15 & \cite{[17]alyuz2012robust}  & International Conference Biometrics (ICB)\\
+A16 & \cite{[18]zhu2012discriminant} & International Conference Biometrics (ICB)\\
+A17 & \cite{[19]song2012three} & IEEE Transactions on Image Processing\\
+A18 & \cite{[20]shermina2012recognition}  & International Journal of Pattern Recognition and Artificial Intelligence\\
+%A21 & \cite{[21]min2011cap} & 2011 & conferência & Proceedings of the 19th ACM international conference on Multimedia\\
+A19 & \cite{[22]chiang2011recognizing}  & International Journal of Innovative Computing, Information and Control\\
+A20 & \cite{[23]eum2011face} & Computer Vision and Pattern Recognition Workshops \\
+A21 & \cite{[24]passalis2011using}& IEEE Transactions on Pattern Analysis and Machine Intelligence\\
+A22 & \cite{[25]deng2011graph}   & IEEE Transactions on Image Processing\\
+A23 & \cite{[26]storer2010occlusion}  & Computer Vision and Pattern Recognition Workshops (CVPRW)\\
+A24& \cite{[27]yan2010misalignment}& IEEE transactions on image processing\\
+A25 & \cite{[28]de2010faro}& IEEE Transactions on Systems, Man, and Cybernetics-Part A: Systems and Humans\\
+%A29 & \cite{[29]marcon20093d} & 2009 & conferência & IET\\
+%A30 & \cite{[30]du2009analysis} & 2009 & conferência & Information Technology and Applications\\
+A26 & \cite{[31]su2009multi}  & International Conference on Biometrics\\
+A27 & \cite{[32]wright2009robust}   & IEEE transactions on pattern analysis and machine intelligence\\
+%A33 & \cite{[33]heo2007face} & 2007 & conferência & Biometrics Symposium\\
+A28 & \cite{[34]zhang2006robust}  & Journal of Multimedia\\
+%A35 & \cite{[35]lee2006face} & 2006 & conferência &International Conference Pattern Recognition (ICPR)\\
+A29 & \cite{[36]huang2012subface}  & IET biometrics\\
+A30 & \cite{[37]hosoi2012restoring} & Computer Vision and Pattern Recognition Workshops (CVPRW)\\
+A31 & \cite{[38]tan2005recognizing}  &IEEE Transactions on Neural Networks\\
+\hline
+		\end{tabular}
+        }
+        \source{Jonas Mendonça Targino, 2018}
+            \label{tab:autores}
+
+\end{quadro}
+
+
+
+
+
+\subsection{Técnicas para detecção de oclusões parciais}
+\label{sub:detecção de oclusões}
+Algumas técnicas para detecção de oclusões parciais em imagens de face, coletadas a partir da revisão sistemática estão destacadas no quadro \ref{tab:Tecnicas deteccao}. Após a análise deste quadro podemos enxergar um número considerável de técnicas com tal finalidade.
+
+
+
+\nomenclature{IKFDA}{Incremental Kernel Fisher Discriminant Analysis}
+\begin{quadro}[H]
+	\centering
+	\caption{Técnicas para detecção de oclusão}
+		\begin{tabular}{p{1.2in} p{4.2in} } \hline
+
+		ID do Artigo  & Nome da Técnica\\ \hline
+  
+A1& Transformada Wavelet Discreta(DCT) \nomenclature{DCT}{Discrete Wavelet Transform} \\
+A2 & Rede Neural Convolucional(CNN) \nomenclature{CNN}{Convolucional Neural NetWork}   \\\
+A4,A11& Imagens Dinâmicas para Classes Deformadas(DICW) \nomenclature{DICW}{Dynamic image to class Warping}\\
+A5 & Kernel Incremental de Análise Discriminante de Fisher (IKFDA)  \\
+A6,A25,A32 & Classificação por Representação Esparsa (SRC)  \nomenclature{SRC}{Sparse Representation  Classification} \\
+A14 & Máscara de Projeção FisherFace\\
+A7 & Mistura de Modelos Gaussianos (GMM) \nomenclature{GCC}{Gaussian Mixture Models} \\
+%A10 & Skin ilumination e SURF\\
+A9 & Classificação de regressão linear aparada (TLRC) \nomenclature{TLRC}{trimmed linear regression
+classification} \\
+A10 & Filtros de Gabor\\
+A13 & Estrutura Esparsa de Codificação do Erro(SSEC) \nomenclature{SSEC}{Structured Sparse Error Coding}\\  
+A14 & Robusta Análise dos Componentes Principais (RPCA) \nomenclature{RPCA}{Robust Principal Component Analisys} \\
+A15 & ICP junto ao modelo genérico facial\\
+A16 & Fases de Gabor com SLRDA\\
+A18 &  Bloco de Algoritmo de correspondência (BMA) \nomenclature{BMA}{Block Matching Algorithm}\\
+%A21 & Skin color com DTW\\
+A19 & Descoberta Iterativa de Faces(IFR) \nomenclature{IFR}{Iterative Face Recovery}\\
+A20& Manipulação de Oclusões Excepcionais(EOH) \nomenclature{EOH}{Exceptional Occlusion Handling}\\
+%A21 & UR3DS\\
+A23 & Técnica do Espaço de Cores (CST) \nomenclature{CST}{Color Space Technique}\\
+A24 & Desalinhamento Robusto (MAR)\\
+A25 & Reconhecimento Facial contra Oclusão(FARO)\nomenclature{FARO}{Face Recognition Against Occlusion}\\
+%A30 & Skin color\\
+A26 & Multi Visões de Alinhamento de Faces \\
+A28 & Memória de Kernel Associativo(KAM) \nomenclature{KAM}{Kernel Associative Memory}\\
+A29 & Modelos Ocultos Markovianos (HMM) \nomenclature{HMM}{Hidden Markov Models}\\
+A31 & Mapa de Auto Organização(SOM) \nomenclature{SOM}{Self Organizaton Maps}\\
+
+ \hline
+		
+		\end{tabular}
+		\source{Jonas Mendonça Targino, 2018}
+	\label{tab:Tecnicas deteccao}
+\end{quadro}
+
+	
+
+
+\subsection{Técnicas para reconstrução de imagens de Faces}
+\label{sub:reconstrução de faces}
+
+Após a fase de detecção da oclusão na imagem da face, torna-se imprescindível a reconstrução da oclusão, de modo a possibilitar a identificação biométrica. A partir da leitura dos artigos foi possível extrair algumas técnicas para reconstrução de faces. As técnicas encontradas são apresentadas no quadro \ref{tab:Tecnicas reconstrução}. Analisando este quadro pode-se perceber um pequeno número de técnicas com tal finalidade quando comparado com as técnicas para detecção de oclusão. 
+
+
+\begin{quadro}[H]
+	\centering
+	\caption{Técnicas para reconstrução de faces}
+		\begin{tabular}{p{1.1in} p{4.4in} } \hline
+
+		ID do Artigo & Nome da Técnica\\ \hline
+  
+A1 & Rede Neural de Onda de Multi-Biblioteca (MLWNN) \nomenclature{MLWNN}{Multi Library Wavelet Neural Network} \\
+%A3 & 3DAFM\\
+A4,A27 & SRC\\
+A7 & Inpainting for big data (IBD) \nomenclature{IBD}{Inpainting for Big Data}\\
+A9 & TLRC\\
+A10 & Eigenfaces com Eigenfaces reformados de Gabor(RGEF)\nomenclature{RGEF}{Reformed Gabor Eigen Faces} \\
+A12,A15 & Gappy Análise dos Componentes Principais (GPCA) \nomenclature{GPCA}{Gappy Principal Component Analysis} \\
+A16 & Fases de Gabor com RSLDA\\
+%A17 & CRBF netwok \\ é aplicada apenas para 3D
+A18,A19,A24 & Eigenfaces \nomenclature{PCA}{Principal Component Analysis} \\
+A22 & Grafos Laplacianos\\
+A23 & CST + Modelos de Formas Ativas (ASM) \nomenclature{ASM}{Active Shape Model} e PCA\\
+A28 & KAM \\
+A30 & Pesos Rápidos de Análises de Componentes Principais (FWPCA) \nomenclature{FWPCA}{Fast-Weighted Principal Component Analysis}\\
+                
+ \hline
+		\end{tabular}
+		\source{Jonas Mendonça Targino, 2018}
+	\label{tab:Tecnicas reconstrução}
+\end{quadro}
+
+
+
+
+
+
+%\section{Trabalhos relacionados}
+
+%Durante a elaboração deste trabalho analisou-se uma grande quantidade de trabalhos relacionados, a depender de sua temática junto a identificação biométrica da face. Com iniciativas a lapidar as técnicas analisou-se alguns trabalhos relacionados com iniciativas a implementação das técnicas para comparações futuras. Dentre os trabalhos podemos perceber que o artigo de \cite{[11]lai2013robust} apresenta uma técnica para detecção da oclusão utilizando um estimador robusto com regressão linear, em que o mesmo analisa os pixels correspondentes no conjunto de treinamento e os classifica como não ocluídos, diante disso a imagem analisada é classificada de acordo a classe com menor erro de reconstrução. Já \cite{[2]zhang2016face} utiliza sete Redes Neurais Convolutivas (do inglês: \textit{Convolutional Neural Network} (CNN)) para detecção da oclusão, dessas setes redes, três, duas e duas, são responsáveis por detectar respectivamente a cabeça, olhos e boca. Utilizando a estratégia de \textit{Max-pooling} como processo de discretização e redução do número de parâmetros para entrada na rede. O primeiro nível da  CNN é  responsável por rejeitar rapidamente a maioria das janelas de detecção, já o segundo nível julga se as janelas restantes são pontos faciais ou não.
+%
+%Em \cite{[4]wei2014dynamic} apresenta a estratégia DICW, esta divide a imagem da face em \textit{D} partes e logo em seguida analisa a diferença das tonalidades entre as partes a partir da manipulação de séries temporais, e logo em seguida aplica distância euclidiana ou distância cosseno para analisar a presença de possíveis oclusões nas partes da imagem. \cite{[12]sharma2013efficient} utiliza filtros de Gabor para extrair as características da imagem e com o auxílio do PCA reduz a dimensionalidade das mesmas e projeta essas imagens em um subespaço. Para tarefa de detecção da oclusão divide a imagem da face em subimagens e aplica um limiar de decisão para detecção da máscara de oclusão.
+%
+%
+%
+%
+%%Trabalhos relacionados conforme clodoaldo destacou
+%A metodologia clássica para tratar o reconhecimento biométrico baseado em imagens de faces ocluídas consiste em encontrar características ou classificadores tolerantes à ruído. Vários trabalhos têm demonstrado que os algoritmos locais são menos sensíveis a oclusões parciais. Em \cite{PenioPenev_1996} foi proposto Análise de Características Locais para extração de características usando estatísticas de segunda ordem. Já \cite{Martinez_2002} propôs uma abordagem que consiste em dividir  a imagem da face ocluída em $k$ regiões locais. Se uma região estiver ocluída, esta é automaticamente detectada usando um modelo probabilístico. Além disso, foi proposto uma ponderação para regiões locais a fim de fornecer robustez em problemas que envolvem variação de expressão. \cite{Tan_2005} estendeu o trabalho de Matinez usando Mapas Auto-Organizáveis para apreender o subespaço ao invés de usar Gaussianas ou Mistura de Gaussianas. Em \cite{Jongsun_2005} foi proposto um método chamado Analises de Componentes Independente baseado em Saliências Locais, o qual emprega  informação de saliências locais na extração das componentes independentes. Já em  \cite{Fidler_2006} foi proposto a combinação de métodos baseados em subespaço, como Análise de Componentes Principais, com métodos que visam a discriminação, como Análise de Discriminante Linear, objetivando melhor reconstrução das imagens de face.  Em \cite{Jia_2009}, foi proposto o emprego de Máquinas de Vetores Suporte Parcial em cenários em que a oclusão pode ocorrer em ambos os conjuntos de treinamento e teste. Neste caso, problema de oclusão foi tratado como um problema de reconstrução e a classificação foi realizada de acordo com o erro de reconstrução obtido para a imagem de teste.
+%
+%
+%Outra estratégia que vem sendo utilizada é a Classificação baseada em Representação Esparsa (SRC), tendo alcançado desempenhos impressionantes no reconhecimento de imagens de face ocluídas. \cite{Wright_2009} foi o primeiro a empregar SRC para reconhecimento de faces ocluídas. Neste trabalho, a face ocluída é representada como uma combinação linear de todas as imagens de face e um vetor de erros no nível de pixel. A classificação foi realizada por meio da minimização da norma \textit{l1}. \cite{Yang_2011} propuseram um método chamado Codificação Esparsa Robusta, que maximiza a estimativa da máxima verossimilhança do problema de codificação esparsa para oclusões não Gaussianas / Laplacianas de forma iterativa. Embora os métodos baseados em representação esparsa tenham obtido resultados de identificação significativos em faces ocluídas, esses métodos dependem de um grande número de amostras de faces de cada indivíduo com variações suficientes. Entretanto, em muitos cenários práticos de reconhecimento facial, as amostras de treinamento de cada indivíduo são muitas vezes insuficientes, no caso extremo somente uma face de cada indivíduo pode estar disponível.
+%
+%
+%A partir das pesquisas, foi visto que alguns trabalhos revelaram que o conhecimento prévio de oclusões pode melhorar significativamente a precisão do reconhecimento de face baseado em informações locais. \cite{Rama_2008} mostraram empiricamente que o conhecimento prévio sobre a oclusão (anotado manualmente) pode melhorar o desempenho do \textit{Eigenface}. \cite{Zhang_2007} propuseram usar a divergência de Kullback-Leibler  para estimar a distribuição de probabilidade de oclusões no espaço de característica, de modo a melhorar o método LGBPHS (\textit{Local Gabor Binary Pattern Histogram Sequence}) para a face parcialmente ocluída.
+%
+%
+%
+%Em outro ângulo \cite{[20]shermina2012recognition} dividem a imagem da face em blocos e aplica a técnica de correspondência por blocos para detecção da oclusão e como método de reconstrução e reconhecimento utilizam Eigenfaces. Para reconstruir a face subtraem a imagem de entrada pela imagem média das faces e logo em seguida multiplica pelos Eigenfaces para obterem os coeficientes que serão multiplicados pelos Eigenfaces e com isso reconstruir a imagem. Enquanto  \cite{[22]chiang2011recognizing} também utiliza Eigenfaces para restaurar e reconhecer a face, já para detectar a oclusão aplica o método de Descoberta Iterativa da Face (IFR), este método, sendo responsável por criar conexões triangulares entre os pontos de referência da face, e com isso facilitar o processo de detecção da oclusão. Em outro momento \cite{[25]deng2011graph} utiliza um grafo espectral baseado na ideia de reconstrução da imagem, em que o algoritmo cria uma matriz esparsa para representar a parte parcialmente ocluída da imagem, logo em seguida extrai as características da imagem para depois aplicar o grafo laplaciano para reconstruir a imagem.
+%
+%Em \cite{[38]tan2005recognizing} aplicou-se o algoritmo SOM para projetar a relação topológica da face e assim localizar a oclusão com o auxílio do KNN\nomenclature{KNN}{k-Nearest Neighbors} como classificador. Em contrapartida \cite{[36]huang2012subface} utiliza Hidden Markov Models (HMM), com esta técnica sendo possível identificar os componentes faciais por meio de uma gramática facial. Nessa técnica foi possível aplicar o Universal Occlusion Model (UOM) \nomenclature{UOM}{Universal Occlusion Model} para identificar onde está localizada a oclusão, como também qual componente facial ela está ocluindo. O trabalho de \cite{[34]zhang2006robust} apresenta o Kernel Associative Memory (KAM) com multi escala de transformação de Gabor. Já \cite{[32]wright2009robust} utiliza classificação por representação esparsa como estratégia para detectar a parte ocluída na imagem da face. Enquanto \cite{[31]su2009multi} apresenta o Multi View Face Alignment (MVFA) sendo responsável por alinhar a face e identificar pontos de oclusão, entretanto essa abordagem apresenta-se pouco voltada a oclusão, tendo maior ênfase para o alinhamento da face, a partir das variações de pose.
+%
+%
+%
+%
+%Analisando as técnicas para reconstrução de faces o trabalho de \cite{[25]deng2011graph} utiliza Grafos Espectrais Laplacianos com Distribuição de Poisson para reconstruir imagens faciais ocluídas, criando um grafo não rotulado e logo em seguida analisando a diferença entre grafos, para logo em seguida reconstruir a face com o auxílio do KNN. \cite{[37]hosoi2012restoring} apresentou a técnica FW-PCA(do inglês: \textit{Fast Weighted - Principal Componente Analysis} , nesta técnica a imagem da face é reconstruída a partir do espaço de faces, em que a partir da imagem após a remoção da oclusão são trocados os pixels correspondentes da máscara de oclusão na imagem reconstruída. \cite{[34]zhang2006robust} aplica modelos de Memória de Kernel Associativo Baseadas em Transformações de Gabor, em que as imagens de face são decompostas em representações multi-escala pela transformação de Gabor e depois modelada pelas memórias de kernel associativo para sua posterior reconstrução. 
+%
+%Em outro contexto, \cite{[17]alyuz2012robust} e \cite{[14]alyuz20133} utilizaram a técnica Ponto Iterativo mais Próximo (ICP) \nomenclature{ICP}{Iterative Closest Point} para detecção da oclusão, e para reconstrução da face aplicaram GPCA (Gappy Principal Component Analysis) com iniciativas a encontrarem melhores coeficientes para reconstrução. Paralelamente, \cite{[1]bellil2016gappy} aplica comparações de coeficientes Wavelet da imagem de entrada (imagem ocluída) e a imagem média das imagens de treinamento (imagens não ocluídas), e para restauração e reconhecimento da face utiliza a técnica GWNN (do inglês: Gappy Wavelet Neural Network). 
+%
+%\end{comment}
+
+
+
+%\chapter{Tabelas de resultados}
+%\label{apen5:tabelas_resultados}
+%
+%\section{Base ocluída}
+%
+%Antes de apresentar a acurácia de reconhecimento das técnicas baseadas em subespaço e subespaço para a tarefa de reconstrução é interessante apresentar-se a acurácia de reconhecimento do classificador após aplicação da imagem pura com oclusão. Mediante isso os resultados abaixo apresentam o comportamento da taxa de reconhecimento das bases mediante avaliação com os classificadores ELM e KNN.
+%
+%\subsection{Resultados com ELM}
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento com ELM na base de dados AR com oclusões}
+%    \label{tab:reconhecimento_AR_com_oclusoes}
+%   % \hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%& 200		&40.99$\pm$2.02	&39.53$\pm$2.98	&37.55$\pm$1.53		&37.68$\pm$1.74	&40.00$\pm$3.34 \\\cline{2-7}% 
+%& 500		&44.74$\pm$2.74	& 46.85$\pm$2.02&42.94$\pm$3.24		&45.89$\pm$1.82	&45.05$\pm$1.66 \\\cline{2-7}% 
+%
+%& 1000		&25.10$\pm$1.65	&28.61$\pm$1.74	&26.87$\pm$1.92		&28.20$\pm$1.37	&26.65$\pm$1.61 \\\cline{2-7}% 
+%
+%& 2000		&25.17$\pm$2.10	&29.88$\pm$2.15	&28.56$\pm$2.10		&29.13$\pm$1.59	&29.46$\pm$1.92 \\\cline{2-7}% 
+%
+%& 4000		&41.33$\pm$1.81	&45.90$\pm$2.17	&44.20$\pm$1.32		&44.70$\pm$1.64	&43.38$\pm$2.27 \\\midrule% 
+%
+%\multicolumn{7}{c}{}\\ 
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#2}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%& 200 &50.52$\pm$2.41	&47.00$\pm$2.42	&46.4$\pm$1.37	&45.30$\pm$2.83		&49.12$\pm$3.96 \\\cline{2-7}
+%&500  &53.62$\pm$3.58	&55.02$\pm$2.49	&52.12$\pm$4.75	&55.2$\pm$1.67		&54.85$\pm$3.29 \\\cline{2-7}
+%&1000 &30.97$\pm$2.72	&34.32$\pm$3.00	&32.52$\pm$2.34	&34.375$\pm$1.96	&32.22$\pm$2.84 \\\cline{2-7}
+%&2000 &30.22$\pm$3.39	&34.82$\pm$3.23	&33.62$\pm$3.09	&35.075$\pm$2.05	&35.22$\pm$2.28 \\\cline{2-7}
+%&4000 &46.67$\pm$2.65	&50.45$\pm$2.95	&49.75$\pm$2.19	&50.75$\pm$2.02		&48.47$\pm$2.55 \\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#3}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&39.83$\pm$2.30	&38.81$\pm$4.20	&32.08$\pm$3.85	&34.13$\pm$2.99	&39.20$\pm$5.01\\\cline{2-7} 
+%
+%&500	&46.10$\pm$3.30	&51.51$\pm$2.68	&44.91$\pm$3.99	&46.76$\pm$3.20	&48.53$\pm$1.90 \\\cline{2-7} 
+%
+%&1000	&31.85$\pm$2.46	&37.58$\pm$3.29	&35.80$\pm$3.48	&38.18$\pm$2.63	&35.86$\pm$2.59 \\\cline{2-7} 
+%
+%&2000	&32.18$\pm$4.75	&39.75$\pm$3.51	&39.35$\pm$4.27	&41.90$\pm$2.33	&42.31$\pm$2.81 \\\cline{2-7}
+%
+%&4000	&50.63$\pm$3.58	&57.10$\pm$2.89	&56.60$\pm$1.62	& 59.70$\pm$3.46&58.03$\pm$3.26 \\\midrule 
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#4}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&41.25$\pm$3.38		&39.36$\pm$3.42		&42.48$\pm$2.45	&40.65$\pm$3.18	&39.70$\pm$3.81  \\\cline{2-7}
+%
+%&500	&42.43$\pm$4.09		&41.38$\pm$3.60		&40.75$\pm$3.85	& 44.21$\pm$1.44	&40.15$\pm$2.88 \\\cline{2-7}
+%
+%&1000	&17.66$\pm$2.45		&18.96$\pm$1.71		&18.65$\pm$2.68	&17.93$\pm$2.89	&16.93$\pm$1.52 \\\cline{2-7}
+%
+%&2000	&17.33$\pm$2.09		&19.38$\pm$1.82		&18.00$\pm$2.71	&16.31$\pm$2.44	&16.31$\pm$1.78 \\\cline{2-7}
+%
+%&4000 &30.73$\pm$2.10		&33.16$\pm$2.87	&31.66$\pm$3.27	&29.65$\pm$2.12	&28.63$\pm$2.74 \\\midrule
+%
+%
+%
+%
+%	\end{tabular}
+%	\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%\begin{table}[H]
+%	\centering
+%    %\footnotesize
+%	\caption{Taxa de reconhecimento com ELM na base de dados Yale com oclusões}
+%    \label{tab:reconhecimento_Yale_com_oclusao}
+%    \hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{Yale\#1}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%& 200	&77.33$\pm$14.12	&70.66$\pm$12.64	&63.33$\pm$13.78	&67.33$\pm$14.55	&68.00$\pm$10.32 	\\\cline{2-7}
+%
+%& 500	&96.00$\pm$4.66		&90.66$\pm$7.16		&79.33$\pm$11.52	&89.33$\pm$7.16		&93.33$\pm$6.28 	\\\cline{2-7}
+%
+%& 1000	&96.66$\pm$3.51		&94.00$\pm$3.78		&80.66$\pm$4.91		&93.33$\pm$7.02		&96.00$\pm$3.44 	\\\cline{2-7}
+%	
+%& 2000	&98.66$\pm$2.81		&94.66$\pm$2.81		&84.00$\pm$6.44		&98.00$\pm$3.22		&98.00$\pm$3.22 	\\\cline{2-7}
+%& 4000	&100.00$\pm$0.00	&94.66$\pm$2.81		&83.33$\pm$5.66		& 100.00$\pm$0.00	&98.00$\pm$3.22 	\\\midrule 
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{Yale\#2}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%& 200	 	&57.33$\pm$10.03	&47.33$\pm$14.21	&58.00$\pm$14.41	&44.00$\pm$9.53		&52.66$\pm$15.53 \\\cline{2-7}
+%
+%& 500 	&78.00$\pm$7.06		&79.33$\pm$6.62		&75.333$\pm$6.32	&70.00$\pm$6.47		&74.00$\pm$6.62 \\\cline{2-7}
+%
+%& 1000 	&79.33$\pm$5.83		&83.33$\pm$3.51		&81.33$\pm$2.81		&76.66$\pm$5.66		&80.66$\pm$6.62 \\\cline{2-7}
+%	
+%& 2000 	&80.66$\pm$3.78		&87.33$\pm$5.83		&84.00$\pm$3.44		&79.33$\pm$6.62		&81.33$\pm$4.21 \\\cline{2-7}
+%
+%& 4000	 	&81.33$\pm$4.21		&85.33$\pm$4.21		&86.00$\pm$2.10		&78.66$\pm$6.12		&82.66$\pm$4.66 \\\midrule
+%
+%
+%
+%
+%\end{tabular}
+%\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%
+%\subsection{Avaliação com KNN}
+%
+%
+%Tomando por base outra estratégia de classificação utilizou-se o KNN para analisar os resultados de taxa de identificação das imagens de faces parcialmente ocluídas.
+%
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento com KNN na base de dados AR com oclusões}
+%    \label{tab:reconhecimento_AR_com_oclusoes_KNN}
+%   %\hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|c c c c c|}
+%\cline{3-12}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}  & \multicolumn{5}{c|}{\textbf{AR\#2}} \\\cline{3-12}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%& 1 &	\cellcolor{green!30}{42.83} &	\cellcolor{green!30}{44.25} &	\cellcolor{green!30}{42.50} &	\cellcolor{green!30}{39.50} &	\cellcolor{green!30}{40.25} & \cellcolor{green!30}{43.25}	& \cellcolor{green!30}{43.75}	& 42.00	& 41.25	& \cellcolor{green!20}{42.50} \\\cline{2-12}
+%& 2 &	42.83 &	44.25 &	42.50 &	39.50 &	40.25 & 43.25	& 43.75	& 42.00	& 41.25	& 42.50 \\\cline{2-12}
+%& 4 &	41.58 &	43.00 &	41.92 &	38.00 &	38.67 & 43.25	& 43.75	& 42.00	& 41.25	& 42.50 \\\cline{2-12}
+%& 6 &	39.67 &	41.75 &	41.33 &	37.42 &	37.83 & 40.50	& 42.50	& \cellcolor{green!30}{43.75}	& 38.00	& 37.75 \\\cline{2-12}
+%& 8 &	39.33 &	40.83 &	40.67 &	35.92 &	37.25 & 41.25	& 42.50	& 41.75	& 35.50	& 37.75 \\\cline{2-12}
+%& 10& 38.33 &	40.42 &	39.17 &	35.75 &	36.58 & 40.25	& 41.00	& 41.00	& 36.00	& 37.25\\ \midrule
+%\multicolumn{12}{c}{}\\ 
+%%\toprule 
+%
+%
+%
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-12}
+%\multicolumn{2}{c}{} & \multicolumn{5}{|c|}{\textbf{AR\#3}}  & \multicolumn{5}{c|}{\textbf{AR\#4}} \\\cline{3-12}
+%\multicolumn{2}{c}{}  & \multicolumn{1}{|c}{db2} & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%%\multicolumn{2}{c}{} & \multicolumn{1}{|c}{$\mu \pm \sigma$} & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%& 1	& \cellcolor{green!30}{72.67}	& \cellcolor{green!30}{75.83}	& \cellcolor{green!30}{73.33}	&\cellcolor{green!30}{69.00}	& \cellcolor{green!30}{70.83} & \cellcolor{green!30}{12.67}	& 12.67	& 12.17& 	\cellcolor{green!30}{9.83}	& \cellcolor{green!30}{10.17} \\\cline{2-12}
+%& 2	& 72.67	& 75.83	& 73.33	& 69.00	& 70.83& 12.67	& 12.67	& 12.17& 	9.83	& 10.17 \\\cline{2-12}
+%& 4	& 71.00	& 72.83	& 70.50	& 67.17	& 68.17& 11.67	& \cellcolor{green!30}{12.83}	& 12.67& 	9.33	& 	9.50 \\\cline{2-12}
+%& 6	& 68.17	& 70.83	& 70.33	& 65.67	& 66.17& 11.00	& 12.83	& \cellcolor{green!30}{12.83}& 	9.17	& 	9.83 \\\cline{2-12}
+%& 8	& 66.33	& 68.33	& 68.67	& 62.50	& 64.67& 11.83	& 12.67	& 12.00& 	8.67	& 	9.67 \\\cline{2-12}
+%& 10& 65.17	& 68.50	& 67.33	& 62.33	& 63.17& 11.67	& 12.67	& 11.83& 	9.00	& 	9.33 \\\midrule
+%
+%%\multicolumn{12}{c}{}\\ 
+%
+%
+%	\end{tabular}
+%	\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%\begin{table}[H]
+%	\centering
+%    %\normalsize
+%	\caption{Taxa de reconhecimento com KNN na base de dados Yale com oclusões}
+%    \label{tab:reconhecimento_Yale_KNN_ocluida}
+%   % \hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{Yale\#1}}  \\\cline{3-7}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\hline
+%%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%
+%&1	&\cellcolor{green!30}{100.00}	&\cellcolor{green!30}{100.00}	&\cellcolor{green!30}{100.00}	&	93.33	&\cellcolor{green!30}{100.00} \\\cline{2-7}
+%&2	&100.00	&100.00	&100.00	&	93.33	&100.00 \\\cline{2-7}
+%&4	&100.00	&93.33	&100.00	&	\cellcolor{green!30}{100.00}	&100.00 \\\cline{2-7}
+%&6	&100.00	&100.00	&100.00	&	100.00	&100.00 \\\cline{2-7}
+%&8	&93.33	&93.33	&100.00	&	100.00	&100.00 \\\cline{2-7}
+%&10	&100.00	&93.33	&100.00	&	100.00	&100.00 \\\midrule
+%
+%
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{Yale\#2}}  \\\cline{3-7}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%
+%&1	&46.67	&\cellcolor{green!30}{53.33}	&46.67	&26.67	&26.67 \\\cline{2-7}
+%&2	&46.67	&53.33	&46.67	&26.67	&26.67 \\\cline{2-7}
+%&4	&46.67	&40.00	&46.67	&\cellcolor{green!30}{33.33}	&\cellcolor{green!30}{33.33} \\\cline{2-7}
+%&6	&46.67	&53.33	&46.67	&26.67	&26.67 \\\cline{2-7}
+%&8	&\cellcolor{green!30}{53.33}	&53.33	&53.33	&26.67	&26.67 \\\cline{2-7}
+%&10	&53.33	&46.67	&\cellcolor{green!30}{60.00}	&26.67	&26.67 \\\midrule
+%\end{tabular}
+%\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%\section{Reconstrução com subespaço}
+%
+%
+%
+%\subsection{Avaliação com ELM}
+%
+%
+%
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da técnica Asymmetrical PCA com ELM na base de dados AR com oclusões}
+%    \label{tab:reconhecimento_AR_com_oclusoes}
+%   % \hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&35.41$\pm$2.20	&34.22$\pm$2.70	&32.02$\pm$1.26	&32.24$\pm$1.92	&34.47$\pm$3.36	\\\cline{2-7}
+%&500	&39.11$\pm$3.04	&41.70$\pm$2.05	&37.35$\pm$3.37	&40.87$\pm$2.28	&39.70$\pm$2.38	\\\cline{2-7}
+%&1000	&21.85$\pm$1.55	&24.20$\pm$1.63	&23.04$\pm$1.77	&25.17$\pm$1.00	&23.60$\pm$1.48	\\\cline{2-7}
+%&2000	&21.26$\pm$2.32	&25.16$\pm$2.24	&25.20$\pm$2.00	&25.56$\pm$1.54	&26.25$\pm$1.86	\\\cline{2-7}
+%&4000	&35.68$\pm$1.55	&40.91$\pm$2.17	&39.45$\pm$1.16	&40.45$\pm$1.88	&39.10$\pm$2.02	
+%
+%\\\midrule% 
+%
+%\multicolumn{7}{c}{}\\ 
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#2}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&43.57$\pm$2.88	&41.62$\pm$3.26	&39.42$\pm$1.66	&39.10$\pm$3.46	&42.70$\pm$3.82	\\\cline{2-7}
+%&500	&48.07$\pm$3.87	&50.80$\pm$3.49	&46.17$\pm$4.71	&50.97$\pm$2.44	&48.50$\pm$3.47	\\\cline{2-7}
+%&1000	&27.32$\pm$2.72	&29.57$\pm$2.22	&28.72$\pm$2.11	&31.55$\pm$1.92	&29.60$\pm$1.78	\\\cline{2-7}
+%&2000	&25.67$\pm$2.97	&31.00$\pm$3.17	&30.07$\pm$2.86	&31.60$\pm$1.78	&32.15$\pm$2.59	\\\cline{2-7}
+%&4000	&40.45$\pm$2.37	&45.97$\pm$2.51	&45.00$\pm$1.81	&46.37$\pm$2.42	&44.10$\pm$2.63	
+%
+%\\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#3}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&36.76$\pm$2.228	&36.38$\pm$4.00	&29.18$\pm$3.43	&30.96$\pm$2.65	&36.03$\pm$5.14	\\\cline{2-7}
+%&500	&43.08$\pm$4.2392	&49.01$\pm$2.02	&40.41$\pm$4.24	&43.36$\pm$3.44	&45.35$\pm$1.97	\\\cline{2-7}
+%&1000	&29.40$\pm$2.1662	&34.00$\pm$3.55	&31.66$\pm$2.86	&35.76$\pm$2.54	&33.83$\pm$1.92	\\\cline{2-7}
+%&2000	&29.06$\pm$4.576	&35.78$\pm$2.78	&35.73$\pm$3.69	&38.30$\pm$2.57	&39.66$\pm$3.26	\\\cline{2-7}
+%&4000	&46.21$\pm$3.373	&53.36$\pm$2.95	&53.08$\pm$2.05	&55.75$\pm$3.30	&54.45$\pm$2.08	
+%
+%\\\midrule 
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#4}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&34.06$\pm$2.93	&32.06$\pm$3.34	&34.86$\pm$2.99	&33.51$\pm$3.36	&32.91$\pm$3.31	\\\cline{2-7}
+%&500	&35.15$\pm$4.16	&34.38$\pm$3.88	&34.28$\pm$4.34	&38.38$\pm$2.20	&34.06$\pm$4.07	\\\cline{2-7}
+%&1000	&14.31$\pm$2.46	&14.40$\pm$1.18	&14.41$\pm$1.25	&14.58$\pm$2.69	&13.36$\pm$1.76	\\\cline{2-7}
+%&2000	&13.46$\pm$1.19	&14.55$\pm$2.54	&14.66$\pm$2.68	&12.83$\pm$2.72	&12.83$\pm$1.35	\\\cline{2-7}
+%&4000	&25.15$\pm$1.78	&28.46$\pm$2.98	&25.83$\pm$3.01	&25.16$\pm$2.46	&23.76$\pm$2.87	
+%
+%\\\midrule
+%	\end{tabular}
+%\end{table}
+%
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da técnica Fast Recursive  PCA com ELM na base de dados AR com oclusões}
+%    \label{tab:reconhecimento_AR_com_oclusoes}
+%   % \hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&70.80$\pm$0.96	&69.55$\pm$1.19	&69.47$\pm$1.19	&68.26$\pm$1.11	&68.25$\pm$1.32	\\\cline{2-7}
+%&500	&71.56$\pm$1.34	&70.95$\pm$1.68	&71.37$\pm$0.78	&70.91$\pm$1.19	&69.18$\pm$0.99	\\\cline{2-7}
+%&1000	&51.15$\pm$0.98	&50.94$\pm$1.70	&50.36$\pm$1.27	&50.65$\pm$1.06	&48.65$\pm$1.42	\\\cline{2-7}
+%&2000	&54.15$\pm$1.14	&53.30$\pm$1.56	&53.61$\pm$1.45	&50.81$\pm$1.07	&50.10$\pm$1.77	\\\cline{2-7}
+%&4000	&68.16$\pm$0.80	&69.06$\pm$1.26	&69.07$\pm$0.93	&65.34$\pm$1.29	&64.90$\pm$1.20	
+%
+%
+%\\\midrule% 
+%
+%\multicolumn{7}{c}{}\\ 
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#2}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&87.97$\pm$0.74	&86.00$\pm$0.84	&86.42$\pm$1.37	&84.75$\pm$0.98	&83.50$\pm$1.29	\\\cline{2-7}
+%&500	&85.52$\pm$0.74	&83.90$\pm$1.79	&85.72$\pm$0.98	&83.27$\pm$0.75	&82.07$\pm$0.87	\\\cline{2-7}
+%&1000	&64.82$\pm$1.38	&63.87$\pm$1.55	&63.62$\pm$1.74	&63.97$\pm$1.48	&61.57$\pm$1.14	\\\cline{2-7}
+%&2000	&68.22$\pm$2.57	&66.70$\pm$1.53	&65.85$\pm$1.06	&63.37$\pm$1.53	&62.25$\pm$2.33	\\\cline{2-7}
+%&4000	&79.70$\pm$1.34	&79.15$\pm$1.40	&80.10$\pm$1.29	&76.15$\pm$0.93 &76.00$\pm$0.95	
+%
+%
+%\\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#3}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&78.28$\pm$1.15	&77.66$\pm$1.38	&77.38$\pm$1.90	&76.28$\pm$1.76	&76.35$\pm$1.82	\\\cline{2-7}
+%&500	&83.46$\pm$2.11	&82.33$\pm$1.05	&83.66$\pm$1.43	&82.35$\pm$1.22	&81.88$\pm$1.35	\\\cline{2-7}
+%&1000	&66.68$\pm$1.47	&66.60$\pm$1.89	&65.91$\pm$1.88	&67.00$\pm$1.79	&64.96$\pm$1.62	\\\cline{2-7}
+%&2000	&70.50$\pm$2.10	&70.28$\pm$1.97	&70.15$\pm$2.25	&68.81$\pm$1.76	&67.46$\pm$2.30	\\\cline{2-7}
+%&4000	&82.40$\pm$1.03	&83.46$\pm$1.32	&83.18$\pm$0.56	&81.06$\pm$1.68	&80.50$\pm$1.49	
+%
+%
+%\\\midrule 
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#4}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&63.33$\pm$1.09	&61.43$\pm$3.13	&61.56$\pm$1.65	&60.25$\pm$1.63	&60.15$\pm$2.12	\\\cline{2-7}
+%&500	&59.66$\pm$1.34	&59.56$\pm$3.18	&59.08$\pm$1.36	&59.48$\pm$1.48	&56.48$\pm$1.59	\\\cline{2-7}
+%&1000	&35.61$\pm$1.03	&35.28$\pm$1.72	&34.81$\pm$1.91	&34.31$\pm$1.88	&32.35$\pm$1.73	\\\cline{2-7}
+%&2000	&37.80$\pm$1.77	&36.33$\pm$1.71	&37.08$\pm$1.75	&32.81$\pm$1.46	&32.73$\pm$2.04	\\\cline{2-7}
+%&4000	&53.93$\pm$1.46	&54.66$\pm$1.49	&54.96$\pm$1.56	&49.61$\pm$1.33	&49.31$\pm$1.55	
+%
+%\\\midrule
+%	\end{tabular}
+%\end{table}
+%
+%
+%
+%
+%
+%
+%
+%
+%%\section{References}
+%%\bibliographystyle{sbc}
+%%\bibliography{sbc-template}
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da técnica Fisherfaces  com ELM na base de dados AR com oclusões}
+%    \label{tab:reconhecimento_AR_com_oclusoes}
+%   % \hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&18.46$\pm$1.29	&18.24$\pm$1.02	&18.12$\pm$0.88	&17.56$\pm$1.18	&18.37$\pm$0.95	\\\cline{2-7}
+%&500	&14.37$\pm$0.87	&14.69$\pm$1.40	&15.50$\pm$1.10	&15.63$\pm$0.94	&14.61$\pm$1.12	\\\cline{2-7}
+%&1000	&7.23$\pm$0.87	&7.60$\pm$1.02	&7.37$\pm$0.48	&8.40$\pm$1.10	&7.103$\pm$1.06	\\\cline{2-7}
+%&2000	&6.67$\pm$1.46	&7.11$\pm$0.81	&7.25$\pm$0.70	&7.00$\pm$1.03	&6.80$\pm$0.89	\\\cline{2-7}
+%&4000	&9.93$\pm$1.40	&10.70$\pm$1.34	&11.57$\pm$1.26	&11.15$\pm$1.23	&10.73$\pm$0.79	
+%
+%
+%
+%\\\midrule% 
+%
+%\multicolumn{7}{c}{}\\ 
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#2}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&24.10$\pm$2.49	&23.70$\pm$1.52	&22.52$\pm$1.74	&22.55$\pm$1.63	&24.25$\pm$1.69	\\\cline{2-7}
+%&500	&19.47$\pm$1.17	&18.57$\pm$2.27	&19.65$\pm$1.08	&20.37$\pm$1.38	&19.10$\pm$2.39	\\\cline{2-7}
+%&1000	&9.75$\pm$1.50	&9.52$\pm$1.89	&9.50$\pm$0.82	&11.47$\pm$1.89	&9.97$\pm$1.75	\\\cline{2-7}
+%&2000	&9.57$\pm$3.03	&9.62$\pm$1.70	&9.20$\pm$1.24	&9.47$\pm$1.77	&9.55$\pm$1.91	\\\cline{2-7}
+%&4000	&13.10$\pm$2.35	&14.40$\pm$2.03	&15.02$\pm$1.99	&15.35$\pm$1.89	&14.90$\pm$1.78	
+%	
+%
+%
+%\\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#3}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&12.15$\pm$1.68	&12.31$\pm$1.61	&12.01$\pm$1.42	&12.40$\pm$1.73	&12.71$\pm$1.31	\\\cline{2-7}
+%&500	&9.06$\pm$1.29	&10.13$\pm$1.90	&9.66$\pm$1.40	&10.28$\pm$1.17	&9.96$\pm$0.92	\\\cline{2-7}
+%&1000	&5.10$\pm$1.33	&5.70$\pm$1.26	&5.65$\pm$0.73	&6.53$\pm$0.75	&5.13$\pm$0.94	\\\cline{2-7}
+%&2000	&4.30$\pm$1.46	&4.81$\pm$0.79	&5.00$\pm$0.90	&5.86$\pm$1.17	&5.25$\pm$0.60	\\\cline{2-7}
+%&4000	&4.96$\pm$0.94	&6.80$\pm$1.42	&5.85$\pm$1.16	&6.91$\pm$1.21	&6.30$\pm$1.26	
+%
+%
+%
+%\\\midrule 
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#4}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&24.78$\pm$1.23	&24.16$\pm$1.41	&24.23$\pm$1.55	&22.73$\pm$1.44	&24.03$\pm$1.55	\\\cline{2-7}
+%&500	&19.68$\pm$1.19	&19.25$\pm$1.45	&21.33$\pm$1.12	&20.98$\pm$1.36	&19.26$\pm$2.00	\\\cline{2-7}
+%&1000	&9.36$\pm$1.13	&9.51$\pm$1.72	&9.10$\pm$1.16	&10.26$\pm$1.98	&9.08$\pm$1.38	\\\cline{2-7}
+%&2000	&9.05$\pm$2.09	&9.41$\pm$1.39	&9.50$\pm$1.14	&8.13$\pm$1.46	&8.35$\pm$1.59	\\\cline{2-7}
+%&4000	&14.90$\pm$2.63	&14.61$\pm$1.78	&17.30$\pm$2.16	&15.40$\pm$2.23	&15.16$\pm$1.86	
+%
+%\\\midrule
+%	\end{tabular}
+%\end{table}
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da técnica Fast Robust PCA com ELM na base de dados AR com oclusões}
+%    \label{tab:reconhecimento_AR_com_oclusoes}
+%   % \hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	    &22.30$\pm$1.66	&23.04$\pm$1.99	&22.55$\pm$1.13	&22.30$\pm$1.13	&22.02$\pm$1.18	\\\cline{2-7}
+%&500	    &19.96$\pm$2.14	&20.61$\pm$1.66	&21.05$\pm$1.93	&21.15$\pm$2.18	&21.43$\pm$1.67	\\\cline{2-7}
+%&1000	    &12.20$\pm$1.47	&14.10$\pm$1.68	&14.28$\pm$1.87	&14.50$\pm$0.90	&14.68$\pm$1.21	\\\cline{2-7}
+%&2000	    &13.95$\pm$1.41	&14.91$\pm$1.48	&14.97$\pm$1.83 &15.22$\pm$1.22	&15.81$\pm$1.36	\\\cline{2-7}
+%&4000	    &20.40$\pm$1.80	&20.94$\pm$1.55	&21.24$\pm$1.23	&21.79$\pm$1.68	&22.30$\pm$1.31	
+%
+%
+%
+%
+%\\\midrule% 
+%
+%\multicolumn{7}{c}{}\\ 
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#2}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&25.10$\pm$2.40	&25.85$\pm$3.48	&24.75$\pm$2.23	&24.65$\pm$1.55	&24.02$\pm$2.28	\\\cline{2-7}
+%&500	&23.07$\pm$3.13	&22.92$\pm$2.44	&24.32$\pm$2.51	&24.10$\pm$3.31	&24.50$\pm$1.95	\\\cline{2-7}
+%&1000	&13.05$\pm$2.21	&15.20$\pm$2.86	&16.27$\pm$2.49	&17.10$\pm$2.80	&16.95$\pm$2.20	\\\cline{2-7}
+%&2000	&15.55$\pm$2.62	&15.62$\pm$1.89	&16.97$\pm$2.38	&18.30$\pm$1.64	&18.15$\pm$1.87	\\\cline{2-7}
+%&4000	&20.42$\pm$2.65	&20.25$\pm$2.23	&22.30$\pm$2.33	&23.90$\pm$1.96	&24.22$\pm$2.52	
+%
+%	
+%
+%
+%\\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#3}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&23.26$\pm$1.54	&24.63$\pm$2.39	&24.06$\pm$1.82	&24.05$\pm$1.94	&24.81$\pm$1.86	\\\cline{2-7}
+%&500	&22.63$\pm$1.61	&22.65$\pm$1.95	&23.48$\pm$2.18	&24.40$\pm$2.91	&25.35$\pm$2.77	\\\cline{2-7}
+%&1000	&15.76$\pm$2.62 &18.16$\pm$2.40	&18.63$\pm$3.29	&19.66$\pm$1.28	&20.41$\pm$1.84	\\\cline{2-7}
+%&2000	&17.20$\pm$1.80	&19.41$\pm$2.25	&19.65$\pm$2.70	&20.30$\pm$2.77	&21.56$\pm$2.68	\\\cline{2-7}
+%&4000	&22.55$\pm$3.29	&24.21$\pm$2.56	&24.26$\pm$1.45	&26.31$\pm$2.15	&28.16$\pm$2.50	
+%
+%
+%
+%
+%\\\midrule 
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#4}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%& 200	&21.35$\pm$2.43	&21.45$\pm$2.22	&21.05$\pm$1.88	&20.55$\pm$2.15	&19.23$\pm$1.48	\\\cline{2-7}
+%& 500	&17.30$\pm$3.14	&18.58$\pm$2.29	&18.63$\pm$2.71	&17.90$\pm$2.69	&17.51$\pm$1.84	\\\cline{2-7}
+%& 1000	&8.65$\pm$1.51	&10.05$\pm$1.82	&9.93$\pm$1.80	&9.35$\pm$1.44	&8.95$\pm$1.79	\\\cline{2-7}
+%& 2000	&10.70$\pm$1.85	&10.41$\pm$1.48	&10.30$\pm$1.48	&10.15$\pm$1.28	&10.06$\pm$0.89	\\\cline{2-7}
+%& 4000	&18.25$\pm$1.96	&17.66$\pm$1.86	&18.21$\pm$1.78	&17.26$\pm$1.95	&16.43$\pm$1.02	
+%\\\midrule
+%	\end{tabular}
+%\end{table}
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da técnica Gappy PCA com ELM na base de dados AR com oclusões}
+%    \label{tab:reconhecimento_AR_com_oclusoes}
+%   % \hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&62.19$\pm$1.38	&61.35$\pm$1.20	&61.13$\pm$0.72	&61.65$\pm$0.79	&60.34$\pm$0.76	\\\cline{2-7}
+%&500	&58.94$\pm$1.18	&58.75$\pm$1.31	&59.81$\pm$0.86	&59.08$\pm$1.26	&56.54$\pm$1.40	\\\cline{2-7}
+%&1000	&42.43$\pm$0.91	&41.43$\pm$1.45	&41.77$\pm$1.07	&40.87$\pm$0.69	&38.90$\pm$1.15	\\\cline{2-7}
+%&2000	&45.66$\pm$0.99	&44.67$\pm$1.72	&45.01$\pm$1.13	&42.40$\pm$1.25	&41.47$\pm$0.97	\\\cline{2-7}
+%&4000	&59.60$\pm$1.30	&59.21$\pm$1.56	&59.18$\pm$1.21	&56.47$\pm$1.17	&55.73$\pm$1.35	
+%
+%
+%\\\midrule% 
+%
+%\multicolumn{7}{c}{}\\ 
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#2}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&80.40$\pm$0.92	&77.67$\pm$1.72	&78.22$\pm$1.69	&77.35$\pm$1.19	&75.82$\pm$1.22	\\\cline{2-7}
+%&500	&73.62$\pm$1.04	&70.65$\pm$0.80	&72.62$\pm$1.85	&70.27$\pm$1.39	&67.85$\pm$1.65	\\\cline{2-7}
+%&1000	&54.92$\pm$2.17	&51.92$\pm$1.92	&52.32$\pm$1.59	&51.32$\pm$0.45	&50.00$\pm$1.49	\\\cline{2-7}
+%&2000	&57.80$\pm$1.15 &55.52$\pm$2.04	&55.90$\pm$1.11	&53.90$\pm$1.18	&52.27$\pm$1.41	\\\cline{2-7}
+%&4000	&71.72$\pm$1.59	&68.30$\pm$1.59	&69.77$\pm$1.61	&67.12$\pm$1.20	&66.35$\pm$1.41	
+%
+%
+%\\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#3}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&67.00$\pm$2.12	&67.05$\pm$1.05	&66.51$\pm$1.04	&67.13$\pm$1.25	&65.78$\pm$0.91	\\\cline{2-7}
+%&500	&67.63$\pm$1.87	&67.11$\pm$1.33	&68.53$\pm$1.53	&67.03$\pm$1.33	&65.70$\pm$1.71	\\\cline{2-7}
+%&1000	&53.70$\pm$1.65	&53.85$\pm$1.83	&53.98$\pm$1.51	&53.96$\pm$1.90	&51.73$\pm$1.55	\\\cline{2-7}
+%&2000	&58.98$\pm$0.81	&58.25$\pm$2.14	&58.58$\pm$1.96	&56.86$\pm$1.54	&55.53$\pm$1.53	\\\cline{2-7}
+%&4000	&71.05$\pm$1.60	&71.31$\pm$1.70	&70.50$\pm$1.63	&69.03$\pm$1.54	&68.46$\pm$1.48	
+%
+%\\\midrule 
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#4}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&57.38$\pm$1.45	&55.66$\pm$2.43	&55.75$\pm$1.89	&56.18$\pm$1.88	&54.90$\pm$1.17	\\\cline{2-7}
+%&500	&50.25$\pm$1.54	&50.40$\pm$2.31	&51.10$\pm$1.39	&51.13$\pm$1.52	&47.38$\pm$1.91	\\\cline{2-7}
+%&1000	&31.16$\pm$1.10	&29.01$\pm$2.66	&29.56$\pm$1.67	&27.78$\pm$1.18	&26.06$\pm$1.31	\\\cline{2-7}
+%&2000	&32.35$\pm$1.64	&31.10$\pm$1.64	&31.45$\pm$1.14	&27.95$\pm$2.04	&27.41$\pm$1.35	\\\cline{2-7}
+%&4000	&48.15$\pm$2.03	&47.11$\pm$1.92	&47.86$\pm$1.68	&43.91$\pm$1.36	&43.00$\pm$1.88	
+%
+%\\\midrule
+%	\end{tabular}
+%\end{table}
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da técnica PCA com ELM na base de dados AR com oclusões}
+%    \label{tab:reconhecimento_AR_com_oclusoes}
+%   \hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&19.58$\pm$1.78	&19.70$\pm$1.97	&19.49$\pm$0.62	&19.95$\pm$1.08	&20.55$\pm$1.80	\\\cline{2-7}
+%&500	&16.81$\pm$1.54	&18.23$\pm$1.75	&17.84$\pm$1.59	&19.25$\pm$1.29	&17.47$\pm$2.15	\\\cline{2-7}
+%&1000	&9.35$\pm$1.19	&9.40$\pm$0.68	&9.39$\pm$1.27	&10.14$\pm$1.09	&9.15$\pm$0.72	\\\cline{2-7}
+%&2000	&9.43$\pm$0.97	&10.50$\pm$1.77	&10.28$\pm$1.13	&9.85$\pm$1.69	&9.34$\pm$1.38	\\\cline{2-7}
+%&4000	&14.78$\pm$1.79	&15.79$\pm$0.99	&15.24$\pm$1.26	&13.84$\pm$1.47	&14.03$\pm$0.70	
+%
+%
+%
+%\\\midrule% 
+%
+%\multicolumn{7}{c}{}\\ 
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#2}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&23.15$\pm$3.10	&22.97$\pm$2.77	&22.97$\pm$1.56	&23.72$\pm$2.13	&25.27$\pm$2.74	\\\cline{2-7}
+%&500	&20.67$\pm$2.70	&22.62$\pm$2.11	&21.45$\pm$2.80	&24.22$\pm$2.16	&22.00$\pm$2.99	\\\cline{2-7}
+%&1000	&11.15$\pm$1.58	&11.17$\pm$1.66	&11.47$\pm$1.66	&12.27$\pm$1.58	&11.72$\pm$1.15	\\\cline{2-7}
+%&2000	&10.95$\pm$2.17	&12.75$\pm$2.48	&12.62$\pm$1.75	&11.80$\pm$2.39	&11.77$\pm$2.37	\\\cline{2-7}
+%&4000	&17.07$\pm$2.54	&18.37$\pm$1.79	&18.55$\pm$1.81	&16.07$\pm$2.42	&16.60$\pm$1.32	
+%
+%
+%
+%\\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#3}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&14.61$\pm$2.09	&15.73$\pm$2.01	&15.16$\pm$1.89	&16.13$\pm$1.45	&16.45$\pm$3.13	\\\cline{2-7}
+%&500	&13.53$\pm$2.15 &14.23$\pm$1.62	&14.91$\pm$1.77	&14.93$\pm$1.60	&14.73$\pm$3.20	\\\cline{2-7}
+%&1000	&8.81$\pm$1.13	&9.11$\pm$1.67	&9.05$\pm$1.79	&10.40$\pm$0.84	&9.86$\pm$1.05	\\\cline{2-7}
+%&2000	&9.03$\pm$1.61	&10.08$\pm$1.90	&10.48$\pm$0.91	&10.81$\pm$2.32	&10.15$\pm$2.00	\\\cline{2-7}
+%&4000	&13.93$\pm$2.06	&14.65$\pm$1.30	&14.15$\pm$1.58	&14.55$\pm$1.99	&14.51$\pm$1.15	
+%
+%
+%\\\midrule 
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#4}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&24.55$\pm$2.37	&23.66$\pm$2.87	&23.81$\pm$2.37	&23.78$\pm$2.05	&24.66$\pm$2.58	\\\cline{2-7}
+%&500	&20.10$\pm$3.01	&22.23$\pm$2.72	&20.76$\pm$2.29	&23.56$\pm$1.59	&20.21$\pm$2.40	\\\cline{2-7}
+%&1000	&9.88$\pm$1.67	&9.68$\pm$0.70	&9.73$\pm$1.52	&9.88$\pm$1.74	&8.43$\pm$1.18	\\\cline{2-7}
+%&2000	&9.83$\pm$1.62	&10.91$\pm$2.07	&10.08$\pm$2.18	&8.88$\pm$1.42	&8.53$\pm$1.44	\\\cline{2-7}
+%&4000	&15.63$\pm$2.17	&16.93$\pm$1.48	&16.33$\pm$2.43	&13.13$\pm$1.69	&13.55$\pm$1.53	
+%\\\midrule
+%	\end{tabular}
+%\end{table}
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da técnica Recursive PCA com ELM na base de dados AR com oclusões}
+%    \label{tab:reconhecimento_AR_com_oclusoes}
+%   \hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&70.81$\pm$0.96	&69.56$\pm$1.18	&69.45$\pm$1.19	&68.31$\pm$1.10	&68.27$\pm$1.30	\\\cline{2-7}
+%&500	&71.61$\pm$1.36	&71.00$\pm$1.72	&71.39$\pm$0.79	&70.95$\pm$1.11	&69.17$\pm$0.96	\\\cline{2-7}
+%&1000	&51.20$\pm$1.03	&50.95$\pm$1.66	&50.40$\pm$1.28	&50.70$\pm$1.02	&48.70$\pm$1.41	\\\cline{2-7}
+%&2000	&54.20$\pm$1.12	&53.32$\pm$1.51	&53.65$\pm$1.47	&50.88$\pm$1.06	&50.18$\pm$1.73	\\\cline{2-7}
+%&4000	&68.14$\pm$0.78	&69.10$\pm$1.25	&69.10$\pm$0.97	&65.45$\pm$1.37	&64.95$\pm$1.24	
+%
+%
+%
+%
+%\\\midrule% 
+%
+%\multicolumn{7}{c}{}\\ 
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#2}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&87.97$\pm$0.74	&86.05$\pm$0.80	&86.42$\pm$1.35	&84.85$\pm$0.93	&83.50$\pm$1.30	\\\cline{2-7}
+%&500	&85.65$\pm$0.77	&83.97$\pm$1.83	&85.77$\pm$1.03	&83.35$\pm$0.74	&82.10$\pm$0.89	\\\cline{2-7}
+%&1000	&64.92$\pm$1.43 &63.97$\pm$1.56	&63.80$\pm$1.65	&64.00$\pm$1.36	&61.75$\pm$1.16	\\\cline{2-7}
+%&2000	&68.37$\pm$2.56	&66.72$\pm$1.55	&66.00$\pm$1.07	&63.50$\pm$1.47	&62.62$\pm$2.27	\\\cline{2-7}
+%&4000	&79.62$\pm$1.28	&79.27$\pm$1.48	&80.17$\pm$1.45	&76.35$\pm$1.11	&76.15$\pm$0.97	
+%
+%
+%
+%
+%\\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#3}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&78.31$\pm$1.14	&77.68$\pm$1.39	&77.36$\pm$1.92	&76.36$\pm$1.79	&76.43$\pm$1.77	\\\cline{2-7}
+%&500	&83.50$\pm$2.08	&82.43$\pm$0.93 &83.70$\pm$1.42	&82.41$\pm$1.12	&81.91$\pm$1.31	\\\cline{2-7}
+%&1000	&66.75$\pm$1.44	&66.61$\pm$1.94	&65.96$\pm$1.91	&67.08$\pm$1.77	&64.98$\pm$1.58	\\\cline{2-7}
+%&2000	&70.58$\pm$2.06	&70.31$\pm$1.92	&70.25$\pm$2.29	&68.90$\pm$1.73	&67.56$\pm$2.28	\\\cline{2-7}
+%&4000	&82.43$\pm$1.10	&83.51$\pm$1.30	&83.23$\pm$0.58	&81.21$\pm$1.76	&80.58$\pm$1.50	
+%
+%
+%
+%\\\midrule 
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#4}}   \\\cline{3-7} 
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&63.31$\pm$1.12	&61.45$\pm$3.12	&61.55$\pm$1.65	&60.26$\pm$1.67	&60.11$\pm$2.13	\\\cline{2-7}
+%&500	&59.73$\pm$1.28	&59.58$\pm$3.26	&59.08$\pm$1.36	&59.50$\pm$1.41	&56.43$\pm$1.51	\\\cline{2-7}
+%&1000	&35.65$\pm$1.12	&35.28$\pm$1.64	&34.85$\pm$1.96	&34.31$\pm$1.76	&32.43$\pm$1.79	\\\cline{2-7}
+%&2000	&37.81$\pm$1.85	&36.33$\pm$1.63	&37.06$\pm$1.85	&32.86$\pm$1.41	&32.80$\pm$2.10	\\\cline{2-7}
+%&4000	&53.85$\pm$1.46	&54.70$\pm$1.49	&54.96$\pm$1.60	&49.68$\pm$1.42	&49.31$\pm$1.51	
+%
+%\\\midrule
+%	\end{tabular}
+%\end{table}
+%
+%
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da Representação Esparsa com Fast Recursive PCA na base de dados AR com ELM}
+%    \label{tab:reconhecimento_src_fast_rec_pca}
+%   % \hspace{0.5in}
+%		\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&87.55$\pm$0.47 	&87.45$\pm$0.48	&87.10$\pm$0.35	&87.01$\pm$0.20	&87.40$\pm$0.49 \\\cline{2-7}
+%&500	&87.86$\pm$0.46 	&88.05$\pm$0.20	&87.62$\pm$0.27	&87.71$\pm$0.23	&87.96$\pm$0.38 \\\cline{2-7}
+%&1000	&85.33$\pm$0.39 	&85.86$\pm$0.49	&85.40$\pm$0.32	&85.00$\pm$0.73	&85.41$\pm$0.70 \\\cline{2-7}
+%&2000	&86.28$\pm$0.41     &86.44$\pm$0.33	&86.20$\pm$0.59	&85.71$\pm$0.47	&86.40$\pm$0.44 \\\cline{2-7}
+%&4000	&88.74$\pm$0.41 	&88.73$\pm$0.40	&\textbf{89.02$\pm$0.21}	&88.30$\pm$0.33	&88.42$\pm$0.22\\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%%\toprule 
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#2}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&93.70$\pm$0.51	&93.32$\pm$0.50	&93.62$\pm$0.39	&93.50$\pm$0.39	&93.35$\pm$0.41 \\\cline{2-7}
+%&500	&93.77$\pm$0.24	&93.60$\pm$0.33	&93.45$\pm$0.40	&93.42$\pm$0.40	&93.57$\pm$0.40 \\\cline{2-7}
+%&1000	&93.40$\pm$0.55	&93.22$\pm$0.44	&93.25$\pm$0.37	&93.15$\pm$0.48	&93.12$\pm$0.47 \\\cline{2-7}
+%&2000	&93.92$\pm$0.33	&93.50$\pm$0.56	&93.50$\pm$0.48	&93.27$\pm$0.41 &93.60$\pm$0.45 \\\cline{2-7}
+%&4000	&\textbf{94.27$\pm$0.38}	&93.52$\pm$0.44	&94.20$\pm$0.40	&93.70$\pm$0.32	&94.02$\pm$0.34 \\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#3}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%& 200	&95.45$\pm$0.20	&95.43$\pm$0.28	&95.71$\pm$0.13	&95.6$\pm$0.195	&95.45$\pm$0.17	\\\cline{2-7}
+%& 500	&95.38$\pm$0.15	&95.43$\pm$0.25	&95.43$\pm$0.16	&95.55$\pm$0.23	&95.40$\pm$0.31	\\\cline{2-7}
+%& 1000	&95.33$\pm$0.27	&95.31$\pm$0.29	&95.40$\pm$0.29	&95.31$\pm$0.22	&95.23$\pm$0.36	\\\cline{2-7}
+%& 2000	&95.48$\pm$0.30	&95.31$\pm$0.40	&95.53$\pm$0.21	&95.53$\pm$0.46	&95.55$\pm$0.33	\\\cline{2-7}
+%& 4000	&95.93$\pm$0.21	&95.45$\pm$0.23	&\textbf{96.05$\pm$0.24}	&95.90$\pm$0.27	&95.61$\pm$0.20	
+% 
+%\\\midrule
+%
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#4}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%&200	&79.66$\pm$1.00	&79.48$\pm$0.95	&78.50$\pm$0.68	&78.43$\pm$0.43	&79.36$\pm$0.97	\\\cline{2-7}
+%&500	&80.35$\pm$0.90	&80.66$\pm$0.42	&79.81$\pm$0.52	&79.88$\pm$0.52	&80.53$\pm$0.61	\\\cline{2-7}
+%&1000	&75.33$\pm$0.81	&76.41$\pm$0.85	&75.40$\pm$0.56	&74.68$\pm$1.45	&75.60$\pm$1.31	\\\cline{2-7}
+%&2000	&77.08$\pm$0.90	&77.56$\pm$0.66	&76.88$\pm$1.10	&75.90$\pm$0.89	&77.26$\pm$0.82	\\\cline{2-7}
+%&4000	&81.55$\pm$0.76	&\textbf{82.01$\pm$0.66}	&82.00$\pm$0.39	&80.70$\pm$0.58	&81.23$\pm$0.52	
+% 
+%
+%\\\midrule
+%\end{tabular}
+%\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%\subsection{Avaliação com KNN}
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento com KNN na base AR com a técnica Fast Recursive PCA}
+%    \label{tab:reconhecimento_AR_KNN_Fast Recursive PCA}
+%   %\hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|c c c c c|}
+%\cline{3-12}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}  & \multicolumn{5}{c|}{\textbf{AR\#2}} \\\cline{3-12}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&53.08	&47.83	&50.17	&42.17	&41.42	&56.00	&50.50	&52.00	&42.50	&42.75 \\\cline{2-12}
+%&2	&53.08	&47.83	&50.17	&42.17	&41.42	&56.00	&50.50	&52.00	&42.50	&42.75 \\\cline{2-12}
+%&4	&51.42	&47.33	&48.42	&41.08	&40.58	&55.25	&49.50	&49.50	&40.75	&41.75 \\\cline{2-12}
+%&6	&51.00	&46.42	&48.58	&40.33	&40.67	&55.00	&48.25	&49.50	&42.50	&41.75 \\\cline{2-12}
+%&8	&50.00	&44.83	&48.17	&39.50	&39.17	&55.25	&47.00	&49.00	&41.75	&41.75 \\\cline{2-12}
+%&10	&48.83	&43.83	&46.42	&38.33	&37.92	&55.00	&47.25	&49.25	&40.75	&41.75 \\ \midrule
+%\multicolumn{12}{c}{}\\ 
+%%\toprule 
+%
+%
+%
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-12}
+%\multicolumn{2}{c}{} & \multicolumn{5}{|c|}{\textbf{AR\#3}}  & \multicolumn{5}{c|}{\textbf{AR\#4}} \\\cline{3-12}
+%\multicolumn{2}{c}{}  & \multicolumn{1}{|c}{db2} & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%%\multicolumn{2}{c}{} & \multicolumn{1}{|c}{$\mu \pm \sigma$} & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&79.83	&71.50	&75.00	&65.50	&64.67	&26.33	&24.17	&25.33	&18.83	&18.17\\\cline{2-12}
+%&2	&79.83	&71.50	&75.00	&65.50	&64.67	&26.33	&24.17	&25.33	&18.83	&18.17\\\cline{2-12}
+%&4	&76.50	&69.00	&71.67	&63.33	&62.17	&26.33	&25.67	&25.17	&18.83	&19.00\\\cline{2-12}
+%&6	&76.83	&68.00	&72.00	&62.00	&61.50	&25.17	&24.83	&25.17	&18.67	&19.83\\\cline{2-12}
+%&8	&75.67	&65.83	&71.00	&60.83	&59.67	&24.33	&23.83	&25.33	&18.17	&18.67\\\cline{2-12}
+%&10	&72.67	&63.33	&67.83	&58.33	&56.83	&25.00	&24.33	&25.00	&18.33	&19.00\\\midrule
+%
+%
+%
+%%\multicolumn{12}{c}{}\\ 
+%
+%
+%	\end{tabular}
+%	\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento com KNN na base AR com a técnica Fisherfaces}
+%    \label{tab:reconhecimento_AR_KNN_fisherfaces}
+%   %\hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|c c c c c|}
+%\cline{3-12}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}  & \multicolumn{5}{c|}{\textbf{AR\#2}} \\\cline{3-12}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&8.17	&5.83	&6.17	&5.00	&4.92	&8.50	&5.25	&6.50	&5.25&	5.50\\\cline{2-12}
+%&2	&8.17	&5.83	&6.17	&5.00	&4.92	&8.50	&5.25	&6.50	&5.25&	5.50\\\cline{2-12}
+%&4	&8.50	&5.83	&6.67	&5.17	&5.25	&8.75	&5.75	&6.50	&5.75&	6.25\\\cline{2-12}
+%&6	&8.67	&5.33	&6.92	&5.17	&5.17	&9.00	&4.75	&7.25	&5.50&	6.50\\\cline{2-12}
+%&8	&9.08	&5.58	&7.00	&5.08	&4.92	&9.50	&5.00	&7.25	&6.00&	6.75\\\cline{2-12}
+%&10	&8.58	&4.92	&7.25	&5.08	&4.42	&8.50	&4.75	&7.25	&6.75&	6.25\\ \midrule
+%\multicolumn{12}{c}{}\\ 
+%%\toprule 
+%
+%
+%
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-12}
+%\multicolumn{2}{c}{} & \multicolumn{5}{|c|}{\textbf{AR\#3}}  & \multicolumn{5}{c|}{\textbf{AR\#4}} \\\cline{3-12}
+%\multicolumn{2}{c}{}  & \multicolumn{1}{|c}{db2} & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%%\multicolumn{2}{c}{} & \multicolumn{1}{|c}{$\mu \pm \sigma$} & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&6.33	&4.50	&5.67	&4.33	&4.17	&10.00&	7.17&	6.67&	5.67&	5.67\\\cline{2-12}
+%&2	&6.33	&4.50	&5.67	&4.33	&4.17	&10.00&	7.17&	6.67&	5.67&	5.67\\\cline{2-12}
+%&4	&6.67	&5.00	&6.00	&4.50	&4.67	&10.33&	6.67&	7.33&	5.83&	5.83\\\cline{2-12}
+%&6	&7.17	&4.67	&6.00	&4.33	&4.33	&10.17&	6.00&	7.83&	6.00&	6.00\\\cline{2-12}
+%&8	&8.17	&5.17	&5.67	&4.17	&4.17	&10.00&	6.00&	8.33&	6.00&	5.67\\\cline{2-12}
+%&10	&7.83	&4.50	&5.67	&4.83	&3.83	&9.33	&5.33	&8.83	&5.33	&5.00 \\\midrule
+%
+%
+%
+%%\multicolumn{12}{c}{}\\ 
+%
+%
+%	\end{tabular}
+%	\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento com KNN na base AR com a técnica Fast Robust PCA}
+%    \label{tab:reconhecimento_AR_KNN_FRPCA}
+%   %\hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|c c c c c|}
+%\cline{3-12}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}  & \multicolumn{5}{c|}{\textbf{AR\#2}} \\\cline{3-12}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&18.50	&14.83	&16.33	&19.08	&18.00	&14.00	&11.25	&11.00	&15.50&	14.25\\\cline{2-12}
+%&2	&18.50	&14.83	&16.33	&19.08	&18.00	&14.00	&11.25	&11.00	&15.50&	14.25\\\cline{2-12}
+%&4	&19.08	&15.83	&16.75	&19.25	&18.08	&14.75	&11.50	&11.25	&15.25&	14.25\\\cline{2-12}
+%&6	&20.25	&16.33	&17.08	&19.17	&18.08	&15.75	&11.25	&11.50	&15.25&	13.50\\\cline{2-12}
+%&8	&18.75	&16.50	&17.33	&18.42	&18.17	&15.00	&11.50	&12.00	&15.00&	14.50\\\cline{2-12}
+%&10	&19.67	&17.08	&17.08	&17.92	&17.08	&15.25	&12.75	&12.75	&14.75&	14.00
+%
+%
+%\\ \midrule
+%\multicolumn{12}{c}{}\\ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-12}
+%\multicolumn{2}{c}{} & \multicolumn{5}{|c|}{\textbf{AR\#3}}  & \multicolumn{5}{c|}{\textbf{AR\#4}} \\\cline{3-12}
+%\multicolumn{2}{c}{}  & \multicolumn{1}{|c}{db2} & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%%\multicolumn{2}{c}{} & \multicolumn{1}{|c}{$\mu \pm \sigma$} & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&23,17	&20,00	&21,33	&28,17	&26,17	&13,83	&9,67	&11.33	&10.00	&9.83\\\cline{2-12}
+%&2	&23,17	&20,00	&21,33	&28,17	&26,17	&13,83	&9,67	&11.33	&10.00	&9.83\\\cline{2-12}
+%&4	&24.00	&21.17	&22.00	&28.83	&26.33	&14.17	&10.50	&11.50	&9.67	&9.83\\\cline{2-12}
+%&6	&26.00	&22.17	&22.00	&28.83	&26.67	&14.50	&10.50	&12.17	&9.50	&9.50\\\cline{2-12}
+%&8	&24.50	&22.67	&22.67	&27.50	&26.67	&13.00	&10.33	&12.00	&9.33	&9.67\\\cline{2-12}
+%&10	&25.67	&22.83	&22.33	&26.50	&25.17	&13.67	&11.33	&11.83	&9.33	&9.00\\\midrule
+%
+%
+%
+%
+%%\multicolumn{12}{c}{}\\ 
+%
+%
+%	\end{tabular}
+%	\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%
+%\begin{table}[htpb]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento com KNN na base AR com a técnica Gappy PCA}
+%    \label{tab:reconhecimento_AR_KNN_GPCA}
+%   %\hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|c c c c c|}
+%\cline{3-12}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}  & \multicolumn{5}{c|}{\textbf{AR\#2}} \\\cline{3-12}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&49.17	&43.58	&45.42	&38.00	&38.17	&50.50	&42.50	&44.25	&38.25	&38.25\\\cline{2-12}
+%&2	&49.17	&43.58	&45.42	&38.00	&38.17	&50.50	&42.50	&44.25	&38.25	&38.25\\\cline{2-12}
+%&4	&48.25	&43.75	&45.33	&37.58	&37.50	&49.00	&42.00	&44.00	&36.25	&37.25\\\cline{2-12}
+%&6	&48.00	&43.75	&45.50	&37.67	&37.42	&49.50	&41.75	&44.00	&37.75	&37.50\\\cline{2-12}
+%&8	&46.75	&42.92	&45.42	&36.42	&36.92	&48.25	&41.75	&44.00	&36.50	&38.25\\\cline{2-12}
+%&10	&47.17	&42.50	&43.83	&36.42	&36.08	&49.75	&42.25	&43.50	&37.25	&37.50\\ \midrule
+%\multicolumn{12}{c}{}\\ 
+%%\toprule 
+%
+%
+%
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-12}
+%\multicolumn{2}{c}{} & \multicolumn{5}{|c|}{\textbf{AR\#3}}  & \multicolumn{5}{c|}{\textbf{AR\#4}} \\\cline{3-12}
+%\multicolumn{2}{c}{}  & \multicolumn{1}{|c}{db2} & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%%\multicolumn{2}{c}{} & \multicolumn{1}{|c}{$\mu \pm \sigma$} & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&72.33	&63.50	&66.83	&57.50	&57.00	&26.00	&23.67	&24.00	&18.50	&19.33\\\cline{2-12}
+%&2	&72.33	&63.50	&66.83	&57.50	&57.00	&26.00	&23.67	&24.00	&18.50	&19.33\\\cline{2-12}
+%&4	&70.00	&62.67	&65.50	&56.67	&55.17	&26.50	&24.83	&25.17	&18.50	&19.83\\\cline{2-12}
+%&6	&69.50	&62.17	&65.83	&55.67	&54.00	&26.50	&25.33	&25.17	&19.67	&20.83\\\cline{2-12}
+%&8	&67.67	&60.50	&65.17	&53.00	&53.17	&25.83	&25.33	&25.67	&19.83	&20.67\\\cline{2-12}
+%&10	&67.17	&58.83	&63.00	&52.33	&51.17	&27.17	&26.17	&24.67	&20.50	&21.00\\\midrule
+%
+%	\end{tabular}
+%	\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%
+%
+%
+%
+%\begin{table}[htpb]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento com KNN na base AR com a técnica PCA}
+%    \label{tab:reconhecimento_AR_KNN_PCA}
+%   %\hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|c c c c c|}
+%\cline{3-12}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}  & \multicolumn{5}{c|}{\textbf{AR\#2}} \\\cline{3-12}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&14.25	&15.67	&15.08	&13.17	&13.50	&14.00	&17.00	&16.50	&14.75	&14.50\\\cline{2-12}
+%&2	&14.25	&15.67	&15.08	&13.17	&13.50	&14.00	&17.00	&16.50	&14.75	&14.50\\\cline{2-12}
+%&4	&14.50	&15.33	&15.17	&12.75	&13.00	&14.75	&16.75	&16.75	&12.75	&13.25\\\cline{2-12}
+%&6	&14.08	&15.92	&15.17	&13.00	&13.17	&14.00	&17.50	&16.25	&13.50	&13.75\\\cline{2-12}
+%&8	&13.83	&15.33	&15.25	&12.83	&12.92	&14.00	&17.00	&17.25	&13.00	&13.50\\\cline{2-12}
+%&10	&13.08	&15.00	&14.75	&12.92	&14.00	&14.00	&16.25	&16.75	&13.75	&14.25\\ \midrule
+%\multicolumn{12}{c}{}\\ 
+%%\toprule 
+%
+%
+%
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-12}
+%\multicolumn{2}{c}{} & \multicolumn{5}{|c|}{\textbf{AR\#3}}  & \multicolumn{5}{c|}{\textbf{AR\#4}} \\\cline{3-12}
+%\multicolumn{2}{c}{}  & \multicolumn{1}{|c}{db2} & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%%\multicolumn{2}{c}{} & \multicolumn{1}{|c}{$\mu \pm \sigma$} & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&18.33	&19.83	&19.00	&18.50	&18.67&	10.17	&11.50	&11.17	&7.83&	8.33\\\cline{2-12}
+%&2	&18.33	&19.83	&19.00	&18.50	&18.67&	10.17	&11.50	&11.17	&7.83&	8.33\\\cline{2-12}
+%&4	&19.67	&20.00	&19.83	&18.33	&18.50&	9.33	&10.67	&10.50&	7.17&	7.50\\\cline{2-12}
+%&6	&19.33	&20.33	&20.00	&19.00	&19.50&	8.83	&11.50	&10.33&	7.00&	6.83\\\cline{2-12}
+%&8	&19.17	&19.83	&20.17	&19.00	&19.17&	8.50	&10.83	&10.33&	6.67&	6.67\\\cline{2-12}
+%&10	&18.00	&19.67	&19.00	&19.17	&20.33&	8.17	&10.33	&10.50&	6.67&	7.67\\\midrule
+%
+%	\end{tabular}
+%	\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento com KNN na base AR com a técnica Recursive PCA}
+%    \label{tab:reconhecimento_base_AR_KNN_Recursive_PCA}
+%   %\hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|c c c c c|}
+%\cline{3-12}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}  & \multicolumn{5}{c|}{\textbf{AR\#2}} \\\cline{3-12}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&53.25	&48.00	&50,17	&42.17	&41.25	&56.50	&50.50	&52.00	&42.75	&42.50\\\cline{2-12}
+%&2	&53.25	&48.00	&50,17	&42.17	&41.25	&56.50	&50.50	&52.00	&42.75	&42.50\\\cline{2-12}
+%&4	&51.58	&47.58	&48,67	&41.00	&40.50	&55.75	&50.00	&50.25	&40.75	&41.25\\\cline{2-12}
+%&6	&51.17	&46.67	&48,50	&40.17	&40.33	&55.50	&48.50	&49.50	&42.50	&41.25\\\cline{2-12}
+%&8	&50.00	&45.25	&47,92	&39.67	&39.33	&55.25	&47.50	&48.50	&42.25	&42.25\\\cline{2-12}
+%&10	&49.08	&43.83	&46,58	&38.58	&38.17	&56.25	&46.75	&49.50	&41.25	&42.00 \\ \midrule
+%\multicolumn{12}{c}{}\\ 
+%%\toprule 
+%
+%
+%
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-12}
+%\multicolumn{2}{c}{} & \multicolumn{5}{|c|}{\textbf{AR\#3}}  & \multicolumn{5}{c|}{\textbf{AR\#4}} \\\cline{3-12}
+%\multicolumn{2}{c}{}  & \multicolumn{1}{|c}{db2} & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%%\multicolumn{2}{c}{} & \multicolumn{1}{|c}{$\mu \pm \sigma$} & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&80.00	&71.67	&75.00	&65.33	&64.67	&26.50	&24.33	&25.33	&19.00	&17.83\\\cline{2-12}
+%&2	&80.00	&71.67	&75.00	&65.33	&64.67	&26.50	&24.33	&25.33	&19.00	&17.83\\\cline{2-12}
+%&4	&76.83	&69.33	&71.83	&63.33	&62.50	&26.33	&25.83	&25.50	&18.67	&18.50\\\cline{2-12}
+%&6	&76.83	&68.00	&72.00	&61.83	&61.33	&25.50	&25.33	&25.00	&18.50	&19.33\\\cline{2-12}
+%&8	&75.50	&66.00	&70.67	&61.00	&59.83	&24.50	&24.50	&25.17	&18.33	&18.83\\\cline{2-12}
+%&10	&73.17	&63.33	&68.17	&58.17	&57.17	&25.00	&24.33	&25.00	&19.00	&19.17\\\midrule
+%
+%	\end{tabular}
+%	\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento com KNN na base AR com a técnica Asymmetrical PCA}
+%    \label{tab:reconhecimento_AR_KNN_Recursive_PCA}
+%   %\hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|c c c c c|}
+%\cline{3-12}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}  & \multicolumn{5}{c|}{\textbf{AR\#2}} \\\cline{3-12}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&39.17	&40.50	&39.50	&37.33	&37.92	&39.50	&40.50	&40.00	&39.00	&39.75\\\cline{2-12}
+%&2	&39.17	&40.50	&39.50	&37.33	&37.92	&39.50	&40.50	&40.00	&39.00	&39.75\\\cline{2-12}
+%&4	&38.75	&39.58	&39.00	&37.08	&37.42	&41.25	&40.00	&40.75	&38.00	&38.00\\\cline{2-12}
+%&6	&37.33	&38.75	&38.42	&35.92	&36.33	&40.00	&39.00	&39.75	&35.50	&36.75\\\cline{2-12}
+%&8	&36.83	&37.67	&37.83	&35.50	&36.00	&39.75	&38.00	&39.00	&35.00	&36.75\\\cline{2-12}
+%&10	&36.17	&37.67	&36.67	&34.92	&34.67	&38.00	&39.75	&38.75	&35.00	&35.50\\ \midrule
+%\multicolumn{12}{c}{}\\ 
+%%\toprule 
+%
+%
+%
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-12}
+%\multicolumn{2}{c}{} & \multicolumn{5}{|c|}{\textbf{AR\#3}}  & \multicolumn{5}{c|}{\textbf{AR\#4}} \\\cline{3-12}
+%\multicolumn{2}{c}{}  & \multicolumn{1}{|c}{db2} & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%%\multicolumn{2}{c}{} & \multicolumn{1}{|c}{$\mu \pm \sigma$} & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&68.50	&70.33	&68.67	&66.83	&67.17	&9.83	&10.67	&10.33	&7.83	&8.67 \\\cline{2-12}
+%&2	&68.50	&70.33	&68.67	&66.83	&67.17	&9.83	&10.67	&10.33	&7.83	&8.67 \\\cline{2-12}
+%&4	&68.00	&68.17	&67.33	&67.00	&66.83	&9.50	&11.00	&10.67	&7.17	&8.00 \\\cline{2-12}
+%&6	&65.33	&66.67	&65.83	&64.67	&64.50	&9.33	&10.83	&11.00	&7.17	&8.17 \\\cline{2-12}
+%&8	&64.00	&65.00	&64.50	&64.17	&64.00	&9.67	&10.33	&11.17	&6.83	&8.00 \\\cline{2-12}
+%&10	&62.67	&65.33	&63.00	&62.83	&61.50	&9.67	&10.00	&10.33	&7.00	&7.83 \\\midrule
+%
+%	\end{tabular}
+%	\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%
+%
+%
+%
+%
+%\begin{table}[htpb]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da técnica SRC com Fast Recursive PCA com classificador KNN}
+%    \label{tab:reconhecimento_SRC_FRPCAL_AR}
+%	\begin{tabular}{|c|c|c c c c c|c c c c c|}
+%\cline{3-12}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}  & \multicolumn{5}{c|}{\textbf{AR\#2}} \\\cline{3-12}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&84.58&	83.33&	83.67	&80.58&	80.08&	92.50&	90.50&	91.50&	90.25&	90.00	\\\cline{2-12}
+%&2	&84.58&	83.33&	83.67	&80.58&	80.08&	92.50&	90.50&	91.50&	90.25&	90.00	\\\cline{2-12}
+%&4	&82.33&	80.42&	80.92	&77.17&	76.42&	90.50&	89.00&	89.50&	87.75&	86.75	\\\cline{2-12}
+%&6	&80.42&	79.17&	79.50	&75.92&	75.50&	90.75&	90.00&	89.50&	87.25&	86.50	\\\cline{2-12}
+%&8	&78.33&	77.33&	77.83	&73.83&	73.42&	89.75&	88.25&	89.25&	85.50&	85.00	\\\cline{2-12}
+%&10	&77.17&	76.58&	76.83	&73.42&	72.75&	89.00&	88.50&	89.25&	85.75&	85.25	\\ \midrule
+%\multicolumn{12}{c}{}\\ 
+%
+%\cline{3-12}
+%\multicolumn{2}{c}{} & \multicolumn{5}{|c|}{\textbf{AR\#3}}  & \multicolumn{5}{c|}{\textbf{AR\#4}} \\\cline{3-12}
+%\multicolumn{2}{c}{}  & \multicolumn{1}{|c}{db2} & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&93.83&	93.33&	93.50&	91.83&	91.67&	75.33&	73.33&	73.83&	69.33&	68.50	\\\cline{2-12}
+%&2	&93.83&	93.33&	93.50&	91.83&	91.67&	75.33&	73.33&	73.83&	69.33&	68.50	\\\cline{2-12}
+%&4	&91.00&	89.33&	90.17&	87.33&	86.83&	73.67&	71.50&	71.67&	67.00&	66.00	\\\cline{2-12}
+%&6	&89.50&	88.50&	88.17&	85.00&	85.17&	71.33&	69.83&	70.83&	66.83&	65.83	\\\cline{2-12}
+%&8	&87.67&	85.67&	86.67&	81.83&	81.83&	69.00&	69.00&	69.00&	65.83&	65.00	\\\cline{2-12}
+%&10	&85.67&	84.67&	85.00&	81.67&	81.67&	68.67&	68.50&	68.67&	65.17&	63.83	
+%
+%\\\midrule
+%\end{tabular}
+%\end{table}
+%
+%
+%
+%
+%
+%
+%\section{Reconstrução baseada em modelo}
+%
+%
+%
+%
+%\subsection{Resultados com ELM}
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da Representação Esparsa com modelagem matemática do GL e topologia do grafo de Poisson  na base de dados AR com ELM}
+%    \label{tab:reconhecimento_SRC_GP}
+%   % \hspace{0.5in}
+%		\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%& 200	&\textbf{70.42$\pm$0.31}	&70.40$\pm$0.53691	&70.05$\pm$0.42	&69.77$\pm$0.29	&70.02$\pm$0.40	\\\cline{2-7}
+%& 500	&70.09$\pm$0.41	&70.20$\pm$0.31975	&70.05$\pm$0.23	&69.67$\pm$0.44	&69.56$\pm$0.49	\\\cline{2-7}
+%& 1000	&68.32$\pm$0.44	&68.27$\pm$0.27513	&68.09$\pm$0.40	&67.92$\pm$0.48	&67.75$\pm$0.41	\\\cline{2-7}
+%& 2000	&68.31$\pm$0.30	&68.55$\pm$0.56819	&68.30$\pm$0.37	&67.90$\pm$0.20	&67.99$\pm$0.52	\\\cline{2-7}
+%& 4000	&69.74$\pm$0.27	&69.79$\pm$0.31732	&69.81$\pm$0.25	&69.11$\pm$0.20	&68.96$\pm$0.34	
+%
+%\\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%%\toprule 
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#2}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%& 200	    &\textbf{83.17$\pm$0.26}	&83.10$\pm$0.21	&82.90$\pm$0.21	&82.97$\pm$0.29	&82.97$\pm$0.32	\\\cline{2-7}
+%& 500	    &82.87$\pm$0.17	&82.92$\pm$0.23	&82.50$\pm$0.11	&82.47$\pm$0.07	&82.85$\pm$0.24	\\\cline{2-7}
+%& 1000	    &82.72$\pm$0.27	&82.72$\pm$0.14	&82.62$\pm$0.37	&82.45$\pm$0.19	&82.75$\pm$0.33	\\\cline{2-7}
+%& 2000	    &82.72$\pm$0.27	&82.72$\pm$0.24	&82.65$\pm$0.21	&82.47$\pm$0.21	&82.60$\pm$0.17	\\\cline{2-7}
+%& 4000	    &82.70$\pm$0.15	&82.70$\pm$0.15	&82.50$\pm$0.00	&82.47$\pm$0.07	&82.52$\pm$0.07\\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#3}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%& 200	&83.81$\pm$0.28	&83.71$\pm$0.23	&83.85$\pm$0.24	&\textbf{83.88$\pm$0.28}	&83.81$\pm$0.27	\\\cline{2-7}
+%& 500	&83.60$\pm$0.25	&83.63$\pm$0.20	&83.50$\pm$0.15	&83.55$\pm$0.15	&83.51$\pm$0.22	\\\cline{2-7}
+%& 1000	&83.65$\pm$0.27	&83.40$\pm$0.52	&83.38$\pm$0.24	&83.40$\pm$0.22	&83.26$\pm$0.25	\\\cline{2-7}
+%& 2000	&83.43$\pm$0.27	&83.41$\pm$0.36	&83.48$\pm$0.18	&83.16$\pm$0.11	&83.30$\pm$0.29	\\\cline{2-7}
+%& 4000	&83.46$\pm$0.13	&83.45$\pm$0.15	&83.50$\pm$0.22	&83.20$\pm$0.07	&83.21$\pm$0.08	\\ \midrule
+%
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#4}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%& 200	&57.03$\pm$0.64	&\textbf{57.08$\pm$1.06}	&56.26$\pm$0.89	&55.66$\pm$0.46	&56.23$\pm$0.94	\\\cline{2-7}
+%& 500	&56.58$\pm$0.68	&56.78$\pm$0.59	&56.60$\pm$0.41	&55.80$\pm$0.81	&55.61$\pm$0.85	\\\cline{2-7}
+%& 1000	&53.00$\pm$0.81	&53.15$\pm$0.67	&52.80$\pm$0.83	&52.45$\pm$1.05	&52.25$\pm$0.88	\\\cline{2-7}
+%& 2000	&53.20$\pm$0.56	&53.68$\pm$1.02	&53.13$\pm$0.64	&52.65$\pm$0.43	&52.68$\pm$0.89	\\\cline{2-7}
+%& 4000	&56.01$\pm$0.50	&56.13$\pm$0.53	&56.13$\pm$0.34	&55.03$\pm$0.40	&54.71$\pm$0.62 \\\midrule
+% \end{tabular}
+%\end{table}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da Representação Esparsa com modelagem matemática do GL e topologia do grafo Laplaciano  na base de dados AR com ELM}
+%    \label{tab:reconhecimento_SRC_GL}
+%		\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%
+%& 200 	&71.94$\pm$0.38	&\textbf{72.09$\pm$0.40}	&71.58$\pm$0.43	&71.45$\pm$0.39	&71.75$\pm$0.49	\\\cline{2-7}
+%& 500	&71.72$\pm$0.23	&71.85$\pm$0.51	&71.55$\pm$0.26	&71.41$\pm$0.47	&71.24$\pm$0.40	\\\cline{2-7}
+%& 1000	&69.76$\pm$0.55	&69.67$\pm$0.27	&69.58$\pm$0.47	&69.54$\pm$0.44	&69.11$\pm$0.40	\\\cline{2-7}
+%& 2000	&69.87$\pm$0.43	&69.86$\pm$0.47	&69.76$\pm$0.39	&69.43$\pm$0.28	&69.52$\pm$0.49	\\\cline{2-7}
+%& 4000	&71.30$\pm$0.28	&71.45$\pm$0.22	&71.27$\pm$0.27	&70.43$\pm$0.18	&70.58$\pm$0.40	
+%
+%
+%\\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%%\toprule 
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#2}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	    &84.02$\pm$0.07	&\textbf{84.12$\pm$0.35}	&83.85$\pm$0.24	&83.80$\pm$0.25	&83.87$\pm$0.27	\\\cline{2-7}
+%&500	    &83.90$\pm$0.21	&83.90$\pm$0.21	&83.52$\pm$0.18	&83.47$\pm$0.07	&83.70$\pm$0.25	\\\cline{2-7}
+%&1000	    &83.82$\pm$0.28	&83.85$\pm$0.24	&83.55$\pm$0.34	&83.40$\pm$0.24	&83.65$\pm$0.29	\\\cline{2-7}
+%&2000	    &83.87$\pm$0.31	&83.70$\pm$0.22	&83.65$\pm$0.21	&83.45$\pm$0.19	&83.60$\pm$0.17	\\\cline{2-7}
+%&4000	    &83.77$\pm$0.14	&83.65$\pm$0.17 &83.52$\pm$0.07	&83.47$\pm$0.07	&83.60$\pm$0.12	
+%\\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#3}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200	&85.58$\pm$0.26	&85.65$\pm$0.25	&85.65$\pm$0.31	&85.73$\pm$0.23	&\textbf{85.75$\pm$0.28}	\\\cline{2-7}
+%&500	&85.55$\pm$0.15	&85.71$\pm$0.20	&85.45$\pm$0.19	&85.58$\pm$0.21	&85.48$\pm$0.25	\\\cline{2-7}
+%&1000	&85.55$\pm$0.31	&85.28$\pm$0.56	&85.33$\pm$0.35	&85.35$\pm$0.30	&85.10$\pm$0.32	\\\cline{2-7}
+%&2000	&85.43$\pm$0.33	&85.31$\pm$0.44	&85.50$\pm$0.23	&85.06$\pm$0.14	&85.26$\pm$0.17	\\\cline{2-7}
+%&4000	&85.53$\pm$0.15	&85.63$\pm$0.17	&85.55$\pm$0.27	&85.06$\pm$0.11	&85.18$\pm$0.16	
+%
+%\\ \midrule
+%
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#4}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%& 200	&58.30$\pm$0.75	&\textbf{58.53$\pm$0.87}	&57.51$\pm$0.82	&57.18$\pm$0.61	&57.76$\pm$1.00	\\\cline{2-7}
+%& 500	&57.90$\pm$0.42	&57.98$\pm$0.95	&57.66$\pm$0.47	&57.25$\pm$0.82	&57.00$\pm$0.63	\\\cline{2-7}
+%& 1000	&53.98$\pm$1.01	&54.06$\pm$0.67	&53.83$\pm$0.77	&53.73$\pm$0.99	&53.13$\pm$0.85	\\\cline{2-7}
+%& 2000	&54.31$\pm$0.75	&54.41$\pm$0.83	&54.03$\pm$0.71	&53.80$\pm$0.51	&53.78$\pm$0.85	\\\cline{2-7}
+%& 4000	&57.06$\pm$0.52	&57.26$\pm$0.38	&57.00$\pm$0.38	&55.80$\pm$0.33	&55.98$\pm$0.76	
+%
+%\\\midrule
+% \end{tabular}
+% \source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da técnica SSIMGL na base de dados AR com ELM}
+%    \label{tab:reconhecimento_ssim_GL_AR}
+%   % \hspace{0.5in}
+%		\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200&92.27$\pm$0.41		&92.40$\pm$0.60	&91.98$\pm$0.84	&92.16$\pm$0.44	&91.55$\pm$0.66         \\\cline{2-7}
+%
+%&500&92.90$\pm$0.27		&93.01$\pm$0.58	&92.80$\pm$0.40	& 93.00$\pm$0.49	&92.45$\pm$0.58   \\\cline{2-7}
+%           
+%&1000&87.00$\pm$0.75	&87.54$\pm$0.45	&87.43$\pm$0.54	&87.25$\pm$0.59	&86.33$\pm$0.89   \\\cline{2-7}
+%           
+%&2000&87.90$\pm$0.74	&88.54$\pm$0.38	&88.15$\pm$0.54	&88.08$\pm$0.79&87.66$\pm$0.66  \\\cline{2-7}
+%          
+%&40000&93.00$\pm$0.60	& 93.12$\pm$0.32	&93.38$\pm$0.35	&92.83$\pm$0.25	& 92.49$\pm$0.34     \\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%%\toprule 
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#2}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%&200 &95.27$\pm$0.21&95.35$\pm$0.24	&95.35$\pm$0.29	&95.50$\pm$0.28	& 95.50$\pm$0.20 \\\cline{2-7}
+%
+%&500  & 95.52$\pm$0.14	& 95.55$\pm$0.15	& 95.45$\pm$0.10	& 95.55$\pm$0.15	&95.40$\pm$0.12 \\\cline{2-7}
+%           
+%&1000 &95.05$\pm$0.36	&94.90$\pm$0.21	&94.82$\pm$0.35	&95.05$\pm$0.30	&95.05$\pm$0.30 \\\cline{2-7}
+%           
+%&2000 &94.80$\pm$0.25&94.87$\pm$0.29	&94.80$\pm$0.32	&95.12$\pm$0.21	&95.00$\pm$0.33\\\cline{2-7}
+%          
+%&40000&95.00$\pm$0.20	&95.15$\pm$0.17	&95.15$\pm$0.12	&95.30$\pm$0.10	&95.25$\pm$0.11  \\ \midrule
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#3}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%& 200	&95.83$\pm$0.34		&95.96$\pm$0.24		&96.05$\pm$0.37		&96.11$\pm$0.30		&96.00$\pm$0.26  \\\cline{2-7}
+%
+%& 500	&96.01$\pm$0.14		& 96.25$\pm$0.23	&96.23$\pm$0.31		& 96.35$\pm$0.31	&95.93$\pm$0.27 \\\cline{2-7}
+%
+%& 1000	&95.56$\pm$0.42		&95.23$\pm$0.23		&95.46$\pm$0.43		&95.48$\pm$0.31		&95.05$\pm$0.38  \\\cline{2-7}
+%
+%& 2000	&95.70$\pm$0.17		&95.48$\pm$0.49		&95.48$\pm$0.28		&95.46$\pm$0.32		&95.31$\pm$0.32 \\\cline{2-7}
+%
+%& 4000	& 96.23$\pm$0.21	&96.13$\pm$0.15		& 96.25$\pm$0.19	&96.10$\pm$0.16		& 96.13$\pm$0.17 \\\midrule
+%
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#4}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%& 200	&88.71$\pm$0.80		&88.83$\pm$1.03		&87.91$\pm$1.42	&88.21$\pm$0.76		&87.10$\pm$1.27 \\\cline{2-7}
+%
+%& 500	& 89.78$\pm$0.58	&89.78$\pm$1.07		&89.38$\pm$0.68	& 89.65$\pm$0.93	& 88.96$\pm$1.04 \\\cline{2-7}
+%
+%& 1000	&78.45$\pm$1.41		&79.85$\pm$0.80		&79.40$\pm$1.21	&79.01$\pm$1.28		&77.61$\pm$1.96 \\\cline{2-7}
+%
+%& 2000	&80.10$\pm$1.46		&81.60$\pm$0.83		&80.83$\pm$1.13	&80.7$\pm$1.54		&80.01$\pm$1.32 \\\cline{2-7}
+%
+%& 4000	 &89.76$\pm$1.16	& 90.11$\pm$0.59	& 90.51$\pm$0.64 &89.56$\pm$0.47	&88.85$\pm$0.66 \\\midrule
+%
+%
+%	\end{tabular}
+%	\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da similaridade estrutural com Grafo Laplaciano na base de dados Yale com ELM}
+%    \label{tab:reconhecimento_ssim_GL_Yale}
+%   
+%	\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{Yale\#1}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%
+%& 200	&99.33$\pm$2.10		&98.66$\pm$2.81		&100.00$\pm$0.00	&98.66$\pm$2.81	 &99.33$\pm$2.10	 \\\cline{2-7}
+%
+%& 500	&100.00$\pm$0.00 	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00 &100.00$\pm$0.00	 \\\cline{2-7}
+%
+%& 1000	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00 &100.00$\pm$0.00	\\\cline{2-7}
+%
+%& 2000	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00 &100.00$\pm$0.00	\\\cline{2-7}
+%
+%& 4000	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00 &100.00$\pm$0.00	 \\\midrule
+%
+%\multicolumn{7}{c}{}\\ 
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{3}{*}{}} & \multicolumn{5}{c|}{\textbf{Yale\#2}}   \\\cline{3-7} 
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\cline{3-7}%& db2 & db4& sym3 & sym4 & sym5 \\\cline{3-12}
+%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{Neurônios}}} }
+%
+%& 200	&99.33$\pm$2.10		&98.66$\pm$2.81		&100.00$\pm$0.00	&97.33$\pm$3.44		& 100.00$\pm$0.00 \\\cline{2-7}
+%
+%& 500	& 100.00$\pm$0.00	& 100.00$\pm$0.00	&100.00$\pm$0.00	 &100.00$\pm$0.00	&100.00$\pm$0.00 \\\cline{2-7}
+%
+%& 1000	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00 \\\cline{2-7}
+%
+%& 2000	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00 \\\cline{2-7}
+%
+%& 4000	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00	&100.00$\pm$0.00  \\\midrule
+%
+%	\end{tabular}
+%	\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%
+%\subsection{Resultados com KNN}
+%
+%
+%
+%\begin{table}[htpb]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da técnica SRC com grafo de Poisson com classificador KNN}
+%    \label{tab:reconhecimento_SRC_GP_AR}
+%	\begin{tabular}{|c|c|c c c c c|c c c c c|}
+%\cline{3-12}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}  & \multicolumn{5}{c|}{\textbf{AR\#2}} \\\cline{3-12}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&68.00&	68.17&	67.92&	66.25&	66.67&	82.50&	82.50&	82.50&	81.50&	81.75	\\\cline{2-12}
+%&2	&68.00&	68.17&	67.92&	66.25&	66.67&	82.50&	82.50&	82.50&	81.50&	81.75	\\\cline{2-12}
+%&4	&66.08&	65.58&	65.67&	63.92&	64.50&	80.75&	80.25&	80.75&	78.50&	79.00	\\\cline{2-12}
+%&6	&64.83&	64.17&	63.00&	61.50&	61.42&	80.75&	79.50&	80.00&	77.50&	77.25	\\\cline{2-12}
+%&8	&63.92&	62.08&	61.83&	58.33&	59.58&	79.75&	78.25&	78.75&	75.75&	76.25	\\\cline{2-12}
+%&10	&62.42&	60.75&	61.17&	57.33&	57.67&	79.50&	76.75&	78.50&	75.00&	75.25	\\ \midrule
+%\multicolumn{12}{c}{}\\ 
+%
+%
+%
+%
+%\cline{3-12}
+%\multicolumn{2}{c}{} & \multicolumn{5}{|c|}{\textbf{AR\#3}}  & \multicolumn{5}{c|}{\textbf{AR\#4}} \\\cline{3-12}
+%\multicolumn{2}{c}{}  & \multicolumn{1}{|c}{db2} & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&83.33&	83.17&	83.50&	82.00&	82.50&	52.67&	53.17&	52.33&	50.50&	50.83	\\\cline{2-12}
+%&2	&83.33&	83.17&	83.50&	82.00&	82.50&	52.67&	53.17&	52.33&	50.50&	50.83	\\\cline{2-12}
+%&4	&80.50&	79.00&	79.83&	77.67&	78.50&	51.67&	52.17&	51.50&	50.17&	50.50	\\\cline{2-12}
+%&6	&78.33&	76.33&	74.83&	73.83&	73.83&	51.33&	52.00&	51.17&	49.17&	49.00	\\\cline{2-12}
+%&8	&77.00&	73.83&	73.83&	69.33&	70.83&	50.83&	50.33&	49.83&	47.33&	48.33	\\\cline{2-12}
+%&10	&74.67&	72.50&	72.83&	68.50&	69.33&	50.17&	49.00&	49.50&	46.17&	46.00	
+%\\\midrule
+%\end{tabular}
+%\end{table}
+%
+%%%
+%%%
+%
+%
+%
+%\begin{table}[htpb]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento da técnica SRC com grafo de Laplace com classificador KNN}
+%    \label{tab:reconhecimento_SRC_GL_AR}
+%	\begin{tabular}{|c|c|c c c c c|c c c c c|}
+%\cline{3-12}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}  & \multicolumn{5}{c|}{\textbf{AR\#2}} \\\cline{3-12}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	& 69.58&	69.33&	69.50&	67.58&	67.83&	83.50&	83.25&	83.25&	82.25&	82.25	\\\cline{2-12}
+%&2	& 69.58&	69.33&	69.50&	67.58&	67.83&	83.50&	83.25&	83.25&	82.25&	82.25	\\\cline{2-12}
+%&4	& 67.58&	66.67&	66.67&	65.00&	65.42&	82.50&	80.50&	81.00&	78.50&	79.25	\\\cline{2-12}
+%&6	& 65.67&	64.58&	64.25&	62.25&	61.58&	81.75&	79.50&	80.75&	77.25&	76.75	\\\cline{2-12}
+%&8	& 64.92&	63.25&	63.42&	59.42&	60.00&	80.50&	77.50&	79.00&	75.50&	75.75	\\\cline{2-12}
+%&10	& 63.00&	61.83&	62.75&	57.67&	58.00&	79.25&	76.50&	79.00&	74.25&	74.75   \\ \midrule
+%\multicolumn{12}{c}{}\\ 
+%
+%
+%
+%
+%\cline{3-12}
+%\multicolumn{2}{c}{} & \multicolumn{5}{|c|}{\textbf{AR\#3}}  & \multicolumn{5}{c|}{\textbf{AR\#4}} \\\cline{3-12}
+%\multicolumn{2}{c}{}  & \multicolumn{1}{|c}{db2} & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&85.33&	84.83&	85.17&	83.50&	83.67&	53.83&	53.83&	53.83&	51.67	&52,00	\\\cline{2-12}
+%&2	&85.33&	84.83&	85.17&	83.50&	83.67&	53.83&	53.83&	53.83&	51.67	&52,00	\\\cline{2-12}
+%&4	&82.50&	80.67&	80.83&	78.50&	79.33&	52.67&	52.67&	52.50&	51.50	&51,50	\\\cline{2-12}
+%&6	&79.50&	77.50&	77.17&	75.17&	74.17&	51.83&	51.67&	51.33&	49.33	&49,00	\\\cline{2-12}
+%&8	&78.50&	75.83&	76.33&	70.83&	71.33&	51.33&	50.67&	50.50&	48.00	&48,67	\\\cline{2-12}
+%&10	&76.17&	73.67&	74.83&	68.67&	69.67&	49.83&	50.00&	50.67&	46.67	&46,33	\\\midrule
+%\end{tabular}
+%\end{table}
+%
+%
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento com KNN na base AR com a técnica SSIMGL}
+%    \label{tab:reconhecimento_AR_com_oclusoes_KNN_SSIMGL}
+%   %\hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|c c c c c|}
+%\cline{3-12}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{AR\#1}}  & \multicolumn{5}{c|}{\textbf{AR\#2}} \\\cline{3-12}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{5}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	& \cellcolor{green!30}{87.00}	& \cellcolor{green!30}{85.83}	& \cellcolor{green!30}{86.08}	& \cellcolor{green!30}{81.83}	& \cellcolor{green!30}{81.50} &\cellcolor{green!30}
+%{93.75}&	\cellcolor{green!30}{93.50}&	\cellcolor{green!30}{93.50}&	\cellcolor{green!30}{90.25}&	\cellcolor{green!30}{90.00} \\\cline{2-12}
+% 
+%&2	& 87.00	& 85.83	& 86.08	& 81.83	& 81.50 & 93.75&	93.50&	93.50&	90.25&	90.00 \\\cline{2-12}
+% 
+%&4	& 83.75	& 81.75	& 82.75	& 78.50	& 77.75 & 92.00&	90.00&	90.25&	85.00&	85.25 \\\cline{2-12}
+% 
+%&6	& 81.08	& 79.42	& 80.00	& 75.58	& 75.42 & 91.00&	89.50&	90.25&	84.50&	84.75 \\\cline{2-12}
+% 
+%&8	& 79.83	& 77.33	& 77.67	& 72.50	& 73.08 & 90.25&	88.00&	89.00&	83.50&	83.75 \\\cline{2-12}
+% 
+%&10	& 78.33	& 75.25	& 77.17	& 70.17	& 71.33 & 89.25&	85.50&	88.75&	82.75&	83.00 \\\cline{2-12}
+%\\\midrule
+%%\multicolumn{12}{c}{}\\ 
+%%\toprule 
+%
+%
+%
+%%\toprule 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\cline{3-12}
+%\multicolumn{2}{c}{} & \multicolumn{5}{|c|}{\textbf{AR\#3}}  & \multicolumn{5}{c|}{\textbf{AR\#4}} \\\cline{3-12}
+%\multicolumn{2}{c}{}  & \multicolumn{1}{|c}{db2} & db4 & sym3 & sym4 & sym5 & db2 & db4& sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&\cellcolor{green!30}{94.67}&	\cellcolor{green!30}{92.67}&	\cellcolor{green!30}{93.17}&	\cellcolor{green!30}{88.67}&	\cellcolor{green!30}{89.00}&	\cellcolor{green!30}{79.33}&	\cellcolor{green!30}{79.00}&\cellcolor{green!30}{79.00}&	\cellcolor{green!30}{75.00}&	\cellcolor{green!30}{74,00}\\\cline{2-12}
+%&2	&94.67&	92.67&	93.17&	88.67&	89.00&	79.33&	79.00&	79.00&	75.00&	74,00\\\cline{2-12}
+%&4	&91.17&	87.67&	88.50&	84.50&	84.67&	76.33&	75.83&	77.00&	72.50&	70,83\\\cline{2-12}
+%&6	&87.00&	84.67&	84.67&	79.83&	81.33&	75.17&	74.17&	75.33&	71.33&	69,50\\\cline{2-12}
+%&8	&85.67&	81.33&	82.67&	76.83&	77.33&	74.00&	73.33&	72.67&	68.17&	68,83\\\cline{2-12}
+%&10	&83.50&	78.83&	81.50&	74.83&	75.67&	73.17&	71.67&	72.83&	65.50&	67,00\\\midrule
+%	\end{tabular}
+%	\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+%
+%
+%
+%
+%\begin{table}[H]
+%	\centering
+%    \normalsize
+%	\caption{Taxa de reconhecimento com KNN na base de dados Yale após reconstrução com SSIMGL}
+%    \label{tab:reconhecimento_Yale_KNN}
+%   % \hspace{0.5in}
+%	\begin{tabular}{|c|c|c c c c c|}
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{Yale\#1}}  \\\cline{3-7}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\hline
+%%\multicolumn{2}{c|}{}& $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ & $\mu \pm \sigma$ \\\hline
+%
+%
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%&1	&\cellcolor{green!30}{100.00}	&\cellcolor{green!30}{100.00}&	\cellcolor{green!30}{100.00}&	\cellcolor{green!30}{100.00}	&\cellcolor{green!30}{100.00} \\\cline{2-7}
+%&2	&100.00	&100.00&	100.00&	100.00	&100.00 \\\cline{2-7}
+%&4	&100.00	&100.00&	100.00&	100.00	&100.00 \\\cline{2-7}
+%&6	&100.00	&100.00&	100.00&	100.00	&100.00 \\\cline{2-7}
+%&8	&100.00&93.33&	100.00&93.33	&93.33\\\cline{2-7}
+%&10	&93.33&	93.33&	93.33&	93.33&	93.33\\\midrule
+%
+%
+%
+%\multicolumn{7}{c}{}\\ 
+%
+%
+%\cline{3-7}
+%\multicolumn{2}{c|}{\multirow{2}{*}{}} & \multicolumn{5}{c|}{\textbf{Yale\#2}}  \\\cline{3-7}
+%
+%\multicolumn{2}{c|}{}  & db2 & db4 & sym3 & sym4 & sym5 \\\hline
+%
+%\multicolumn{1}{|c|}{ \multirow{6}{*}{\rotatebox[origin=c]{90}{\textbf{K-vizinhos}}} }
+%
+%&1	&\cellcolor{green!30}{100.00}	&\cellcolor{green!30}{100.00}&	\cellcolor{green!30}{100.00}&	\cellcolor{green!30}{100.00}	&\cellcolor{green!30}{100.00} \\\cline{2-7}
+%&2	&100.00	&100.00&	100.00&	100.00	&100.00 \\\cline{2-7}
+%&4	&100.00	&100.00&	100.00&	100.00	&100.00 \\\cline{2-7}
+%&6	&100.00	&100.00&	100.00&	100.00	&100.00 \\\cline{2-7}
+%&8	&100.00&93.33&	100.00&93.33	&93.33\\\cline{2-7}
+%&10	&93.33&	93.33&	93.33&	93.33&	93.33\\\midrule
+%\end{tabular}
+%\source{Jonas Mendonça Targino, 2018}
+%\end{table}
+
+
+
+\section{Considerações finais do apêndice}
+
+Considerando a importância das técnicas de detecção e reconstrução de oclusões parciais em imagens de face visando o reconhecimento biométrico. Neste apêndice foi apresentada uma revisão sistemática de literatura a respeito das técnicas presentes no estado da arte com fins de detecção e/ou reconstrução de oclusões parciais em imagens de de face.
+
+Com a análise dos artigos incluídos percebeu-se que existe uma quantidade considerável de técnicas presentes na literatura, entretanto essas técnicas apresentam configurações de execuções limitadas, não seguindo um rigor sistemático de bases de dados utilizadas, como também disponibilidade de códigos ou pseudo-códigos para futuras replicações por outras pessoas interessadas na área.
+
+Foi possível concluir com essa revisão sistemática, que a área apresenta uma certa instabilidade em relação a padrões de execuções, tipos de oclusões, sem contar que alguns autores não utilizam um estudo comparativo mais aprofundado com outras técnicas presentes no estado da arte. Como também grande parte dos artigos não apresentam fins que possibilitem replicação do trabalho pela comunidade científica.
+
+\chapter{Pseudocódigos}
+
+\section{Técnicas de detecção da face}
+
+\subsection{Skin Tone}
+
+\begin{algorithm}[H]
+\caption{Skin Tone}
+\begin{algorithmic}[1]
+
+
+\State $im \gets imagem$
+\State $[w,h,a] \gets dimensoes(im)$
+%\for{i \gets 0 : 1}
+%\State $bw = zeros(l,c)$
+\For{$i = 1$ to $w$}
+	\For{$j = 1$ to $h$}
+      \State $I(w,h) \gets im(w,h,1)*0.298 + im(w,h,2)*0.587 + im(w,h,3)*0.140$
+     
+	\EndFor
+\EndFor
+
+\For{$i = 1$ to $w$}
+	\For{$j = 1$ to $h$}
+      \State $\hat{I}(w,h) = max( im (w,h,2), im(w,h,3))  $ 
+     \EndFor
+\EndFor
+\State $E = I - \hat{I}$
+     
+\For{$i = 1$ to $w$}
+	\For{$j = 1$ to $h$}
+     
+     \If {$E(w,h) <= 0.0251$  \&  $E(w,h) >= 0.1177$ }
+            \State $Face(w,h) = 1$
+      \Else
+      		\State $Face(w,h) = 0$
+             
+    \EndIf
+      
+	\EndFor
+\EndFor
+\State $retorne Face$
+
+
+\end{algorithmic}
+%\source{Cheddad et al (2009)}
+\end{algorithm}
+
+\subsection{Viola-Jones}
+
+
+
+\section{Técnicas de detecção da oclusão}
+
+\subsection{BMA}
+
+\subsection{Limiarização}
+
+\subsection{CST}
+
+\section{Técnicas de reconstrução de faces}
+
+As técnicas baseadas em subspeço possuem como ideia utilizar a combinação dos Eigenfaces de modo a reconstruir as imagens de faces.
+
+
+
+\subsection{PCA}
+
+\begin{algorithm}[H]
+\caption{PCA}
+\hspace*{\algorithmicindent} \textbf{Entrada: (Treinamento, Teste)} 
+\begin{algorithmic}[1]
+\State imMedia $\gets$ imagem média do conjunto de treinamento
+\State Criação da matriz de dissimilaridade $A$, sendo obtida por meio da subtração do conjunto de treinamento menos imagem média (A = treinamento - imMedia)
+\State Calcula-se a matriz de covariância $C$ da forma $C = A'. A$
+\State Calcula-se os autovetores e autovalores da matriz de covariância $C$
+\State Cria-se o espaço de faces $U$, da forma $U = A*autovetores$
+\State Seleciona-se os $K$ melhores Eigenfaces de acordo com seus respectivos autovalores (ou seja, seu nível de significância)
+\State Divide-se cada Eigenface pela sua normal para garantir que cada Eigenface é ortonormal (U(:,i) = U(:,i) $/$ norm(U:,i).
+\State Detecta a oclusão das imagens de teste e coloca-se pixels pretos na área ocluída (Teste = detectarOclusao(teste))
+\State Gera-se a matriz de coeficientes de combinação linear ($\alpha = U' . Teste$
+\State Imagens reconstruídas = imMedia + $\alpha . U$
+
+\end{algorithmic}
+\hspace*{\algorithmicindent} \textbf{Saída: (Imagens reconstruídas)} 
+\source{Jonas Mendonça Targino, 2018}
+\end{algorithm}
+
+\subsection{Asymmetrical PCA}
+
+\subsection{Gappy PCA}
+
+\begin{algorithm}[H]
+\caption{Gappy PCA}
+\hspace*{\algorithmicindent} \textbf{Input: (Treinamento, Teste)} 
+
+\begin{algorithmic}[1]
+\State imMedia $\gets$ imagem média do conjunto de treinamento
+%\State Obtenção da imagem média do conjunto de treinamento
+\State Gera-se um conjunto $A$ que contem o conjunto de treinamento menos imagem média (A = treinamento - imMedia)
+\State Calcula-se a matriz de covariância $C$ da forma $C = A'. A$
+\State Calcula-se os autovetores e autovalores da matriz de covariância $C$
+\State Cria-se o espaço de faces $U$, da forma $U = A*autovetores$
+\State Seleciona-se os $K$ melhores Eigenfaces de acordo com seus respectivos autovalores (ou seja, seu nível de significância)
+\State Divide-se cada Eigenface pela sua normal para garantir que cada Eigenface é ortonormal (U(:,i) = U(:,i) $/$ norm(U:,i).
+\State Detecta a oclusão das imagens de teste e coloca-se pixels pretos na área ocluída (Teste = detectarOclusao(teste))
+\State Realiza a minimização dos coeficientes de combinação linear tomando aplicando gradiente
+\State Gera-se a matriz de coeficientes de combinação linear ($\alpha = U' . Teste$
+\State Imagens reconstruídas = imMedia + $\alpha . U$
+
+\end{algorithmic}
+\hspace*{\algorithmicindent} \textbf{Saída: (Imagens reconstruídas)} 
+\source{Jonas Mendonça Targino, 2018}
+\end{algorithm}
+
+\subsection{Recursive PCA}
+\begin{algorithm}[H]
+\caption{Recursive PCA}
+\hspace*{\algorithmicindent} \textbf{Input: (Treinamento, Teste)} 
+
+\begin{algorithmic}[1]
+\State imMedia $\gets$ imagem média do conjunto de treinamento
+%\State Obtenção da imagem média do conjunto de treinamento
+\State Gera-se um conjunto $A$ que contem o conjunto de treinamento menos imagem média (A = treinamento - imMedia)
+\State Calcula-se a matriz de covariância $C$ da forma $C = A'. A$
+\State Calcula-se os autovetores e autovalores da matriz de covariância $C$
+\State Cria-se o espaço de faces $U$, da forma $U = A*autovetores$
+\State Todos os Eigenfaces são ordenados de acordo com seus respectivos autovalores
+\State Seleciona-se os $K$ melhores Eigenfaces de acordo com seus respectivos autovalores (ou seja, seu nível de significância)
+\State Divide-se cada Eigenface pela sua normal para garantir que cada Eigenface é ortonormal (U(:,i) = U(:,i) $/$ norm(U:,i).
+\State Detecta a oclusão das imagens de teste e coloca-se pixels pretos na área ocluída (Teste = detectarOclusao(teste))
+\State Gera-se a matriz de coeficientes de combinação linear ($\alpha = U' . Teste$
+\State Realiza a minimização dos alfas tomando por base o alfa anterior 
+\State Imagens reconstruídas = imMedia + $\alpha . U$
+
+\end{algorithmic}
+\hspace*{\algorithmicindent} \textbf{Saída: (Imagens reconstruídas)} 
+\source{Jonas Mendonça Targino, 2018}
+\end{algorithm}
+
+
+
+
+
+
+
+\subsection{Fast Recursive PCA}
+
+\begin{algorithm}[H]
+\caption{Fast Recursive PCA}
+\hspace*{\algorithmicindent} \textbf{Input: (Treinamento, Teste)} 
+
+\begin{algorithmic}[1]
+\State imMedia = imagem média do conjunto de treinamento
+%\State Obtenção da imagem média do conjunto de treinamento
+\State Gera-se um conjunto $A$ que contem o conjunto de treinamento menos imagem média (A = treinamento - imMedia)
+\State Calcula-se a matriz de covariância $C$ da forma $C = A'. A$
+\State Calcula-se os autovetores e autovalores da matriz de covariância $C$
+\State Cria-se o espaço de faces $U$, da forma $U = A*autovetores$
+\State Todos os Eigenfaces são ordenados de acordo com seus respectivos autovalores
+\State Seleciona-se os $K$ melhores Eigenfaces de acordo com seus respectivos autovalores (ou seja, seu nível de significância)
+\State Divide-se cada Eigenface pela sua normal para garantir que cada Eigenface é ortonormal (U(:,i) = U(:,i) $/$ norm(U:,i).
+\State Detecta a oclusão das imagens de teste e coloca-se pixels pretos na área ocluída (Teste = detectarOclusao(teste))
+\State Gera-se a matriz de coeficientes de combinação linear ($\alpha = U' . Teste$
+\State Realiza a minimização dos alfas tomando por base o alfa anterior 
+\State Imagens reconstruídas = imMedia + $\alpha . U$
+
+\end{algorithmic}
+\hspace*{\algorithmicindent} \textbf{Saída: (Imagens reconstruídas)} 
+\source{Jonas Mendonça Targino, 2018}
+\end{algorithm}
+
+\subsection{SRC com Fast Recursive PCA}
+
+\subsection{SRC com Grafo de Poisson}
+
+\subsection{SRC com Grafo Laplaciano}
+
+\subsection{SSIMGL}
+
+\begin{algorithm}[H]
+\caption{SSIMGL}
+\hspace*{\algorithmicindent} \textbf{Input: (Treinamento, Teste)} 
+
+\begin{algorithmic}[1]
+\State Redução do conjunto de treinamento para a dimensão (32 x 32)
+\State Redução do conjunto de teste para a dimensão (32 x 32)
+%\State Para cada imagem parcialmente ocluída são selecionados os pixels ocluídos, assim como também as mesmas posições dos pixels não ocluídos no conjunto de treinamento
+%\State 
+\For{i=1: length(teste)}
+	\State imagem = teste(:,i) \% seleção de cada imagem parcialmente ocluída	
+	\State [$pixels_ts$,posicoes] = $pixels_no(imagem)$ \% seleção dos pixels não ocluídos da imagem corrente
+	\State $val_ssim$ = []; 
+	\For{j=1:length(treinamento}
+		\State imagemTr = treinamento(:,j) \% seleção de cada imagem do treinamento
+		\State $pixels_tr$ = imagemTr(posicoes); \%  seleção dos respectivos pixels em cada imagem do conjunto de treinamento
+		\State $val_ssim(j)$ = $calc_ssim$($pixels_ts, pixels_tr$) % cálculo do SSIM dos pixels 
+	\EndFor 
+	\State [ssim,individuo] = max($val_ssim$);
+	\State Gerar grafo Laplaciano
+	\State Reconstruir com a imagem com maior similaridade
+\EndFor
+
+\end{algorithmic}
+\hspace*{\algorithmicindent} \textbf{Saída: (Imagens reconstruídas)} 
+\source{Jonas Mendonça Targino, 2018}
+\end{algorithm}
+
+
+
+\chapter{Matrizes de confusão}
+\label{apen6:matrizes_confusao}
+Abaixo são apresentadas as matrizes de confusão de cada técnica, de modo que após a análise da diagonal é possível perceber qual classe teve um maior índice de acertos, como também seus falsos positivos e falsos negativos.
+
+\section{Técnicas baseadas em subespaço}
+
+\begin{figure}[H]
+\caption{Matriz de confusão da técnica Asymmetrical PCA na base de dados AR}
+\centering
+\includegraphics[scale = 0.65]{imgs4/matrizes_confusao/APCA}
+\source{Jonas Mendonça Targino, 2018}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Matriz de confusão da técnica Fast Recursive PCA na base de dados AR}
+\centering
+\includegraphics[scale = 0.65]{imgs4/matrizes_confusao/FastRecPCA}
+\source{Jonas Mendonça Targino, 2018}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Matriz de confusão da técnica Fisherfaces na base de dados AR}
+\centering
+\includegraphics[scale = 0.65]{imgs4/matrizes_confusao/fisherfaces}
+\source{Jonas Mendonça Targino, 2018}
+\end{figure}
+
+
+\begin{figure}[H]
+\caption{Matriz de confusão da técnica Fast Robust PCA na base de dados AR}
+\centering
+\includegraphics[scale = 0.65]{imgs4/matrizes_confusao/FRPCA}
+\source{Jonas Mendonça Targino, 2018}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Matriz de confusão da técnica Gappy PCA na base de dados AR}
+\centering
+\includegraphics[scale = 0.65]{imgs4/matrizes_confusao/GPCA}
+\source{Jonas Mendonça Targino, 2018}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Matriz de confusão da técnica PCA na base de dados AR}
+\centering
+\includegraphics[scale = 0.65]{imgs4/matrizes_confusao/PCA}
+\source{Jonas Mendonça Targino, 2018}
+\end{figure}
+
+
+\begin{figure}[H]
+\caption{Matriz de confusão da técnica Recursive PCA na base de dados AR}
+\centering
+\includegraphics[scale = 0.65]{imgs4/matrizes_confusao/RecPCA}
+\source{Jonas Mendonça Targino, 2018}
+\end{figure}
+
+
+\begin{figure}[H]
+\caption{Matriz de confusão da técnica SRC com Fast Recursive PCA na base de dados AR}
+\centering
+\includegraphics[scale = 0.65]{imgs4/matrizes_confusao/src_fast_rec_PCA}
+\source{Jonas Mendonça Targino, 2018}
+\end{figure}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Técnicas baseadas em modelo}
+
+
+
+\begin{figure}[H]
+\caption{Matriz de confusão da técnica SRC com grafo de Poisson na base de dados AR}
+\centering
+\includegraphics[scale = 0.65]{imgs4/matrizes_confusao/SRC_GP}
+\source{Jonas Mendonça Targino, 2018}
+\end{figure}
+
+
+
+\begin{figure}[H]
+\caption{Matriz de confusão da técnica SRC com grafo Laplaciano na base de dados AR}
+\centering
+\includegraphics[scale = 0.65]{imgs4/matrizes_confusao/SRC_GL}
+\source{Jonas Mendonça Targino, 2018}
+\end{figure}
+
+
+\begin{figure}[H]
+\caption{Matriz de confusão da técnica SSIMGL na base de dados AR}
+\centering
+\includegraphics[scale = 0.65]{imgs4/matrizes_confusao/ssimgl}
+\source{Jonas Mendonça Targino, 2018}
+\end{figure}
+
+
+
+
+
+\end{apendicesenv}

@@ -1,0 +1,668 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Aisha et al. 2014]{[5]aisha2014face}
+\abntrefinfo{Aisha et al.}{AISHA et al.}{2014}
+{AISHA, A. et al. Face recognition invariant to partial occlusions.
+\emph{KSII Transactions on Internet and Information Systems (TIIS)}, v.~8,
+  n.~7, p. 2496--2511, 2014.}
+
+\bibitem[Alyuz, Gokberk e Akarun 2013]{[14]alyuz20133}
+\abntrefinfo{Alyuz, Gokberk e Akarun}{ALYUZ; GOKBERK; AKARUN}{2013}
+{ALYUZ, N.; GOKBERK, B.; AKARUN, L. 3-d face recognition under occlusion using
+  masked projection.
+\emph{IEEE Transactions on Information Forensics and Security}, IEEE, v.~8,
+  n.~5, p. 789--802, 2013.}
+
+\bibitem[Alyuz, Gokberk e Akarun 2014]{[8]alyuz2014detection}
+\abntrefinfo{Alyuz, Gokberk e Akarun}{ALYUZ; GOKBERK; AKARUN}{2014}
+{ALYUZ, N.; GOKBERK, B.; AKARUN, L. Detection of realistic facial occlusions
+  for robust 3d face recognition. In:  IEEE. \emph{Pattern Recognition (ICPR),
+  2014 22nd International Conference on}. [S.l.], 2014. p. 375--380.}
+
+\bibitem[Aly{\"u}z et al. 2012]{[17]alyuz2012robust}
+\abntrefinfo{Aly{\"u}z et al.}{ALY{\"U}Z et al.}{2012}
+{ALY{\"U}Z, N. et al. Robust 3d face recognition in the presence of realistic
+  occlusions. In:  IEEE. \emph{Biometrics (ICB), 2012 5th IAPR International
+  Conference on}. [S.l.], 2012. p. 111--118.}
+
+\bibitem[Ashin, Morimoto e Vaillancourt 2005]{ashin2005image}
+\abntrefinfo{Ashin, Morimoto e Vaillancourt}{ASHIN; MORIMOTO;
+  VAILLANCOURT}{2005}
+{ASHIN, R.; MORIMOTO, A.; VAILLANCOURT, R. Image compression with
+  multiresolution singular value decomposition and other methods.
+\emph{Mathematical and Computer Modelling}, Elsevier, v.~41, n.~6-7, p.
+  773--790, 2005.}
+
+\bibitem[Askarunisa et al. 2009]{Askarunisa_2009}
+\abntrefinfo{Askarunisa et al.}{ASKARUNISA et al.}{2009}
+{ASKARUNISA, A. et al. Finger print authentication using neural networks.
+\emph{MASAUM Journal od Computing}, v.~1, n.~2, 2009.}
+
+\bibitem[Belhumeur, Hespanha e Kriegman 1997]{belhumeur1997eigenfaces}
+\abntrefinfo{Belhumeur, Hespanha e Kriegman}{BELHUMEUR; HESPANHA;
+  KRIEGMAN}{1997}
+{BELHUMEUR, P.~N.; HESPANHA, J.~P.; KRIEGMAN, D.~J. Eigenfaces vs. fisherfaces:
+  Recognition using class specific linear projection.
+\emph{IEEE Transactions on pattern analysis and machine intelligence}, IEEE,
+  v.~19, n.~7, p. 711--720, 1997.}
+
+\bibitem[Bellil, Brahim e Amar 2016]{[1]bellil2016gappy}
+\abntrefinfo{Bellil, Brahim e Amar}{BELLIL; BRAHIM; AMAR}{2016}
+{BELLIL, W.; BRAHIM, H.; AMAR, C.~B. Gappy wavelet neural network for 3d
+  occluded faces: detection and recognition.
+\emph{Multimedia Tools and Applications}, Springer, v.~75, n.~1, p. 365--380,
+  2016.}
+
+\bibitem[Benezeth et al. 2010]{benezeth2010vision}
+\abntrefinfo{Benezeth et al.}{BENEZETH et al.}{2010}
+{BENEZETH, Y. et al. Vision-based system for human detection and tracking in
+  indoor environment.
+\emph{International Journal of Social Robotics}, Springer, v.~2, n.~1, p.
+  41--52, 2010.}
+
+\bibitem[Bindu e Kumar 2014]{[9]bindu2014inpainting}
+\abntrefinfo{Bindu e Kumar}{BINDU; KUMAR}{2014}
+{BINDU, A.; KUMAR, C.~R. Inpainting for big data. In:  IEEE. \emph{Signal and
+  Image Processing (ICSIP), 2014 Fifth International Conference on}. [S.l.],
+  2014. p. 62--67.}
+
+\bibitem[Buciu 2014]{buciu2014challenges}
+\abntrefinfo{Buciu}{BUCIU}{2014}
+{BUCIU, I. Challenges and specifications for robust face and gait recognition
+  systems for surveillance application.
+\emph{Journal of Electrical and Electronics Engineering}, University of Oradea,
+  v.~7, n.~1, p.~25, 2014.}
+
+\bibitem[Chandel e Vatta 2015]{chandel2015occlusion}
+\abntrefinfo{Chandel e Vatta}{CHANDEL; VATTA}{2015}
+{CHANDEL, H.; VATTA, S. Occlusion detection and handling: a review.
+\emph{International Journal of Computer Applications}, Foundation of Computer
+  Science, v.~120, n.~10, 2015.}
+
+\bibitem[Cheddad et al. 2009]{cheddad2009skin}
+\abntrefinfo{Cheddad et al.}{CHEDDAD et al.}{2009}
+{CHEDDAD, A. et al. A skin tone detection algorithm for an adaptive approach to
+  steganography.
+\emph{Signal Processing}, Elsevier, v.~89, n.~12, p. 2465--2478, 2009.}
+
+\bibitem[Cheng, Liu e Qiu 2008]{Cheng_2008}
+\abntrefinfo{Cheng, Liu e Qiu}{CHENG; LIU; QIU}{2008}
+{CHENG, D.; LIU, G.; QIU, Y. Applications of particle swarm optimization and
+  k-nearest neighbors to emotion recognition from physiological signals. In:
+  \emph{2008 International Conference on Computational Intelligence and
+  Security}. [S.l.: s.n.], 2008. v.~2, p. 52--56.}
+
+\bibitem[Chiang e Chen 2011]{[22]chiang2011recognizing}
+\abntrefinfo{Chiang e Chen}{CHIANG; CHEN}{2011}
+{CHIANG, C.-C.; CHEN, Z.-W. Recognizing partially-occluded faces by recovering
+  normalized facial appearance.
+\emph{International Journal of Innovative Computing, Information and Control},
+  v.~7, n.~11, p. 6219--6234, 2011.}
+
+\bibitem[Collier 1993]{collier1993comparative}
+\abntrefinfo{Collier}{COLLIER}{1993}
+{COLLIER, D. The comparative method.
+1993.}
+
+\bibitem[Colombo, Cusano e Schettini 2009]{colombo2009gappy}
+\abntrefinfo{Colombo, Cusano e Schettini}{COLOMBO; CUSANO; SCHETTINI}{2009}
+{COLOMBO, A.; CUSANO, C.; SCHETTINI, R. Gappy pca classification for occlusion
+  tolerant 3d face detection.
+\emph{Journal of mathematical imaging and vision}, Springer, v.~35, n.~3, p.
+  193--207, 2009.}
+
+\bibitem[Costa 2011]{costa2011ensemble}
+\abntrefinfo{Costa}{COSTA}{2011}
+{COSTA, D. M. M.~d.
+\emph{Ensemble baseado em m{\'e}todos de Kernel para reconhecimento
+  biom{\'e}trico multimodal}.
+Tese (Doutorado) --- Universidade de S{\~a}o Paulo, 2011.}
+
+\bibitem[Delac e Grgic 2004]{delac2004survey}
+\abntrefinfo{Delac e Grgic}{DELAC; GRGIC}{2004}
+{DELAC, K.; GRGIC, M. A survey of biometric recognition methods. In:  IEEE.
+  \emph{Electronics in Marine, 2004. Proceedings Elmar 2004. 46th International
+  Symposium}. [S.l.], 2004. p. 184--193.}
+
+\bibitem[Deng, Dai e Zhang 2011]{[25]deng2011graph}
+\abntrefinfo{Deng, Dai e Zhang}{DENG; DAI; ZHANG}{2011}
+{DENG, Y.; DAI, Q.; ZHANG, Z. Graph laplace for occluded face completion and
+  recognition.
+\emph{IEEE Transactions on Image Processing}, IEEE, v.~20, n.~8, p. 2329--2338,
+  2011.}
+
+\bibitem[Dou et al. 2015]{[3]dou2015pose}
+\abntrefinfo{Dou et al.}{DOU et al.}{2015}
+{DOU, P. et al. Pose-robust face signature for multi-view face recognition. In:
+   IEEE. \emph{Biometrics Theory, Applications and Systems (BTAS), 2015 IEEE
+  7th International Conference on}. [S.l.], 2015. p.~1--8.}
+
+\bibitem[Du, Shehata e Badawy 2011]{du2011hard}
+\abntrefinfo{Du, Shehata e Badawy}{DU; SHEHATA; BADAWY}{2011}
+{DU, S.; SHEHATA, M.; BADAWY, W. Hard hat detection in video sequences based on
+  face features, motion and color information. In:  IEEE. \emph{Computer
+  Research and Development (ICCRD), 2011 3rd International Conference on}.
+  [S.l.], 2011. v.~4, p. 25--29.}
+
+\bibitem[Ekenel e Stiefelhagen 2009]{ekenel2009facial}
+\abntrefinfo{Ekenel e Stiefelhagen}{EKENEL; STIEFELHAGEN}{2009}
+{EKENEL, H.; STIEFELHAGEN, R. Why is facial occlusion a challenging problem?
+\emph{Advances in Biometrics}, Springer, p. 299--308, 2009.}
+
+\bibitem[Eum, Suhr e Kim 2011]{[23]eum2011face}
+\abntrefinfo{Eum, Suhr e Kim}{EUM; SUHR; KIM}{2011}
+{EUM, S.; SUHR, J.~K.; KIM, J. Face recognizability evaluation for atm
+  applications with exceptional occlusion handling. In:  IEEE. \emph{Computer
+  Vision and Pattern Recognition Workshops (CVPRW), 2011 IEEE Computer Society
+  Conference on}. [S.l.], 2011. p. 82--89.}
+
+\bibitem[Fawcett 2006]{fawcett2006introduction}
+\abntrefinfo{Fawcett}{FAWCETT}{2006}
+{FAWCETT, T. An introduction to roc analysis.
+\emph{Pattern recognition letters}, Elsevier, v.~27, n.~8, p. 861--874, 2006.}
+
+\bibitem[Feng et al. 2009]{Huang_2009}
+\abntrefinfo{Feng et al.}{FENG et al.}{2009}
+{FENG, G. et al. Error minimized extreme learning machine with growth of hidden
+  nodes and incremental learning.
+\emph{IEEE Transactions on Neural Networks}, v.~20, n.~8, p. 1352--1357, Aug
+  2009.
+ISSN 1045-9227.}
+
+\bibitem[Fidler, Skocaj e Leonardis 2006]{Fidler_2006}
+\abntrefinfo{Fidler, Skocaj e Leonardis}{FIDLER; SKOCAJ; LEONARDIS}{2006}
+{FIDLER, S.; SKOCAJ, D.; LEONARDIS, A. Combining reconstructive and
+  discriminative subspace methods for robust classification and regression by
+  subsampling.
+\emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, v.~28,
+  n.~3, p. 337--350, March 2006.
+ISSN 0162-8828.}
+
+\bibitem[Filipe 2010]{filipe2010segmentaccao}
+\abntrefinfo{Filipe}{FILIPE}{2010}
+{FILIPE, S.~B.
+\emph{Segmenta{\c{c}}{\~a}o de faces em imagens no infravermelho t{\'e}rmico}.
+Tese (Doutorado), 2010.}
+
+\bibitem[Fisher 1936]{fisher1936use}
+\abntrefinfo{Fisher}{FISHER}{1936}
+{FISHER, R.~A. The use of multiple measurements in taxonomic problems.
+\emph{Annals of eugenics}, Wiley Online Library, v.~7, n.~2, p. 179--188,
+  1936.}
+
+\bibitem[Freitas et al. 2009]{Freitas_2009}
+\abntrefinfo{Freitas et al.}{FREITAS et al.}{2009}
+{FREITAS, G.~M. et al. Optimum-path forest-based rainfall estimation. In:
+  \emph{2009 16th International Conference on Systems, Signals and Image
+  Processing}. [S.l.: s.n.], 2009. p.~1--4.
+ISSN 2157-8672.}
+
+\bibitem[Freund, Schapire e Abe 1999]{freund1999short}
+\abntrefinfo{Freund, Schapire e Abe}{FREUND; SCHAPIRE; ABE}{1999}
+{FREUND, Y.; SCHAPIRE, R.; ABE, N. A short introduction to boosting.
+\emph{Journal-Japanese Society For Artificial Intelligence}, JAPANESE SOC
+  ARTIFICIAL INTELL, v.~14, n. 771-780, p.~1612, 1999.}
+
+\bibitem[Georghiades, Belhumeur e Kriegman 1997]{georghiades1997yale}
+\abntrefinfo{Georghiades, Belhumeur e Kriegman}{GEORGHIADES; BELHUMEUR;
+  KRIEGMAN}{1997}
+{GEORGHIADES, A.; BELHUMEUR, P.; KRIEGMAN, D. Yale face database.
+\emph{Center for computational Vision and Control at Yale University,
+  http://cvc. yale. edu/projects/yalefaces/yalefa}, v.~2, 1997.}
+
+\bibitem[Ghiasi e Fowlkes 2014]{ghiasi2014occlusion}
+\abntrefinfo{Ghiasi e Fowlkes}{GHIASI; FOWLKES}{2014}
+{GHIASI, G.; FOWLKES, C.~C. Occlusion coherence: Localizing occluded faces with
+  a hierarchical deformable part model. In:  \emph{Proceedings of the IEEE
+  Conference on Computer Vision and Pattern Recognition}. [S.l.: s.n.], 2014.
+  p. 2385--2392.}
+
+\bibitem[Han, Karypis e Kumar 2001]{Han_2001}
+\abntrefinfo{Han, Karypis e Kumar}{HAN; KARYPIS; KUMAR}{2001}
+{HAN, E.-H.~S.; KARYPIS, G.; KUMAR, V. Text categorization using weight
+  adjusted k-nearest neighbor classification.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Advances in Knowledge Discovery and
+  Data Mining: 5th Pacific-Asia Conference, PAKDD 2001 Hong Kong, China, April
+  16--18, 2001 Proceedings}. Berlin, Heidelberg: Springer Berlin Heidelberg,
+  2001. p. 53--65.
+ISBN 978-3-540-45357-4.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1007/3-540-45357-1\_9}.}
+
+\bibitem[Hassaballah e Aly 2015]{hassaballah2015face}
+\abntrefinfo{Hassaballah e Aly}{HASSABALLAH; ALY}{2015}
+{HASSABALLAH, M.; ALY, S. Face recognition: challenges, achievements and future
+  directions.
+\emph{IET Computer Vision}, IET, v.~9, n.~4, p. 614--626, 2015.}
+
+\bibitem[Haykin 2009]{haykin_2009}
+\abntrefinfo{Haykin}{HAYKIN}{2009}
+{HAYKIN, S. \emph{Neural Networks and Learning Machines}. Prentice Hall, 2009.
+  (Neural networks and learning machines, v. 10).
+ISBN 9780131471399. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=K7P36lKzI\\_QC}.}
+
+\bibitem[Hosoi et al. 2012]{[37]hosoi2012restoring}
+\abntrefinfo{Hosoi et al.}{HOSOI et al.}{2012}
+{HOSOI, T. et al. Restoring occluded regions using fw-pca for face recognition.
+  In:  IEEE. \emph{Computer Vision and Pattern Recognition Workshops (CVPRW),
+  2012 IEEE Computer Society Conference on}. [S.l.], 2012. p. 23--30.}
+
+\bibitem[Huang, Zhu e Siew 2006]{Huang_2006}
+\abntrefinfo{Huang, Zhu e Siew}{HUANG; ZHU; SIEW}{2006}
+{HUANG, G.-B.; ZHU, Q.-Y.; SIEW, C.-K. Extreme learning machine: Theory and
+  applications.
+\emph{Neurocomputing}, v.~70, n. 1–3, p. 489 -- 501, 2006.
+ISSN 0925-2312.
+Neural NetworksSelected Papers from the 7th Brazilian Symposium on Neural
+  Networks (SBRN '04)7th Brazilian Symposium on Neural Networks.
+Dispon{\'\i}vel em:
+  \url{http://www.sciencedirect.com/science/article/pii/S0925231206000385}.}
+
+\bibitem[Huang e Yang 2012]{[36]huang2012subface}
+\abntrefinfo{Huang e Yang}{HUANG; YANG}{2012}
+{HUANG, S.-M.; YANG, J.-F. Subface hidden markov models coupled with a
+  universal occlusion model for partially occluded face recognition.
+\emph{IET biometrics}, IET, v.~1, n.~3, p. 149--159, 2012.}
+
+\bibitem[Jafri e Arabnia 2009]{jafri2009survey}
+\abntrefinfo{Jafri e Arabnia}{JAFRI; ARABNIA}{2009}
+{JAFRI, R.; ARABNIA, H.~R. A survey of face recognition techniques.
+\emph{Jips}, v.~5, n.~2, p. 41--68, 2009.}
+
+\bibitem[Jain, Ross e Prabhakar 2004]{jain2004introduction}
+\abntrefinfo{Jain, Ross e Prabhakar}{JAIN; ROSS; PRABHAKAR}{2004}
+{JAIN, A.~K.; ROSS, A.; PRABHAKAR, S. An introduction to biometric recognition.
+\emph{IEEE Transactions on circuits and systems for video technology}, IEEE,
+  v.~14, n.~1, p. 4--20, 2004.}
+
+\bibitem[Jia e Martinez 2009]{Jia_2009}
+\abntrefinfo{Jia e Martinez}{JIA; MARTINEZ}{2009}
+{JIA, H.; MARTINEZ, A.~M. Support vector machines in face recognition with
+  occlusions. In:  \emph{IEEE Conference on Computer Vision and Pattern
+  Recognition}. [S.l.: s.n.], 2009. p. 136--141.
+ISSN 1063-6919.}
+
+\bibitem[Jolliffe 2002]{jolliffe2002principal}
+\abntrefinfo{Jolliffe}{JOLLIFFE}{2002}
+{JOLLIFFE, I. \emph{Principal component analysis}. [S.l.]: Wiley Online
+  Library, 2002.}
+
+\bibitem[Kacur, Vargic e Mulinka 2011]{Kacur_2011}
+\abntrefinfo{Kacur, Vargic e Mulinka}{KACUR; VARGIC; MULINKA}{2011}
+{KACUR, J.; VARGIC, R.; MULINKA, P. Speaker identification by k-nearest
+  neighbors: Application of pca and lda prior to knn. In:  \emph{2011 18th
+  International Conference on Systems, Signals and Image Processing}. [S.l.:
+  s.n.], 2011. p.~1--4.
+ISSN 2157-8672.}
+
+\bibitem[Kim et al. 2005]{Jongsun_2005}
+\abntrefinfo{Kim et al.}{KIM et al.}{2005}
+{KIM, J. et al. Effective representation using ica for face recognition robust
+  to local distortion and partial occlusion.
+\emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, v.~27,
+  n.~12, p. 1977--1981, Dec 2005.
+ISSN 0162-8828.}
+
+\bibitem[Lai e Jiang 2013]{[11]lai2013robust}
+\abntrefinfo{Lai e Jiang}{LAI; JIANG}{2013}
+{LAI, J.; JIANG, X. Robust face recognition using trimmed linear regression.
+  In:  \emph{ICASSP}. [S.l.: s.n.], 2013. p. 2979--2983.}
+
+\bibitem[Li et al. 2013]{[15]li2013structured}
+\abntrefinfo{Li et al.}{LI et al.}{2013}
+{LI, X.-X. et al. Structured sparse error coding for face recognition with
+  occlusion.
+\emph{IEEE transactions on image processing}, IEEE, v.~22, n.~5, p. 1889--1900,
+  2013.}
+
+\bibitem[Lone, Zakariya e Ali 2011]{lone2011automatic}
+\abntrefinfo{Lone, Zakariya e Ali}{LONE; ZAKARIYA; ALI}{2011}
+{LONE, M.~A.; ZAKARIYA, S.; ALI, R. Automatic face recognition system by
+  combining four individual algorithms. In:  IEEE. \emph{Computational
+  Intelligence and Communication Networks (CICN), 2011 International Conference
+  on}. [S.l.], 2011. p. 222--226.}
+
+\bibitem[Lumini e Nanni 2017]{lumini2017overview}
+\abntrefinfo{Lumini e Nanni}{LUMINI; NANNI}{2017}
+{LUMINI, A.; NANNI, L. Overview of the combination of biometric matchers.
+\emph{Inf. Fusion}, Elsevier, v.~33, p. 71--85, 2017.}
+
+\bibitem[Mallat 1989]{mallat1989theory}
+\abntrefinfo{Mallat}{MALLAT}{1989}
+{MALLAT, S.~G. A theory for multiresolution signal decomposition: the wavelet
+  representation.
+\emph{IEEE transactions on pattern analysis and machine intelligence}, Ieee,
+  v.~11, n.~7, p. 674--693, 1989.}
+
+\bibitem[Marsico, Nappi e Riccio 2010]{[28]de2010faro}
+\abntrefinfo{Marsico, Nappi e Riccio}{MARSICO; NAPPI; RICCIO}{2010}
+{MARSICO, M. D.; NAPPI, M.; RICCIO, D. Faro: Face recognition against
+  occlusions and expression variations.
+\emph{IEEE Transactions on Systems, Man, and Cybernetics-Part A: Systems and
+  Humans}, IEEE, v.~40, n.~1, p. 121--132, 2010.}
+
+\bibitem[Martinez 1998]{martinez1998ar}
+\abntrefinfo{Martinez}{MARTINEZ}{1998}
+{MARTINEZ, A.~M. The ar face database.
+\emph{CVC technical report}, v.~24, 1998.}
+
+\bibitem[Martinez 2002]{Martinez_2002}
+\abntrefinfo{Martinez}{MARTINEZ}{2002}
+{MARTINEZ, A.~M. Recognizing imprecisely localized, partially occluded, and
+  expression variant faces from a single sample per class.
+\emph{IEEE Trans. on Pat. Analysis and Machine Intelligence}, v.~24, n.~6, p.
+  748--763, Jun 2002.
+ISSN 0162-8828.}
+
+\bibitem[Min e Dugelay 2012]{[16]min2012inpainting}
+\abntrefinfo{Min e Dugelay}{MIN; DUGELAY}{2012}
+{MIN, R.; DUGELAY, J.-L. Inpainting of sparse occlusion in face recognition.
+  In:  IEEE. \emph{Image Processing (ICIP), 2012 19th IEEE International
+  Conference on}. [S.l.], 2012. p. 1425--1428.}
+
+\bibitem[Min, Hadid e Dugelay 2014]{min2014efficient}
+\abntrefinfo{Min, Hadid e Dugelay}{MIN; HADID; DUGELAY}{2014}
+{MIN, R.; HADID, A.; DUGELAY, J.-L. Efficient detection of occlusion prior to
+  robust face recognition.
+\emph{The Scientific World Journal}, Hindawi, v.~2014, 2014.}
+
+\bibitem[Papa et al. 2009]{Papa_2009b}
+\abntrefinfo{Papa et al.}{PAPA et al.}{2009}
+{PAPA, J.~P. et al. Fast and accurate holistic face recognition using
+  optimum-path forest. In:  \emph{2009 16th International Conference on Digital
+  Signal Processing}. [S.l.: s.n.], 2009. p.~1--6.
+ISSN 1546-1874.}
+
+\bibitem[Papa, Falcão e Suzuki 2009]{Papa_2009a}
+\abntrefinfo{Papa, Falcão e Suzuki}{PAPA; FALCãO; SUZUKI}{2009}
+{PAPA, J.~P.; FALCãO, A.~X.; SUZUKI, C. T.~N. Supervised pattern
+  classification based on optimum-path forest.
+\emph{International Journal of Imaging Systems and Technology}, Wiley
+  Subscription Services, Inc., A Wiley Company, v.~19, n.~2, p. 120--131, 2009.
+ISSN 1098-1098.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1002/ima.20188}.}
+
+\bibitem[Papa e Rocha 2011]{Papa_2011}
+\abntrefinfo{Papa e Rocha}{PAPA; ROCHA}{2011}
+{PAPA, J.~P.; ROCHA, A. Image categorization through optimum path forest and
+  visual words. In:  \emph{2011 18th IEEE International Conference on Image
+  Processing}. [S.l.: s.n.], 2011. p. 3525--3528.
+ISSN 1522-4880.}
+
+\bibitem[Papa et al. 2008]{Papa_2008}
+\abntrefinfo{Papa et al.}{PAPA et al.}{2008}
+{PAPA, J.~P. et al. Optimum path forest classifier applied to laryngeal
+  pathology detection. In:  \emph{2008 15th International Conference on
+  Systems, Signals and Image Processing}. [S.l.: s.n.], 2008. p. 249--252.
+ISSN 2157-8672.}
+
+\bibitem[Park et al. 2005]{park2005glasses}
+\abntrefinfo{Park et al.}{PARK et al.}{2005}
+{PARK, J.-S. et al. Glasses removal from facial image using recursive error
+  compensation.
+\emph{IEEE transactions on pattern analysis and machine intelligence}, IEEE,
+  v.~27, n.~5, p. 805--811, 2005.}
+
+\bibitem[Passalis et al. 2011]{[24]passalis2011using}
+\abntrefinfo{Passalis et al.}{PASSALIS et al.}{2011}
+{PASSALIS, G. et al. Using facial symmetry to handle pose variations in
+  real-world 3d face recognition.
+\emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, IEEE,
+  v.~33, n.~10, p. 1938--1951, 2011.}
+
+\bibitem[Penev e Atick 1996]{PenioPenev_1996}
+\abntrefinfo{Penev e Atick}{PENEV; ATICK}{1996}
+{PENEV, P.~S.; ATICK, J.~J. Local feature analysis: a general statistical
+  theory for object representation.
+\emph{Network: Comp. in Neural Sys.}, p. 477--500, 1996.}
+
+\bibitem[Ragashe, Goswami e Raghuwanshi 2015]{ragashe2015approach}
+\abntrefinfo{Ragashe, Goswami e Raghuwanshi}{RAGASHE; GOSWAMI;
+  RAGHUWANSHI}{2015}
+{RAGASHE, M.~U.; GOSWAMI, M.; RAGHUWANSHI, M. Approach towards real time face
+  recognition in streaming video under partial occlusion. In:  IEEE.
+  \emph{Intelligent Systems and Control (ISCO), 2015 IEEE 9th International
+  Conference on}. [S.l.], 2015. p.~1--7.}
+
+\bibitem[Rama et al. 2008]{Rama_2008}
+\abntrefinfo{Rama et al.}{RAMA et al.}{2008}
+{RAMA, A. et al. More robust face recognition by considering occlusion
+  information. In:  \emph{8th IEEE Int. Conf. on Automatic Face Gesture
+  Recognition}. [S.l.: s.n.], 2008. p.~1--6.}
+
+\bibitem[Sarkar e Leong 2000]{Sarkar_2000}
+\abntrefinfo{Sarkar e Leong}{SARKAR; LEONG}{2000}
+{SARKAR, M.; LEONG, T. T. Application of k-nearest neighbors algorithm on
+  breast cancer diagnosis problem. In:  \emph{Proceedings of the AMIA Annual
+  Symposium, Los Angeles, USA}. [S.l.: s.n.], 2000.}
+
+\bibitem[Scholkopf e Smola 2001]{Scholkopf}
+\abntrefinfo{Scholkopf e Smola}{SCHOLKOPF; SMOLA}{2001}
+{SCHOLKOPF, B.; SMOLA, A.~J. \emph{Learning with Kernels: Support Vector
+  Machines, Regularization, Optimization, and Beyond}. Cambridge, MA, USA: MIT
+  Press, 2001.
+ISBN 0262194759.}
+
+\bibitem[Sharif, Mohsin e Javed 2012]{sharif2012survey}
+\abntrefinfo{Sharif, Mohsin e Javed}{SHARIF; MOHSIN; JAVED}{2012}
+{SHARIF, M.; MOHSIN, S.; JAVED, M.~Y. A survey: Face recognition techniques.
+\emph{Research Journal of Applied Sciences, Engineering and Technology},
+  Maxwell Science Publishing, v.~4, n.~23, p. 4979--4990, 2012.}
+
+\bibitem[Sharma, Prakash e Gupta 2013]{[12]sharma2013efficient}
+\abntrefinfo{Sharma, Prakash e Gupta}{SHARMA; PRAKASH; GUPTA}{2013}
+{SHARMA, M.; PRAKASH, S.; GUPTA, P. An efficient partial occluded face
+  recognition system.
+\emph{Neurocomputing}, Elsevier, v.~116, p. 231--241, 2013.}
+
+\bibitem[Shermina e Vasudevan 2012]{[20]shermina2012recognition}
+\abntrefinfo{Shermina e Vasudevan}{SHERMINA; VASUDEVAN}{2012}
+{SHERMINA, J.; VASUDEVAN, V. Recognition of the face images with occlusion and
+  expression.
+\emph{International Journal of Pattern Recognition and Artificial
+  Intelligence}, World Scientific, v.~26, n.~03, p. 1256006, 2012.}
+
+\bibitem[S{\"o}derstr{\"o}m e Li 2011]{soderstrom2011asymmetrical}
+\abntrefinfo{S{\"o}derstr{\"o}m e Li}{S{\"O}DERSTR{\"O}M; LI}{2011}
+{S{\"O}DERSTR{\"O}M, U.; LI, H. \emph{Asymmetrical principal component analysis
+  theory and its applications to facial video coding}. [S.l.]: INTECH Open
+  Access Publisher, 2011.}
+
+\bibitem[Song et al. 2012]{[19]song2012three}
+\abntrefinfo{Song et al.}{SONG et al.}{2012}
+{SONG, M. et al. Three-dimensional face reconstruction from a single image by a
+  coupled rbf network.
+\emph{IEEE Transactions on Image Processing}, IEEE, v.~21, n.~5, p. 2887--2897,
+  2012.}
+
+\bibitem[Srinivasan e Balamurugan 2014]{srinivasan2014occlusion}
+\abntrefinfo{Srinivasan e Balamurugan}{SRINIVASAN; BALAMURUGAN}{2014}
+{SRINIVASAN, A.; BALAMURUGAN, V. Occlusion detection and image restoration in
+  3d face image. In:  IEEE. \emph{TENCON 2014-2014 IEEE Region 10 Conference}.
+  [S.l.], 2014. p.~1--6.}
+
+\bibitem[Storer et al. 2009]{storer2009fast}
+\abntrefinfo{Storer et al.}{STORER et al.}{2009}
+{STORER, M. et al. Fast-robust pca. In:  SPRINGER. \emph{Scandinavian
+  Conference on Image Analysis}. [S.l.], 2009. p. 430--439.}
+
+\bibitem[Storer, Urschler e Bischof 2010]{[26]storer2010occlusion}
+\abntrefinfo{Storer, Urschler e Bischof}{STORER; URSCHLER; BISCHOF}{2010}
+{STORER, M.; URSCHLER, M.; BISCHOF, H. Occlusion detection for icao compliant
+  facial photographs. In:  IEEE. \emph{Computer Vision and Pattern Recognition
+  Workshops (CVPRW), 2010 IEEE Computer Society Conference on}. [S.l.], 2010.
+  p. 122--129.}
+
+\bibitem[Su, Ai e Lao 2009]{[31]su2009multi}
+\abntrefinfo{Su, Ai e Lao}{SU; AI; LAO}{2009}
+{SU, Y.; AI, H.; LAO, S. Multi-view face alignment using 3d shape model for
+  view estimation. In:  SPRINGER. \emph{International Conference on
+  Biometrics}. [S.l.], 2009. p. 179--188.}
+
+\bibitem[Tan et al. 2005]{Tan_2005}
+\abntrefinfo{Tan et al.}{TAN et al.}{2005a}
+{TAN, X. et al. Recognizing partially occluded, expression variant faces from
+  single training image per person with som and soft k-nn ensemble.
+\emph{IEEE Transactions on Neural Networks}, v.~16, n.~4, p. 875--886, July
+  2005.
+ISSN 1045-9227.}
+
+\bibitem[Tan et al. 2005]{[38]tan2005recognizing}
+\abntrefinfo{Tan et al.}{TAN et al.}{2005b}
+{TAN, X. et al. Recognizing partially occluded, expression variant faces from
+  single training image per person with som and soft k-nn ensemble.
+\emph{IEEE Transactions on Neural Networks}, IEEE, v.~16, n.~4, p. 875--886,
+  2005.}
+
+\bibitem[Tan et al. 2009]{tan2009face}
+\abntrefinfo{Tan et al.}{TAN et al.}{2009}
+{TAN, X. et al. Face recognition under occlusions and variant expressions with
+  partial similarity.
+\emph{IEEE Transactions on Information Forensics and Security}, IEEE, v.~4,
+  n.~2, p. 217--230, 2009.}
+
+\bibitem[Targino, Peres e Lima 2018]{Targino2018_wvc}
+\abntrefinfo{Targino, Peres e Lima}{TARGINO; PERES; LIMA}{2018a}
+{TARGINO, J.~M.; PERES, S.~M.; LIMA, C. A. d.~M. Methods of detecting and
+  reconstructing partial occlusions in face images: Systematic literature
+  review. In:  \emph{Workshop de Visão Computacional}. [S.l.: s.n.], 2018. p.
+  76--81.}
+
+\bibitem[Targino, Peres e Lima 2018]{Targino2018_cob}
+\abntrefinfo{Targino, Peres e Lima}{TARGINO; PERES; LIMA}{2018b}
+{TARGINO, J.~M.; PERES, S.~M.; LIMA, C. A. d.~M. Técnicas baseadas em
+  subespaço para reconstrução de faces parcialmente ocluídas: Um estudo
+  comparativo. In:  \emph{Computer on the Beach}. [S.l.: s.n.], 2018. p.
+  1--10.}
+
+\bibitem[Turk e Pentland 1991]{turk1991face}
+\abntrefinfo{Turk e Pentland}{TURK; PENTLAND}{1991}
+{TURK, M.~A.; PENTLAND, A.~P. Face recognition using eigenfaces. In:  IEEE.
+  \emph{Computer Vision and Pattern Recognition, 1991. Proceedings CVPR'91.,
+  IEEE Computer Society Conference on}. [S.l.], 1991. p. 586--591.}
+
+\bibitem[Vapnik 1995]{Vapnik}
+\abntrefinfo{Vapnik}{VAPNIK}{1995}
+{VAPNIK, V.~N. \emph{The nature of statistical learning theory}. New York, NY,
+  USA: Springer-Verlag New York, Inc., 1995.
+ISBN 0-387-94559-8.}
+
+\bibitem[Venkatakrishnan et al. 2014]{venkatakrishnan20143d}
+\abntrefinfo{Venkatakrishnan et al.}{VENKATAKRISHNAN et al.}{2014}
+{VENKATAKRISHNAN, D. et al. 3d face recognition with occlusions using fisher
+  faces projection.
+\emph{Applied Mechanics \& Materials}, n.~573, 2014.}
+
+\bibitem[Viola e Jones 2004]{viola2004robust}
+\abntrefinfo{Viola e Jones}{VIOLA; JONES}{2004}
+{VIOLA, P.; JONES, M.~J. Robust real-time face detection.
+\emph{International journal of computer vision}, Springer, v.~57, n.~2, p.
+  137--154, 2004.}
+
+\bibitem[Wang et al. 2004]{ssim2004}
+\abntrefinfo{Wang et al.}{WANG et al.}{2004}
+{WANG, Z. et al. Image quality assessment: from error visibility to structural
+  similarity.
+\emph{IEEE transactions on image processing}, IEEE, v.~13, n.~4, p. 600--612,
+  2004.}
+
+\bibitem[Wang e Tao 2007]{wang2007reconstruction}
+\abntrefinfo{Wang e Tao}{WANG; TAO}{2007}
+{WANG, Z.-M.; TAO, J.-H. Reconstruction of partially occluded face by fast
+  recursive pca. In:  IEEE. \emph{Computational Intelligence and Security
+  Workshops, 2007. CISW 2007. International Conference on}. [S.l.], 2007. p.
+  304--307.}
+
+\bibitem[Wei, Li e Hu 2013]{[13]wei2013robust}
+\abntrefinfo{Wei, Li e Hu}{WEI; LI; HU}{2013}
+{WEI, X.; LI, C.-T.; HU, Y. Robust face recognition with occlusions in both
+  reference and query images. In:  IEEE. \emph{Biometrics and Forensics (IWBF),
+  2013 International Workshop on}. [S.l.], 2013. p.~1--4.}
+
+\bibitem[Wei et al. 2014]{[4]wei2014dynamic}
+\abntrefinfo{Wei et al.}{WEI et al.}{2014}
+{WEI, X. et al. Dynamic image-to-class warping for occluded face recognition.
+\emph{IEEE Transactions on Information Forensics and Security}, IEEE, v.~9,
+  n.~12, p. 2035--2050, 2014.}
+
+\bibitem[Wright et al. 2009]{Wright_2009}
+\abntrefinfo{Wright et al.}{WRIGHT et al.}{2009a}
+{WRIGHT, J. et al. Robust face recognition via sparse representation.
+\emph{IEEE Trans. on Pattern Analysis and Machine Intelligence}, v.~31, n.~2,
+  p. 210--227, Feb 2009.
+ISSN 0162-8828.}
+
+\bibitem[Wright et al. 2009]{[32]wright2009robust}
+\abntrefinfo{Wright et al.}{WRIGHT et al.}{2009b}
+{WRIGHT, J. et al. Robust face recognition via sparse representation.
+\emph{IEEE transactions on pattern analysis and machine intelligence}, IEEE,
+  v.~31, n.~2, p. 210--227, 2009.}
+
+\bibitem[Yan et al. 2010]{[27]yan2010misalignment}
+\abntrefinfo{Yan et al.}{YAN et al.}{2010}
+{YAN, S. et al. Misalignment-robust face recognition.
+\emph{IEEE trans. on image processing}, IEEE, v.~19, n.~4, p. 1087--1096,
+  2010.}
+
+\bibitem[Yang et al. 2014]{[6]yang2014fast}
+\abntrefinfo{Yang et al.}{YANG et al.}{2014}
+{YANG, M. et al. Fast and robust face recognition via coding residual map
+  learning based adaptive masking.
+\emph{Pattern Recognition}, Elsevier, v.~47, n.~2, p. 535--543, 2014.}
+
+\bibitem[Yang et al. 2010]{yang2010metaface}
+\abntrefinfo{Yang et al.}{YANG et al.}{2010}
+{YANG, M. et al. Metaface learning for sparse representation based face
+  recognition. In:  IEEE. \emph{Image Processing (ICIP), 2010 17th IEEE
+  International Conference on}. [S.l.], 2010. p. 1601--1604.}
+
+\bibitem[Yang et al. 2011]{Yang_2011}
+\abntrefinfo{Yang et al.}{YANG et al.}{2011}
+{YANG, M. et al. Robust sparse coding for face recognition. In:  \emph{CVPR
+  2011}. [S.l.: s.n.], 2011. p. 625--632.
+ISSN 1063-6919.}
+
+\bibitem[Yu e Yu 2007]{Yu_2007}
+\abntrefinfo{Yu e Yu}{YU; YU}{2007}
+{YU, X.~P.; YU, X.~G. Novel text classification based on k-nearest neighbor.
+  In:  \emph{2007 International Conference on Machine Learning and
+  Cybernetics}. [S.l.: s.n.], 2007. v.~6, p. 3425--3430.
+ISSN 2160-133X.}
+
+\bibitem[Zhang, Cerone e Gao 2006]{[34]zhang2006robust}
+\abntrefinfo{Zhang, Cerone e Gao}{ZHANG; CERONE; GAO}{2006}
+{ZHANG, B.; CERONE, P.; GAO, Y. Robust face recognition by hierarchical kernel
+  associative memory models based on spatial domain gabor transforms.
+\emph{Journal of Multimedia}, v.~1, n.~4, p. 1--10, 2006.}
+
+\bibitem[Zhang et al. 2007]{Zhang_2007}
+\abntrefinfo{Zhang et al.}{ZHANG et al.}{2007}
+{ZHANG, B. et al. Histogram of gabor phase patterns (hgpp): A novel object
+  representation approach for face recognition.
+\emph{IEEE Trans. on Image Processing}, v.~16, n.~1, p. 57--68, Jan 2007.
+ISSN 1057-7149.}
+
+\bibitem[Zhang et al. 2010]{zhang2010dimensionality}
+\abntrefinfo{Zhang et al.}{ZHANG et al.}{2010}
+{ZHANG, L. et al. On the dimensionality reduction for sparse representation
+  based face recognition. In:  IEEE. \emph{Pattern Recognition (ICPR), 2010
+  20th International Conference on}. [S.l.], 2010. p. 1237--1240.}
+
+\bibitem[Zhang et al. 2016]{[2]zhang2016face}
+\abntrefinfo{Zhang et al.}{ZHANG et al.}{2016}
+{ZHANG, Y. et al. Face occlusion detection using cascaded convolutional neural
+  network. In:  SPRINGER. \emph{Chinese Conference on Biometric Recognition}.
+  [S.l.], 2016. p. 720--727.}
+
+\bibitem[Zhu et al. 2012]{[18]zhu2012discriminant}
+\abntrefinfo{Zhu et al.}{ZHU et al.}{2012}
+{ZHU, J. et al. Discriminant analysis with gabor phase for robust face
+  recognition. In:  IEEE. \emph{Biometrics (ICB), 2012 5th IAPR International
+  Conference on}. [S.l.], 2012. p. 13--18.}
+
+\end{thebibliography}

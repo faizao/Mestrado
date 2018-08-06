@@ -1,0 +1,89 @@
+\chapter{Técnicas para detecção de oclusões parciais}
+\label{cp:4_deteccao}
+Esta seção apresenta algumas técnicas para detecção de oclusões parciais em imagens de faces, essas técnicas foram coletadas por meio de uma revisão sistemática e uma revisão bibliográfica.
+
+Durante a elaboração deste trabalho analisou-se uma grande quantidade de trabalhos relacionados, a depender de sua temática junto a identificação biométrica da face. Com iniciativas a lapidar as técnicas analisou-se alguns trabalhos relacionados com iniciativas a implementação das técnicas para comparações futuras. Dentre os trabalhos podemos perceber que o artigo de \citeonline{[11]lai2013robust} apresenta uma técnica para detecção da oclusão utilizando um estimador robusto com regressão linear, em que o mesmo analisa os pixels correspondentes no conjunto de treinamento e os classifica como não ocluídos, diante disso a imagem analisada é classificada de acordo a classe com menor erro de reconstrução. Já \citeonline{[2]zhang2016face} utiliza sete Redes Neurais Convolutivas (do inglês: \textit{Convolutional Neural Network} (CNN)) para detecção da oclusão, dessas setes redes, três, duas e duas, são responsáveis por detectar respectivamente a cabeça, olhos e boca. Utilizando a estratégia de \textit{Max-pooling} como processo de discretização e redução do número de parâmetros para entrada na rede. O primeiro nível da  CNN é  responsável por rejeitar rapidamente a maioria das janelas de detecção, já o segundo nível julga se as janelas restantes são pontos faciais ou não.
+
+Em \citeonline{[4]wei2014dynamic} apresenta a estratégia DICW, esta divide a imagem da face em \textit{D} partes e logo em seguida analisa a diferença das tonalidades entre as partes a partir da manipulação de séries temporais, e logo em seguida aplica distância euclidiana ou distância cosseno para analisar a presença de possíveis oclusões nas partes da imagem. \citeonline{[12]sharma2013efficient} utiliza filtros de Gabor para extrair as características da imagem e com o auxílio do PCA reduz a dimensionalidade das mesmas e projeta essas imagens em um subespaço. Para tarefa de detecção da oclusão divide a imagem da face em subimagens e aplica um limiar de decisão para detecção da máscara de oclusão.
+
+
+A metodologia clássica para tratar o reconhecimento biométrico baseado em imagens de faces ocluídas consiste em encontrar características ou classificadores tolerantes à ruído. Vários trabalhos têm demonstrado que os algoritmos locais são menos sensíveis a oclusões parciais. Em \citeonline{PenioPenev_1996} foi proposto Análise de Características Locais para extração de características usando estatísticas de segunda ordem. Já \citeonline{Martinez_2002} propôs uma abordagem que consiste em dividir  a imagem da face ocluída em $k$ regiões locais. Se uma região estiver ocluída, esta é automaticamente detectada usando um modelo probabilístico. Além disso, foi proposto uma ponderação para regiões locais a fim de fornecer robustez em problemas que envolvem variação de expressão. \citeonline{Tan_2005} estendeu o trabalho de Matinez usando Mapas Auto-Organizáveis para apreender o subespaço ao invés de usar Gaussianas ou Mistura de Gaussianas. Em \cite{Jongsun_2005} foi proposto um método chamado Analises de Componentes Independente baseado em Saliências Locais, o qual emprega  informação de saliências locais na extração das componentes independentes. Já em  \cite{Fidler_2006} foi proposto a combinação de métodos baseados em subespaço, como Análise de Componentes Principais, com métodos que visam a discriminação, como Análise de Discriminante Linear, objetivando melhor reconstrução das imagens de face.  Em \citeonline{Jia_2009}, foi proposto o emprego de Máquinas de Vetores Suporte Parcial em cenários em que a oclusão pode ocorrer em ambos os conjuntos de treinamento e teste. Neste caso, problema de oclusão foi tratado como um problema de reconstrução e a classificação foi realizada de acordo com o erro de reconstrução obtido para a imagem de teste.
+
+
+Outra estratégia que vem sendo utilizada é a Classificação baseada em Representação Esparsa (SRC), tendo alcançado desempenhos impressionantes no reconhecimento de imagens de face ocluídas. \citeonline{Wright_2009} foi o primeiro a empregar SRC para reconhecimento de faces ocluídas. Neste trabalho, a face ocluída é representada como uma combinação linear de todas as imagens de face e um vetor de erros no nível de pixel. A classificação foi realizada por meio da minimização da norma \textit{l1}. \citeonline{Yang_2011} propuseram um método chamado Codificação Esparsa Robusta, que maximiza a estimativa da máxima verossimilhança do problema de codificação esparsa para oclusões não Gaussianas / Laplacianas de forma iterativa. Embora os métodos baseados em representação esparsa tenham obtido resultados de identificação significativos em faces ocluídas, esses métodos dependem de um grande número de amostras de faces de cada indivíduo com variações suficientes. Entretanto, em muitos cenários práticos de reconhecimento facial, as amostras de treinamento de cada indivíduo são muitas vezes insuficientes, no caso extremo somente uma face de cada indivíduo pode estar disponível.
+
+
+A partir das pesquisas, foi visto que alguns trabalhos revelaram que o conhecimento prévio de oclusões pode melhorar significativamente a precisão do reconhecimento de face baseado em informações locais. \citeonline{Rama_2008} mostraram empiricamente que o conhecimento prévio sobre a oclusão (anotado manualmente) pode melhorar o desempenho do \textit{Eigenface}. \citeonline{Zhang_2007} propuseram usar a divergência de Kullback-Leibler  para estimar a distribuição de probabilidade de oclusões no espaço de característica, de modo a melhorar o método LGBPHS (\textit{Local Gabor Binary Pattern Histogram Sequence}) para a face parcialmente ocluída.
+
+
+
+Em outro ângulo \citeonline{[20]shermina2012recognition} dividem a imagem da face em blocos e aplica a técnica de correspondência por blocos para detecção da oclusão e como método de reconstrução e reconhecimento utilizam Eigenfaces. Para reconstruir a face subtraem a imagem de entrada pela imagem média das faces e logo em seguida multiplica pelos Eigenfaces para obterem os coeficientes que serão multiplicados pelos Eigenfaces e com isso reconstruir a imagem. Enquanto  \citeonline{[22]chiang2011recognizing} também utiliza Eigenfaces para restaurar e reconhecer a face, já para detectar a oclusão aplica o método de Descoberta Iterativa da Face (IFR), este método, sendo responsável por criar conexões triangulares entre os pontos de referência da face, e com isso facilitar o processo de detecção da oclusão. Em outro momento \cite{[25]deng2011graph} utiliza um grafo espectral baseado na ideia de reconstrução da imagem, em que o algoritmo cria uma matriz esparsa para representar a parte parcialmente ocluída da imagem, logo em seguida extrai as características da imagem para depois aplicar o grafo laplaciano para reconstruir a imagem.
+
+Em \citeonline{[38]tan2005recognizing} aplicou-se o algoritmo SOM para projetar a relação topológica da face e assim localizar a oclusão com o auxílio do KNN\nomenclature{KNN}{k-Nearest Neighbors} como classificador. Em contrapartida \citeonline{[36]huang2012subface} utiliza Hidden Markov Models (HMM), com esta técnica sendo possível identificar os componentes faciais por meio de uma gramática facial. Nessa técnica foi possível aplicar o Universal Occlusion Model (UOM) \nomenclature{UOM}{Universal Occlusion Model} para identificar onde está localizada a oclusão, como também qual componente facial ela está ocluindo. O trabalho de \citeonline{[34]zhang2006robust} apresenta o Kernel Associative Memory (KAM) com multi escala de transformação de Gabor. Já \citeonline{[32]wright2009robust} utiliza classificação por representação esparsa como estratégia para detectar a parte ocluída na imagem da face. Enquanto \citeonline{[31]su2009multi} apresenta o Multi View Face Alignment (MVFA) sendo responsável por alinhar a face e identificar pontos de oclusão, entretanto essa abordagem apresenta-se pouco voltada a oclusão, tendo maior ênfase para o alinhamento da face, a partir das variações de pose.
+
+
+
+
+
+
+
+
+\section{Algoritmo de correspondência dos blocos}
+
+Essa técnica para detecção da oclusão conhecida como BMA (do inglês: \textit{Block Matching Algorithm}), sendo proposta por \citeonline{[20]shermina2012recognition}. Com essa técnica a imagem \textit{I} é dividida em \textit{K} blocos de tamanho (\textit{N x N}). Na equação \ref{eq:bma} é representada a estrutura da imagem \textit{I} após sua divisão em \textit{K} blocos.
+
+\begin{equation}
+\label{eq:bma}
+I = \{Ib_1, Ib_2,.....,Ib_{K} \}
+\end{equation}
+
+No BMA divide-se a imagem em blocos de tamanhos similares que são utilizados para detectar a oclusão na imagem da face. Como estratégia de comparação entre os blocos com vistas a detectar a parte ocluída e não ocluída é utilizada a distância Euclidiana, a qual é utilizada para analisar a similaridade entre as imagens dos blocos.
+
+Para análise de similaridade e correspondência entre os blocos compara-se cada imagem ocluída (imagem de consulta), com uma imagem presente na base de dados. Visto que uma imagem de consulta \textit{q} foi dividida em \textit{k} blocos por blocos como descrito na equação \ref{eq:imagem_consulta}.
+
+\begin{equation}
+\label{eq:imagem_consulta}
+I = \{qb_1, qb_2,.....,qb_{K} \}
+\end{equation}
+
+Então comparamos cada bloco da imagem de consulta e a imagem presente no banco de dados, essa comparação sendo possível com auxílio das métricas da distância Euclidiana. Como descrito na equação \ref{eq:dist_euclidiana}.
+
+\begin{equation}
+\label{eq:dist_euclidiana}
+Ed_a = \sqrt{\sum (Ib_a - qb_a)}^2
+\end{equation}
+
+
+Na figura \ref{fig:esquema_bma} é possível perceber o processo de detecção da oclusão com o auxílio da técnica BMA.
+
+\begin{figure}[H]
+\centering
+\caption{Esquema do BMA}
+\includegraphics[scale = 0.98]{imgs/bma.png}
+\label{fig:esquema_bma}
+\source{Jonas Mendonça Targino, 2018}
+\end{figure}
+
+
+Em que \textit{a} é o número de blocos das imagens. Após o cálculo da distância Euclidiana aplica-se um limiar para remover a oclusão. Na figura \ref{fig:detec_blocos} apresenta-se na primeira linha imagens com oclusões parciais, e na segunda linha imagens com suas respectivas oclusões detectadas por meio de uma máscara de tamanho (2x2).
+
+\begin{figure}[H]
+\centering
+\caption{Detecção da parte ocluída com a técnica de detecção por blocos}
+\includegraphics[scale = 0.45]{imgs3/deteccoes}
+\source{Jonas Mendonça Targino, 2018. Imagens de faces obtidas após aplicação do Viola-Jones na base \cite{martinez1998ar}}
+\label{fig:detec_blocos}
+\end{figure}
+
+
+\section{Skin Color}
+Também para detecção da parte ocluída a partir das imagens em RGB foi utilizada a técnica Skin Color, entretanto essa técnica também apresentou limitações ao ser aplicada a ambientes não controlados. De modo que v
+
+\section{Limiarização}
+Outra técnica que também pode ser utilizada para detecção da parte ocluída é aplicar um limiar nos pixels em escala de cinza e a partir desse limiar construir a máscara de oclusão da imagem parcialmente ocluída. Inicialmente nos experimentos foi utilizada essa técnica para tentar detectar a oclusão, entretanto a mesma apresenta queda de performance quando apresenta a contextos não controlados, sentindo dificuldades também de realizar a detecção da parte ocluída de objetos que apresentem tonalidade maiores que o limiar.
+
+Neste trabalho a partir de inúmeros experimentos verificou-se que o limiar igual a 77 seria um bom limiar de aplicação da técnica para cenários controlados. Entretanto, essa técnica ao ser apresentada a imagens de face com variações de iluminação e oclusão apresentou péssimos resultados na detecção da parte ocluída. 
+
+Logo essa técnica pode ser utilizada ao lidar com tipos específicos de oclusão e necessariamente lidar com ambientes controlados para realizar uma considerável segmentação da parte ocluída e com isso gerar a máscara de oclusão.
+
+
