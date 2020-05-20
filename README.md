@@ -1,7 +1,7 @@
-## cods_mestrado
+# ARTEFATOS DE MINHA DISSERTAÇÃO!
 Olá seja bem vindo! Este repositório contém todos os códigos necessários para implementação das técnicas de detecação e reconstrução de oclusões parciais em imagens de face visando o reconhecimento biométrico.
 
-# Dissertacao_jonas
+## Dissertacao_jonas
 Contém os arquivos .tex de minha dissertação.
 
 
